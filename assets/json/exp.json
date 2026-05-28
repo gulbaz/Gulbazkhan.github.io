@@ -1,0 +1,171 @@
+{
+  "alma": {
+    "company": "ALMA For Travel and tourism Company",
+    "sections": [
+      {
+        "title": "BDE Manager",
+        "bullets": [
+          "Manage corporate client portfolios generating SAR 500K–2.5M monthly revenue, ensuring growth and retention.",
+          "Develop business opportunities, negotiate contracts, and maintain strong relationships with clients and suppliers.",
+          "Oversee end-to-end travel operations (ticketing, hotels, visas, and packages) for corporate and individual clients."
+        ]
+      },
+      {
+        "title": "Data Analysis & Reporting",
+        "bullets": [
+          "Advanced in Microsoft Excel (PivotTables, formulas, dashboards, Power Query).",
+          "Prepare daily sales reports and track performance to ensure targets are met.",
+          "Produce monthly, quarterly, and annual sales reports with forecasting, based on accurate data analysis.",
+          "Create target breakdown and KPI reports to monitor performance and support decision-making.",
+          "Handle large data sets, including data cleansing, validation, and reconciliation.",
+          "Deliver insights and reporting for major clients (PIF, Bupa, Nahdi, Dr. Sulaiman Al Habib groups)."
+        ]
+      },
+      {
+        "title": "Operations, Team Coordination & Administration",
+        "bullets": [
+          "Track daily sales updates and ensure alignment across teams.",
+          "Assign and monitor client requests/tickets, ensuring timely closure of open and pending cases.",
+          "Coordinate with teams and finance for billing, payments, refunds, and issue resolution.",
+          "Manage documentation, contracts, invoicing, and compliance processes.",
+          "Prepare management reports and support operational planning and process improvements."
+        ]
+      }
+    ]
+  },
+  "law": {
+    "company": "Thamer & Dafer Law Firm, KSA",
+    "sections": [
+      {
+        "title": "Legal & Diary Management",
+        "bullets": [
+          "Maintain and update court hearing schedules for all active cases.",
+          "Ensure timely communication of events and reminders to the legal team.",
+          "Follow up with lawyers for weekly reports and time sheets.",
+          "Track and ensure compliance with internal deadlines for reports."
+        ]
+      },
+      {
+        "title": "Corporate Administration & HR",
+        "bullets": [
+          "Manage and process weekly invoicing to clients with accuracy.",
+          "Collaborate with the finance team to handle invoice-related queries.",
+          "Oversee staff attendance and vacation records.",
+          "Ensure compliance with HR policies and support the HR team in staff management.",
+          "Review and approve purchase orders for office supplies and services.",
+          "Ensure proper budgeting and resource allocation.",
+          "Manage office facility maintenance and coordinate with vendors for repairs.",
+          "Ensure a professional and well-maintained working environment."
+        ]
+      },
+      {
+        "title": "Data, IT & Reporting",
+        "bullets": [
+          "Collaborate with managing directors on firm-wide progress.",
+          "Prepare and present detailed reports on key operational metrics.",
+          "Analyze data to identify trends and provide actionable insights.",
+          "Utilize data to improve operational efficiency and decision-making.",
+          "Compile daily progress reports to keep stakeholders informed.",
+          "Monitor ongoing projects and resolve potential issues.",
+          "Manage local domain users, ensuring smooth user access and permissions.",
+          "Oversee Microsoft administration, handling user accounts and licenses.",
+          "Troubleshoot system issues, ensuring minimal downtime and disruption.",
+          "Implement cybersecurity updates, ensuring the firm’s systems remain secure and compliant with best practices."
+        ]
+      }
+    ]
+  },
+  "ziraat": {
+    "company": "T.C Ziraat Bankasi A.S Jeddah Branch, KSA",
+    "sections": [
+      {
+        "title": "Trade Services Officer",
+        "bullets": [
+          "Responsible for the end-to-end transactions for Input for Issuances, Amendments, Discount, Reimbursement and Commission collection of Export Documentary Letters of Credit, Collections, Standby Letters of Credit & Letter of Guarantees.",
+          "Performs second or third checks and release on Export/Import Letters of Credit/Collection presentations within delegated authorities.",
+          "Input of Standby/Guarantee demands Performs release functions of Guarantee cancellations.",
+          "Upon request by client, performs discrepancy clarification for Imports/Export & Guarantee/Standby presentations.",
+          "Performs investigations and support for escalations.",
+          "Prioritize workloads based on volumes.",
+          "Fully compliant with SAMA Operational Risk policies, Anti-Money Laundering policies, Trade Restricted Countries and Risk Approval processes.",
+          "Maintaining all transactions records in (VBA base Excel made by me)."
+        ]
+      },
+      {
+        "title": "Sales & Customer Relationship Officer",
+        "bullets": [
+          "Identify, target, and pursue sales opportunities in the Western Region.",
+          "Build, develop and maintain long-term relationships with clients.",
+          "Conduct product demonstrations and presentations to prospective clients, illustrating how our solution can meet their business needs.",
+          "Develop and close new business deals to meet revenue targets.",
+          "Negotiate pricing and contracts with customers, adhering to company policies and profitability goals.",
+          "Track and report sales activities and results using CRM tools.",
+          "Collaborate with internal stakeholders to ensure customer satisfaction and account retention.",
+          "Building and maintaining profitable relationships with key customers Corporate and Retail.",
+          "Overseeing the relationship with customers handled by my team.",
+          "Resolving customer complaints quickly and efficiently.",
+          "Keeping customers on the latest products in order to increase sales.",
+          "Meeting with managers in the organization to plan strategically.",
+          "Expanding the customer base by upselling and cross-selling.",
+          "Understanding key customer individual needs and addressing these."
+        ]
+      },
+      {
+        "title": "Customer Care Officer",
+        "bullets": [
+          "Maintaining a positive, empathetic, and professional attitude toward customers at all times.",
+          "Responding promptly to customer inquiries.",
+          "Communicating with customers through various channels.",
+          "Acknowledging and resolving customer complaints.",
+          "Processing orders, forms, applications, and requests.",
+          "Keeping records of customer interactions, transactions, comments, and complaints.",
+          "Communicating and coordinating with colleagues as necessary.",
+          "Providing feedback on the efficiency of the customer service process.",
+          "Make sure customer satisfaction and provide professional customer support.",
+          "Guiding corporate and retail customer for account open requirements as per central bank laws."
+        ]
+      }
+    ]
+  },
+  "snb": {
+    "company": "Saudi National Bank Head Office - Jeddah, KSA",
+    "sections": [
+      {
+        "title": "Senior Credit Control Officer",
+        "bullets": [
+          "Creating & Maintaining all types of SNB Customers Financial Limits, Standing Instruction, Trade products, Treasury Products & all types of products for Financial Institutions Department for international Banking (including OD lines for International banks)."
+        ]
+      },
+      {
+        "title": "Senior Trade Processer & Verifier & Trade Admin",
+        "bullets": [
+          "Processing Letter of Credits, Letter of Guarantees, Collection, Settlement, Payment Vouchers, Loan agreements in Bank System (working under full pressure).",
+          "Verifying Insurance & Shipment Documents & Approving through Bank System.",
+          "Handling all internal customers A/Cs issues & Assisting Kingdom wide user by remote desktop.",
+          "Controlling Trade Department purchase requests & maintains the Budget.",
+          "Assisting IT for all Trade Servers for Printing, Data Imaging, E-Mails & Fax."
+        ]
+      },
+      {
+        "title": "Assisting Trade Project Manager & BDR Champion",
+        "bullets": [
+          "Assisting in all Trade enhancements Projects + Reviewing BRD & Test Cases for UAT.",
+          "Preparing Policy & Procedures for All Trade Products in MS Visio & Project.",
+          "Assisting Kingdom wide staff for all new System enhancement by visiting or online.",
+          "Supervising all departments groups for BDR, Tests & Exercises.",
+          "Preparing BDR documents & all arrangements annually & monthly basis.",
+          "Communicating with all participated staff & their Families in case."
+        ]
+      },
+      {
+        "title": "MS Share Point Admin & Special Projects",
+        "bullets": [
+          "Creating & maintaining user profiles for overall Operations Management Department to input daily data input.",
+          "Generating KPI Monthly/Annual reports & presentation in MS Power point & Power BI.",
+          "Data Auditing & Cleansing (Bank Trade System).",
+          "Develop & maintaining loan agreement generator in MS-Access/VBA."
+        ]
+      }
+    ]
+  }
+}

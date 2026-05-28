@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Shahab Khan - Professional Projects Portfolio</title>
+  <meta name="description" content="Portfolio of Shahab Khan, showcasing major professional projects in Trade Finance, Data Cleansing, VBA Automation, and IT Networking.">
+  <meta name="keywords" content="Trade Finance, Business Development, VBA Automation, Operations Manager, Shahab Khan, Banking, Networking Projects">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+  <style>
+    /* Styling for the master slider */
+    .project-master-swiper { padding-bottom: 50px; }
+    .project-nav-buttons { position: relative; z-index: 10; margin-top: 2rem; }
+    .swiper-slide { opacity: 0 !important; transition: opacity 0.5s ease; }
+    .swiper-slide-active { opacity: 1 !important; }
+
+    /* Custom Numbered Pagination System */
+    .project-pagination-label {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #6c757d;
+      letter-spacing: 1.5px;
+    }
+    
+    .project-pagination {
+      counter-reset: slide-counter; /* Starts the number counter */
+    }
+    
+    .project-pagination .swiper-pagination-bullet {
+      counter-increment: slide-counter; /* Adds 1 for every project */
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      border-radius: 8px;
+      background: #e9ecef;
+      color: #333;
+      opacity: 1;
+      margin: 0 10px !important;
+      font-weight: 700;
+      font-size: 18px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    
+    .project-pagination .swiper-pagination-bullet::before {
+      content: counter(slide-counter); /* Displays the number */
+    }
+    
+    .project-pagination .swiper-pagination-bullet-active {
+      background: #0d6efd; /* Primary blue color */
+      color: #fff;
+      transform: scale(1.15);
+      box-shadow: 0 4px 10px rgba(13, 110, 253, 0.4);
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Shahab Khan</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="exp.html">Experience</a></li>
+          <li><a href="index.html#team">Leadership</a></li>
+          <li class="dropdown"><a href="#"><span>Deep Down</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+                  <li><a href="exp.html">Professional Experience</a></li>
+                  <li><a href="cert.html">Training & Certification</a></li>
+                  <li><a href="ach.html">Achievements</a></li>
+                  <li><a href="skills.html">Technical Proficiency</a></li>
+                  <li><a href="projects.html" class="active">Projects</a></li>
+                  <li><a href="me.html">About Me</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+	<div class="dropdown theme-selector ms-3 me-3">
+        <button class="btn btn-link dropdown-toggle theme-btn-icon" type="button" id="themeDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="color: var(--nav-color); text-decoration: none;">
+          <i class="bi bi-palette-fill"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end shadow-sm" aria-labelledby="themeDropdown">
+          <li><a class="dropdown-item theme-option" href="#" data-set-theme="dark"><i class="bi bi-moon-stars-fill me-2" style="color: #0056b3;"></i> Corporate Dark</a></li>
+          <li><a class="dropdown-item theme-option" href="#" data-set-theme="light"><i class="bi bi-brightness-high-fill me-2" style="color: #f39c12;"></i> Clean Light</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item theme-option" href="#" data-set-theme="dracula"><i class="bi bi-droplet-fill me-2" style="color: #ff79c6;"></i> Dracula</a></li>
+          <li><a class="dropdown-item theme-option" href="#" data-set-theme="ubuntu"><i class="bi bi-ubuntu me-2" style="color: #E95420;"></i> Ubuntu</a></li>
+          <li><a class="dropdown-item theme-option" href="#" data-set-theme="matrix"><i class="bi bi-terminal-fill me-2" style="color: #00FF41;"></i> Matrix</a></li>
+          <li><a class="dropdown-item theme-option" href="#" data-set-theme="nord"><i class="bi bi-snow me-2" style="color: #88c0d0;"></i> Nord</a></li>
+          <li><a class="dropdown-item theme-option" href="#" data-set-theme="monokai"><i class="bi bi-code-square me-2" style="color: #a6e22e;"></i> Monokai</a></li>
+          <li><a class="dropdown-item theme-option" href="#" data-set-theme="solarized"><i class="bi bi-sun me-2" style="color: #b58900;"></i> Solarized</a></li>
+          <li><a class="dropdown-item theme-option" href="#" data-set-theme="gruvbox"><i class="bi bi-box-seam me-2" style="color: #fe8019;"></i> Gruvbox</a></li>
+          <li><a class="dropdown-item theme-option" href="#" data-set-theme="cyberpunk"><i class="bi bi-lightning-charge-fill me-2" style="color: #fcee0a;"></i> Cyberpunk</a></li>
+        </ul>
+      </div>
+
+       <a class="btn-getstarted cv-download-link" href="#" download>Download CV</a>
+
+    </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="page-title">
+      <div class="title-wrapper">
+        <h1>Professional Projects</h1>
+        <p>A detailed overview of major system enhancements, automation development, and network engineering projects.</p>
+      </div>
+    </div>
+
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="text-center mb-5">
+          <h5 class="project-pagination-label mb-3 text-uppercase">Select Project Number</h5>
+          <div class="project-pagination d-flex justify-content-center align-items-center"></div>
+        </div>
+
+        <div class="project-master-swiper swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 800,
+              "autoHeight": true,
+              "navigation": {
+                "nextEl": ".project-btn-next",
+                "prevEl": ".project-btn-prev"
+              },
+              "pagination": {
+                "el": ".project-pagination",
+                "clickable": true
+              }
+            }
+          </script>
+          
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row gy-4">
+                
+                <div class="col-lg-6">
+                  <div class="portfolio-details-media">
+                    <div class="main-image mb-3">
+                      <img src="assets/img/portfolio/portfolio-5.webp" alt="Bank Trade System" class="img-fluid rounded shadow-sm w-100">
+                    </div>
+                    <div class="tech-stack-badges mt-4">
+                      <span>Trade Finance</span>
+                      <span>MS Visio</span>
+                      <span>UAT Testing</span>
+                      <span>SAMA Compliance</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="portfolio-details-content">
+                    <div class="project-meta mb-3">
+                      <div class="badge-wrapper"><span class="project-badge">System Development</span></div>
+                      <div class="date-client mt-2">
+                        <div class="meta-item"><i class="bi bi-buildings"></i><span> Saudi National Bank (SNB)</span></div>
+                      </div>
+                    </div>
+
+                    <h2 class="project-title">Bank Trade System Enhancements</h2>
+
+                    <div class="project-overview mt-4">
+                      <p class="lead">Assigned for various Bank Trade System Projects like I/E LC’s, LG’s, Payment & Settlement, Data cleansing, Imaging Data base Development & enhancement Project.</p>
+
+                      <div class="accordion project-accordion mt-4" id="accordion-proj-1">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#col-1-1" aria-expanded="false">
+                              <i class="bi bi-clipboard-data me-2"></i> Project Overview
+                            </button>
+                          </h2>
+                          <div id="col-1-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-proj-1">
+                            <div class="accordion-body">
+                              <p>Assisting in all Trade enhancements Projects + Reviewing BRD & Test Cases for UAT. This involved deep coordination to ensure financial system updates met rigorous operational standards.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col-1-2" aria-expanded="false">
+                              <i class="bi bi-exclamation-diamond me-2"></i> The Challenge
+                            </button>
+                          </h2>
+                          <div id="col-1-2" class="accordion-collapse collapse" data-bs-parent="#accordion-proj-1">
+                            <div class="accordion-body">
+                              <p>Processing Letter of Credits, Letter of Guarantees, Collection, Settlement, Payment Vouchers, and Loan agreements in the Bank System while working under full pressure.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col-1-3" aria-expanded="false">
+                              <i class="bi bi-award me-2"></i> The Solution
+                            </button>
+                          </h2>
+                          <div id="col-1-3" class="accordion-collapse collapse" data-bs-parent="#accordion-proj-1">
+                            <div class="accordion-body">
+                              <p>Preparing Policy & Procedures for All Trade Products in MS Visio & Project. Assisting Kingdom wide staff for all new System enhancement by visiting or online.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="row gy-4">
+                <div class="col-lg-6">
+                  <div class="portfolio-details-media">
+                    <div class="main-image mb-3">
+                      <img src="assets/img/portfolio/portfolio-7.webp" alt="Data Cleansing" class="img-fluid rounded shadow-sm w-100">
+                    </div>
+                    <div class="tech-stack-badges mt-4">
+                      <span>Data Auditing</span>
+                      <span>Risk Management</span>
+                      <span>Data Cleansing</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="portfolio-details-content">
+                    <div class="project-meta mb-3">
+                      <div class="badge-wrapper"><span class="project-badge">Data Analysis & Auditing</span></div>
+                      <div class="date-client mt-2">
+                        <div class="meta-item"><i class="bi bi-buildings"></i><span> Saudi National Bank (SNB)</span></div>
+                      </div>
+                    </div>
+
+                    <h2 class="project-title">Customer Data Cleansing Project</h2>
+
+                    <div class="project-overview mt-4">
+                      <p class="lead">Assigned as a team player in the Customer Data Cleansing Project for the Risk Management Department.</p>
+
+                      <div class="accordion project-accordion mt-4" id="accordion-proj-2">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#col-2-1" aria-expanded="false">
+                              <i class="bi bi-clipboard-data me-2"></i> Project Overview
+                            </button>
+                          </h2>
+                          <div id="col-2-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-proj-2">
+                            <div class="accordion-body">
+                              <p>Executed extensive Data Auditing & Cleansing within the Bank Trade System to ensure accurate customer records and mitigate corporate risk exposure.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col-2-2" aria-expanded="false">
+                              <i class="bi bi-exclamation-diamond me-2"></i> The Challenge
+                            </button>
+                          </h2>
+                          <div id="col-2-2" class="accordion-collapse collapse" data-bs-parent="#accordion-proj-2">
+                            <div class="accordion-body">
+                              <p>The need to use analytical tools and integrate various data systems to develop new department and category insights.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col-2-3" aria-expanded="false">
+                              <i class="bi bi-award me-2"></i> The Solution
+                            </button>
+                          </h2>
+                          <div id="col-2-3" class="accordion-collapse collapse" data-bs-parent="#accordion-proj-2">
+                            <div class="accordion-body">
+                              <p>Successfully completed the initiative, resulting in an Appreciation letter from NCB Senior Executive Vice President for LCMS regarding the Data Cleansing Project.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="row gy-4">
+                <div class="col-lg-6">
+                  <div class="portfolio-details-media">
+                    <div class="main-image mb-3">
+                      <img src="assets/img/portfolio/portfolio-8.webp" alt="VBA Generator" class="img-fluid rounded shadow-sm w-100">
+                    </div>
+                    <div class="tech-stack-badges mt-4">
+                      <span>VBA Scripting</span>
+                      <span>MS Access</span>
+                      <span>Process Automation</span>
+                      <span>Financial Reporting</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="portfolio-details-content">
+                    <div class="project-meta mb-3">
+                      <div class="badge-wrapper"><span class="project-badge">Software Development</span></div>
+                      <div class="date-client mt-2">
+                        <div class="meta-item"><i class="bi bi-buildings"></i><span> Saudi National Bank (SNB)</span></div>
+                      </div>
+                    </div>
+
+                    <h2 class="project-title">Automated Loan Agreement Generator</h2>
+
+                    <div class="project-overview mt-4">
+                      <p class="lead">Developed & maintaining a dynamic loan agreement generator built completely in MS-Access/VBA.</p>
+
+                      <div class="accordion project-accordion mt-4" id="accordion-proj-3">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#col-3-1" aria-expanded="false">
+                              <i class="bi bi-clipboard-data me-2"></i> Project Overview
+                            </button>
+                          </h2>
+                          <div id="col-3-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-proj-3">
+                            <div class="accordion-body">
+                              <p>Designed a custom application to automate the drafting of complex corporate banking loan agreements, significantly reducing manual documentation time.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col-3-2" aria-expanded="false">
+                              <i class="bi bi-exclamation-diamond me-2"></i> The Challenge
+                            </button>
+                          </h2>
+                          <div id="col-3-2" class="accordion-collapse collapse" data-bs-parent="#accordion-proj-3">
+                            <div class="accordion-body">
+                              <p>Managing and processing high volumes of Loan agreements in the Bank System while working under full pressure required a more robust solution than manual entry.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col-3-3" aria-expanded="false">
+                              <i class="bi bi-award me-2"></i> The Solution
+                            </button>
+                          </h2>
+                          <div id="col-3-3" class="accordion-collapse collapse" data-bs-parent="#accordion-proj-3">
+                            <div class="accordion-body">
+                              <p>Leveraged advanced programming skills, effectively maintaining all transactions records in VBA base Excel formats created by me.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="row gy-4">
+                <div class="col-lg-6">
+                  <div class="portfolio-details-media">
+                    <div class="main-image mb-3">
+                      <img src="assets/img/portfolio/portfolio-11.webp" alt="Network Engineering" class="img-fluid rounded shadow-sm w-100">
+                    </div>
+                    <div class="tech-stack-badges mt-4">
+                      <span>CISCO CCNA</span>
+                      <span>Network Engineering</span>
+                      <span>Hardware Maintenance</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="portfolio-details-content">
+                    <div class="project-meta mb-3">
+                      <div class="badge-wrapper"><span class="project-badge">IT Infrastructure</span></div>
+                      <div class="date-client mt-2">
+                        <div class="meta-item"><i class="bi bi-buildings"></i><span> Royal Palace & Makkah CIA</span></div>
+                      </div>
+                    </div>
+
+                    <h2 class="project-title">Makkah CIA & Royal Palace Networking</h2>
+
+                    <div class="project-overview mt-4">
+                      <p class="lead">Assigned as a Supervisor for the Networking Project in Makkah CIA Head Quarter.</p>
+
+                      <div class="accordion project-accordion mt-4" id="accordion-proj-4">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#col-4-1" aria-expanded="false">
+                              <i class="bi bi-clipboard-data me-2"></i> Project Overview
+                            </button>
+                          </h2>
+                          <div id="col-4-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-proj-4">
+                            <div class="accordion-body">
+                              <p>Assigned as a vital team player for both the Jeddah & Makkah Royal Palace locations, focusing exclusively on System & Networking Projects.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col-4-2" aria-expanded="false">
+                              <i class="bi bi-exclamation-diamond me-2"></i> The Challenge
+                            </button>
+                          </h2>
+                          <div id="col-4-2" class="accordion-collapse collapse" data-bs-parent="#accordion-proj-4">
+                            <div class="accordion-body">
+                              <p>Ensuring secure, high-uptime routing and hardware/software maintenance across highly sensitive and prestigious government sites.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col-4-3" aria-expanded="false">
+                              <i class="bi bi-award me-2"></i> The Solution
+                            </button>
+                          </h2>
+                          <div id="col-4-3" class="accordion-collapse collapse" data-bs-parent="#accordion-proj-4">
+                            <div class="accordion-body">
+                              <p>Utilized expertise as a CISCO Certified Engineer in CCNA-RS to execute flawless hardware, software, and networking system installations.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="row gy-4">
+                <div class="col-lg-6">
+                  <div class="portfolio-details-media">
+                    <div class="main-image mb-3">
+                      <img src="assets/img/portfolio/portfolio-12.webp" alt="Hospitality IT" class="img-fluid rounded shadow-sm w-100">
+                    </div>
+                    <div class="tech-stack-badges mt-4">
+                      <span>IT Troubleshooting</span>
+                      <span>Wireless Protocols</span>
+                      <span>Guest Support</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="portfolio-details-content">
+                    <div class="project-meta mb-3">
+                      <div class="badge-wrapper"><span class="project-badge">IT Support & Maintenance</span></div>
+                      <div class="date-client mt-2">
+                        <div class="meta-item"><i class="bi bi-buildings"></i><span> InterContinental Group & Hotels</span></div>
+                      </div>
+                    </div>
+
+                    <h2 class="project-title">Hospitality System & Network Maintenance</h2>
+
+                    <div class="project-overview mt-4">
+                      <p class="lead">Assigned as a team player for Jeddah Intercontinental Group & Hotels focusing on full System & Network Maintenance.</p>
+
+                      <div class="accordion project-accordion mt-4" id="accordion-proj-5">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#col-5-1" aria-expanded="false">
+                              <i class="bi bi-clipboard-data me-2"></i> Project Overview
+                            </button>
+                          </h2>
+                          <div id="col-5-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-proj-5">
+                            <div class="accordion-body">
+                              <p>Supporting the hotel IT department for comprehensive Network Troubleshooting & System Maintenance to ensure uninterrupted hospitality services.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col-5-2" aria-expanded="false">
+                              <i class="bi bi-exclamation-diamond me-2"></i> The Challenge
+                            </button>
+                          </h2>
+                          <div id="col-5-2" class="accordion-collapse collapse" data-bs-parent="#accordion-proj-5">
+                            <div class="accordion-body">
+                              <p>Resolving technical issues and managing day-to-day correspondence independently, including administration of the Priority Club loyalty program & GSTS operations.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col-5-3" aria-expanded="false">
+                              <i class="bi bi-award me-2"></i> The Solution
+                            </button>
+                          </h2>
+                          <div id="col-5-3" class="accordion-collapse collapse" data-bs-parent="#accordion-proj-5">
+                            <div class="accordion-body">
+                              <p>Successfully assisted guests related to Internet browsing, setting up wireless connection, & troubleshooting of any problems at the Business Center, Café & guest rooms.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center project-nav-buttons pb-5">
+          <button class="btn btn-outline-primary project-btn-prev me-3"><i class="bi bi-arrow-left"></i> Previous Project</button>
+          <button class="btn btn-primary project-btn-next">Next Project <i class="bi bi-arrow-right"></i></button>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Shahab Khan</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>70th Street</p>
+            <p>Jeddah, Saudi Arabia</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+966 570 323 979</span></p>
+            <p><strong>Email:</strong> <span>shahab99khan@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.linkedin.com/in/shahab-khan-8b9711142" class="social-link"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/@SGAI." class="social-link"><i class="bi bi-youtube"></i></a>
+            <a href="https://github.com/Shahabkhan99" class="social-link"><i class="bi bi-github"></i></a>
+            <a href="https://xdaforums.com/m/shahabkhan99.4639231/" class="social-link" title="My XDA Profile" target="_blank" style="text-decoration: none; font-weight: bold; font-family: monospace;">{XDA}</a>
+            <a href="https://wa.me/966570323979" class="social-link"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://t.me/shahab99khan" class="social-link"><i class="bi bi-telegram"></i></a> 
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <span id="year"></span> All rights reserved.</p>
+      <div class="credits">
+        Designed by <a href="https://Google.com/">SGAI</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
