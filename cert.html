@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Shahab Khan - Professional Certifications</title>
-  <meta name="description" content="Verified professional certifications portfolio of Shahab Khan, spanning Trade Finance, Data Science, Cyber Security, and Infrastructure Management.">
-  <meta name="keywords" content="Certifications, Trade Finance, Data Science, CCNA, SAMA, ISO, Six Sigma, LinkedIn Learning, Shahab Khan">
+  <title>Shahab Khan - Business Development & Operations Leader</title>
+  <meta name="description" content="Portfolio of Shahab Khan, a professional in Business Development, Administrative Operations, and Trade Finance with 15 years of experience.">
+  <meta name="keywords" content="Trade Finance, Business Development, Operations Manager, Shahab Khan, Banking Jeddah, SNB, Ziraat Bankasi">
 
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -22,7 +22,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <link href="assets/css/main.css" rel="stylesheet">
-     
+</head>
+
+<body class="index-page">
+
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
@@ -32,11 +35,11 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero" class="active">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#services">Skills</a></li>
-          <li><a href="index.html#portfolio">Experience</a></li>
-          <li><a href="index.html#team">Projects</a></li>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Skills</a></li>
+          <li><a href="#portfolio">Experience</a></li>
+          <li><a href="#team">Projects</a></li>
             <li class="dropdown"><a href="#"><span>Deep Down</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
           <li><a href="exp.html">Professional Experience</a></li>
@@ -47,12 +50,12 @@
 				  <li><a href="me.html">About Me</a></li>
             </ul>
           </li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-  <div class="dropdown theme-selector ms-3 me-3">
+      
+      <div class="dropdown theme-selector ms-3 me-3">
         <button class="btn btn-link dropdown-toggle theme-btn-icon" type="button" id="themeDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="color: var(--nav-color); text-decoration: none;">
           <i class="bi bi-palette-fill"></i>
         </button>
@@ -473,88 +476,30 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script>
-    (function() {
-      const container = document.querySelector('.isotope-container');
-      if (container) {
-        // Grab all the certificate cards
-        const items = Array.from(container.querySelectorAll('.portfolio-item'));
-        
-        // Sort them alphabetically by looking at the <h3> text
-        items.sort((a, b) => {
-          const titleA = a.querySelector('h3').innerText.trim().toLowerCase();
-          const titleB = b.querySelector('h3').innerText.trim().toLowerCase();
-          return titleA.localeCompare(titleB);
-        });
-        
-        // Put them back into the container in the new A-Z order
-        items.forEach(item => container.appendChild(item));
-      }
-    })();
-  </script>
-  <script src="assets/js/main.js"></script>
-</body>
-</html>
    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script>
+<script>
     document.addEventListener('DOMContentLoaded', () => {
-      let certData = {};
-
-      // 1. Fetch the JSON file
-      fetch('assets/json/cert.json')
-        .then(response => {
-          if(!response.ok) throw new Error("JSON file not found.");
-          return response.json();
-        })
-        .then(data => {
-          certData = data;
-        })
-        .catch(error => console.error('Error Loading JSON:', error));
-
-      // 2. Direct click listener for EVERY cert card
-      const cards = document.querySelectorAll('.portfolio-wrapper[data-cert-id]');
+      const dropdownLinks = document.querySelectorAll('.navmenu .dropdown > a');
       
-      cards.forEach(card => {
-        card.addEventListener('click', function () {
-          // Grab the specific ID
-          const certId = this.getAttribute('data-cert-id'); 
-          
-          const modalTitle = document.getElementById('dynamicCertModalLabel');
-          const modalBody = document.getElementById('dynamicCertModalBody');
-
-          // Check if data is loaded
-          if (certData[certId]) {
-            const cert = certData[certId];
+      dropdownLinks.forEach(link => {
+        // The 'true' at the end of this listener forces it to run BEFORE the template's buggy script
+        link.addEventListener('click', function(e) {
+          if (window.innerWidth < 1200) {
+            e.preventDefault();           // 1. Stop the page from jumping to the top
+            e.stopPropagation();          // 2. Block the template's broken script from ruining the click
             
-            // Set Title
-            modalTitle.textContent = cert.title;
-            
-            // Build the interior content
-            let htmlContent = `<h6 class="text-info fw-bold mb-3">${cert.issuer}</h6>`;
-            htmlContent += `<p class="text-white-50 small mb-4"><i class="bi bi-patch-check-fill text-success me-2"></i> ${cert.date}</p>`;
-            
-            // Add bullet points if they exist
-            if (cert.details && cert.details.length > 0) {
-              htmlContent += `<ul class="small mb-0" style="color: #cbd5e1; line-height: 1.8;">`;
-              cert.details.forEach(bullet => {
-                htmlContent += `<li>${bullet}</li>`;
-              });
-              htmlContent += `</ul>`;
+            // 3. Manually toggle the menu open and closed
+            this.classList.toggle('active');
+            const subMenu = this.nextElementSibling;
+            if (subMenu) {
+              subMenu.classList.toggle('dropdown-active');
             }
-            
-            // Inject into modal
-            modalBody.innerHTML = htmlContent;
-
-          } else {
-            // Fallback if they click a card you haven't added to JSON yet
-            modalTitle.textContent = "Details Unavailable";
-            modalBody.innerHTML = `<p class="text-white-50">Detailed information for this certification is currently being updated in the database.</p>`;
           }
-        });
+        }, true); // <--- This 'true' is the magic bullet.
       });
     });
   </script>
