@@ -1,0 +1,1379 @@
+{
+  "cert-1": {
+    "title": "Universal Principles of Design",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Mastered fundamental design principles for corporate projects.",
+      "Applied visual hierarchy to improve user experience."
+    ]
+  },
+  "cert-2": {
+    "title": "Quality Management for Operational Excellence",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Learned core methodologies for optimizing daily operations.",
+      "Implemented quality control frameworks to reduce errors."
+    ]
+  },
+  "cert-3": {
+    "title": "Supply Chain Fundamentals: Risk and Resilience",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-4": {
+    "title": "Quality Management Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-5": {
+    "title": "Cybersecurity Foundations: GRC",
+    "issuer": "LinkedIn Learning",
+    "date": "Governance, Risk, and Compliance. Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-6": {
+    "title": "Construction Management: Safety and Health",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-7": {
+    "title": "Understanding PPE",
+    "issuer": "LinkedIn Learning",
+    "date": "Personal Protective Equipment. Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-8": {
+    "title": "Construction Management: Lean Strategies",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-9": {
+    "title": "Construction Industry: Safety",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-10": {
+    "title": "Occupational Safety: Slips, Trips, and Falls",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-11": {
+    "title": "Cert Prep: Revit MEP Electrical",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-12": {
+    "title": "ISO 27001:2013 Annex A Controls",
+    "issuer": "LinkedIn Learning",
+    "date": "Compliant Cybersecurity. Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-13": {
+    "title": "Revit 2018: Essential Training for MEP",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-14": {
+    "title": "Revit: Fire-Alarm Systems Design",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-15": {
+    "title": "ISO 27001:2013 Getting Started",
+    "issuer": "LinkedIn Learning",
+    "date": "Compliant Cybersecurity. Issued Jan 2024",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-16": {
+    "title": "B2B Marketing: Pricing Strategies",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-17": {
+    "title": "B2B Marketing on LinkedIn",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-18": {
+    "title": "B2B Marketing Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-19": {
+    "title": "B2B Go-to-Market Strategy",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-20": {
+    "title": "Market Research: B2B",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-21": {
+    "title": "B2B Foundations: Content Marketing",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-22": {
+    "title": "Develop Your B2B Marketing Skills",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-23": {
+    "title": "How to Write a B2B Marketing Plan",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-24": {
+    "title": "Getting Things Done",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-25": {
+    "title": "Getting Organized for Peak Performance",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-26": {
+    "title": "Improve Your Organizational Skills",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-27": {
+    "title": "How to Organize Your Time and Your Life",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-28": {
+    "title": "Learning Study Skills",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-29": {
+    "title": "Writing Emails People Want to Read",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-30": {
+    "title": "Business Writing Principles",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-31": {
+    "title": "Intro to ISO Global BIM Standards",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-32": {
+    "title": "IT Service Management: ISO20000",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-33": {
+    "title": "Project Management Foundations: Quality",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-34": {
+    "title": "IT Service Management: ISO/IEC 20000-1",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-35": {
+    "title": "Finance Foundations for Solopreneurs",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-36": {
+    "title": "Choosing an Ecommerce Platform for Developers",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-37": {
+    "title": "Learning SAP Human Capital Management",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-38": {
+    "title": "SAP Financials Essential Training",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-39": {
+    "title": "Cert Prep: CompTIA Linux+ (XK0-005)",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-40": {
+    "title": "Advanced Linux: The Linux Kernel",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-41": {
+    "title": "Python in Excel",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-42": {
+    "title": "Master Microsoft Excel",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-43": {
+    "title": "Excel: Advanced Formulas and Functions",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-44": {
+    "title": "Excel Essential Training (Microsoft 365)",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-45": {
+    "title": "Excel: Productivity Tips",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-46": {
+    "title": "Excel: Introduction to Formatting",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-47": {
+    "title": "Excel Formulas and Functions Quick Tips",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-48": {
+    "title": "Excel: Dashboards for Beginners",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-49": {
+    "title": "Excel PivotTable Quick Tips",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-50": {
+    "title": "Excel: Power Query for Beginners",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-51": {
+    "title": "Excel: Macros and VBA for Beginners",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-52": {
+    "title": "Data Wrangling in R",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-53": {
+    "title": "R Essential Training Part 2: Modeling Data",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-54": {
+    "title": "Getting Started with R for Data Science",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-55": {
+    "title": "What Is Business Analysis?",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-56": {
+    "title": "Ethics in the Age of Generative AI",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-57": {
+    "title": "What Is Generative AI?",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-58": {
+    "title": "Microsoft 365 Copilot First Look",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-59": {
+    "title": "Streamlining Your Work with Microsoft Bing Chat",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-60": {
+    "title": "Generative AI: Evolution of Online Search",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-61": {
+    "title": "Learning Windows Terminal",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-62": {
+    "title": "Microsoft Loop: AI-Enhanced Project Mgmt",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-63": {
+    "title": "Becoming an Ally to All",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-64": {
+    "title": "Canva Essential Training",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-65": {
+    "title": "Canva: Web and Digital Design Projects",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-66": {
+    "title": "Learning Canva",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-67": {
+    "title": "Microsoft Designer: Designs with AI",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-68": {
+    "title": "Microsoft Azure Solutions Architect (AZ-305)",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-69": {
+    "title": "Implementing Supply Chain Management",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-70": {
+    "title": "Supply Chain and Operations Careers",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-71": {
+    "title": "Body Language for Leaders and Managers",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-72": {
+    "title": "Intro to Career Skills in Software Development",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-73": {
+    "title": "Improve SEO for Your Ecommerce Site",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-74": {
+    "title": "Marketing Tools: SEO",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-75": {
+    "title": "International SEO",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-76": {
+    "title": "Marketing Strategy: SEO Content Writing",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-77": {
+    "title": "Technical SEO",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-78": {
+    "title": "SEO: Ecommerce Strategies",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-79": {
+    "title": "SEO Strategy: Link Building",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-80": {
+    "title": "SEO: Keyword Strategy",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-81": {
+    "title": "SEO Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-82": {
+    "title": "Develop Your SEO Skills",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-83": {
+    "title": "SEO: Optimize Your Social Media Profiles",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-84": {
+    "title": "Machine Learning for iOS Developers",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-85": {
+    "title": "Corporate Finance Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-86": {
+    "title": "Python for Data Visualization",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-87": {
+    "title": "Six Sigma White Belt",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-88": {
+    "title": "Six Sigma Green Belt (CSSGB)",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-89": {
+    "title": "Six Sigma Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-90": {
+    "title": "Operational Excellence Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-91": {
+    "title": "Six Sigma Black Belt (CSSBB)",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-92": {
+    "title": "Root Cause Analysis",
+    "issuer": "LinkedIn Learning",
+    "date": "Getting to the Root of Business Problems. Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-93": {
+    "title": "Lean Six Sigma: Define and Measure Tools",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-94": {
+    "title": "Lean Six Sigma: Analyze, Improve, and Control Tools",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-95": {
+    "title": "Become a Six Sigma Yellow Belt",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-96": {
+    "title": "Financial Modeling and Forecasting Financial Statements",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-97": {
+    "title": "Statistics Foundations 3: Using Data Sets",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-98": {
+    "title": "How to Manage Lean Six Sigma Projects: Part I",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-99": {
+    "title": "Learning Minitab",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-100": {
+    "title": "Become a Six Sigma Green Belt",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-101": {
+    "title": "Change Management Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-102": {
+    "title": "How to Manage Lean Six Sigma Projects: Part II",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-103": {
+    "title": "Project Management Foundations: Teams",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-104": {
+    "title": "Driving Measurable, Sustainable Change",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-105": {
+    "title": "Project Management Foundations: Communication",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-106": {
+    "title": "Become a Six Sigma Black Belt",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-107": {
+    "title": "YouTube Marketing 2023",
+    "issuer": "Udemy",
+    "date": "Issued Oct 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-108": {
+    "title": "Anti-Fraud Financing (AFF) Certify",
+    "issuer": "Ziraat Bankası",
+    "date": "Issued Sep 2021",
+    "details": [
+      "Completed rigorous internal training on identifying financial fraud.",
+      "Certified in securing trade finance transactions against compliance risks."
+    ]
+  },
+  "cert-109": {
+    "title": "Anti-Money Laundering Certify",
+    "issuer": "Ziraat Bankası",
+    "date": "Issued May 2022",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-110": {
+    "title": "Anti-Money Laundering Certify",
+    "issuer": "Ziraat Bankası",
+    "date": "Issued Apr 2021",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-111": {
+    "title": "Anti-Money Laundering E-Learning Courses",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Compliance and operations tracking.",
+    "details": [
+      "Mastered SAMA compliance regulations for corporate banking.",
+      "Certified in operational tracking and risk mapping for AML."
+    ]
+  },
+  "cert-112": {
+    "title": "Intro to Career Skills in Software Development",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-113": {
+    "title": "Become a Data Scientist",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-114": {
+    "title": "Lessons from Data Scientists",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-115": {
+    "title": "Side Hustle Strategies for Data Science",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-116": {
+    "title": "Data Fluency: Exploring and Describing Data",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-117": {
+    "title": "Learning Data Governance",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-118": {
+    "title": "Big Data in the Age of AI",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-119": {
+    "title": "Data Visualization: Storytelling",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-120": {
+    "title": "Statistics Foundations 2: Probability",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-121": {
+    "title": "Data Science Foundations: Fundamentals",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-122": {
+    "title": "Statistics Foundations 1: The Basics",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-123": {
+    "title": "Data Science and Analytics Career Paths",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-124": {
+    "title": "Non-Technical Skills of Effective Data Scientists",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-125": {
+    "title": "A Day In The Life of a Data Scientist",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-126": {
+    "title": "Corporate Financial Statement Analysis",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-127": {
+    "title": "Diploma in Computer Application",
+    "issuer": "Pakistan International School Jeddah",
+    "date": "Microsoft Office/MS-DOS/Network & Windows OS",
+    "details": [
+      "Comprehensive training in Microsoft Office suite and MS-DOS environments.",
+      "Hands-on experience with foundational Network and Windows OS configurations."
+    ]
+  },
+  "cert-128": {
+    "title": "CISCO Certified Engineer in CCNA-RS",
+    "issuer": "Cisco Systems",
+    "date": "Issued Jan 2013",
+    "details": [
+      "Achieved industry-standard certification for routing and switching.",
+      "Configured, troubleshot, and managed enterprise-level network infrastructure."
+    ]
+  },
+  "cert-129": {
+    "title": "IHG Winning Ways",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "How to Achieve the Target",
+    "details": [
+      "Completed executive hospitality training on achieving high-level corporate targets.",
+      "Mastered internal strategies for driving business growth and guest satisfaction."
+    ]
+  },
+  "cert-130": {
+    "title": "IHG Make It Happened",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Guest and Customer Service",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-131": {
+    "title": "IHG Priority Club",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Reward Program For Guests",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-132": {
+    "title": "IHG Be My Guest",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Guest Satisfaction Program",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-133": {
+    "title": "IHG Orientation Training",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Information Program for Intercontinental Hotels & groups",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-134": {
+    "title": "IHG IQ Training",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Guest/Customer Relation & Answer Their Questions",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-135": {
+    "title": "IHG Fire Fighting Training",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Emergency facility defense protocols.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-136": {
+    "title": "Business Process Reengineering",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Corporate operations processing.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-137": {
+    "title": "Intermediate Credit",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Facility limits evaluation.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-138": {
+    "title": "Foundation to Credit",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Risk modeling and operations.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-139": {
+    "title": "Legal Aspects of Banking (Part 1)",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Banking regulations.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-140": {
+    "title": "Legal Aspects of Banking (Part 2)",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Advanced compliance laws.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-141": {
+    "title": "Foundation to Credit (Mandated)",
+    "issuer": "BIBF",
+    "date": "Central Bank of Bahrain mandate.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-142": {
+    "title": "Practical forms of Murabaha",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Islamic finance products.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-143": {
+    "title": "Time Management Supervision and Team Building",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Corporate management execution.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-144": {
+    "title": "Documentary Credit in Practice Workshop",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Facility settlements.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-145": {
+    "title": "Operational Risk Management",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Mitigation models for branch operations.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-146": {
+    "title": "NCB Ambassador Program",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Client retention architectures.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-147": {
+    "title": "SWIFT Messages Used In Trade Operations",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "International money transfers formatting.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-148": {
+    "title": "Documents Examination According to ISBP 745",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Global standard checks.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-149": {
+    "title": "Understanding URDG 758",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Demand Guarantees.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-150": {
+    "title": "Understanding UCP 600",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Documentary Credits.",
+    "details": [
+      "Certified in the Uniform Customs and Practice for Documentary Credits.",
+      "Applied international banking standards to global trade finance operations."
+    ]
+  },
+  "cert-151": {
+    "title": "Understanding Inco-terms 2010",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "International commercial terms.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-152": {
+    "title": "Documentary Collection Under URC 522",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Collections rule processing.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  },
+  "cert-153": {
+    "title": "Introduction to Trade Products",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Foundations of trade finance.",
+    "details": [
+      "Add detail 1 here.",
+      "Add detail 2 here."
+    ]
+  }
+}

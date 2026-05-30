@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   console.log("Script Loaded");
 
   try {
-    const response = await fetch('./assets/json/config.json');
+    const response = await fetch('./assets/json/cv.json');
 
     console.log("Fetch Response:", response);
 
