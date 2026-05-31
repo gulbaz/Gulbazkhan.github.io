@@ -23,55 +23,73 @@
 
   <link href="assets/css/main.css" rel="stylesheet">
      
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <h1 class="sitename">Shahab Khan</h1>
+<header id="header" class="header d-flex align-items-center sticky-top">
+    <!-- flex-nowrap ensures it never stacks, flex-row forces strictly Left-to-Right -->
+    <div class="header-container container-fluid container-xl d-flex align-items-center justify-content-between flex-nowrap" style="flex-direction: row !important;">
+      
+      <!-- 1. Logo / Name (Forced to Far Left) -->
+      <a href="index.html" class="logo d-flex align-items-center" style="order: 1 !important; margin-right: auto;">
+        <h1 class="sitename mb-0" style="white-space: nowrap;">Shahab Khan</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">
+      <!-- 2. Navmenu (Perfectly Centered on Desktop) -->
+      <nav id="navmenu" class="navmenu mx-auto" style="order: 2 !important;">
         <ul>
-          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#hero">Home</a></li>
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#services">Skills</a></li>
           <li><a href="index.html#portfolio">Experience</a></li>
-          <li><a href="index.html#team">Projects</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Down</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="index.html#team" class="active">Projects</a></li>
+            <li class="dropdown"><a href="javascript:void(0);"><span>Deep Down</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-          <li><a href="exp.html">Professional Experience</a></li>
-				  <li><a href="cert.html">Training & Certification</a></li>
-          <li><a href="ach">Achievements</a></li>
-          <li><a href="skills.html">Technical Proficiency</a></li>
-				  <li><a href="projects.html">Projects</a></li>
-				  <li><a href="me.html">About Me</a></li>
+              <li><a href="me.html">About Me</a></li>
+              <li><a href="skills.html">Technical Proficiency</a></li>
+              <li><a href="exp.html">Professional Experience</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="ach.html">Achievements</a></li>
+              <li><a href="cert.html">Training & Certification</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-  <div class="dropdown theme-selector ms-3 me-3">
-        <button class="btn btn-link dropdown-toggle theme-btn-icon" type="button" id="themeDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="color: var(--nav-color); text-decoration: none;">
-          <i class="bi bi-palette-fill"></i>
+      <!-- Action Buttons Container (Forced to Far Right) -->
+      <!-- gap-2 keeps spacing clean without using margin classes -->
+      <div class="header-actions d-flex align-items-center gap-2 gap-sm-3" style="order: 3 !important; margin-left: auto; flex-direction: row !important;">
+        
+        <!-- 3. Search Icon -->
+        <button class="btn btn-link p-0 border-0 flex-shrink-0" type="button" data-bs-toggle="modal" data-bs-target="#globalSearchModal" style="color: var(--nav-color); font-size: 1.2rem; order: 1 !important;">
+          <i class="bi bi-search"></i>
         </button>
-        <ul class="dropdown-menu dropdown-menu-end shadow-sm" aria-labelledby="themeDropdown">
-          <li><a class="dropdown-item theme-option" href="#" data-set-theme="dark"><i class="bi bi-moon-stars-fill me-2" style="color: #0056b3;"></i> Corporate Dark</a></li>
-          <li><a class="dropdown-item theme-option" href="#" data-set-theme="light"><i class="bi bi-brightness-high-fill me-2" style="color: #f39c12;"></i> Clean Light</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item theme-option" href="#" data-set-theme="dracula"><i class="bi bi-droplet-fill me-2" style="color: #ff79c6;"></i> Dracula</a></li>
-          <li><a class="dropdown-item theme-option" href="#" data-set-theme="ubuntu"><i class="bi bi-ubuntu me-2" style="color: #E95420;"></i> Ubuntu</a></li>
-          <li><a class="dropdown-item theme-option" href="#" data-set-theme="matrix"><i class="bi bi-terminal-fill me-2" style="color: #00FF41;"></i> Matrix</a></li>
-          <li><a class="dropdown-item theme-option" href="#" data-set-theme="nord"><i class="bi bi-snow me-2" style="color: #88c0d0;"></i> Nord</a></li>
-          <li><a class="dropdown-item theme-option" href="#" data-set-theme="monokai"><i class="bi bi-code-square me-2" style="color: #a6e22e;"></i> Monokai</a></li>
-          <li><a class="dropdown-item theme-option" href="#" data-set-theme="solarized"><i class="bi bi-sun me-2" style="color: #b58900;"></i> Solarized</a></li>
-          <li><a class="dropdown-item theme-option" href="#" data-set-theme="gruvbox"><i class="bi bi-box-seam me-2" style="color: #fe8019;"></i> Gruvbox</a></li>
-          <li><a class="dropdown-item theme-option" href="#" data-set-theme="cyberpunk"><i class="bi bi-lightning-charge-fill me-2" style="color: #fcee0a;"></i> Cyberpunk</a></li>
-        </ul>
-      </div>
 
-      <a class="btn-getstarted cv-download-link" href="#" download>Download CV</a>
+        <!-- 4. Download CV -->
+        <a class="btn-getstarted cv-download-link flex-shrink-0 m-0" href="#" style="white-space: nowrap; padding: 6px 12px; font-size: 14px; order: 2 !important;" download>Download CV</a>
+
+        <!-- 5. Theme Button -->
+        <div class="dropdown theme-selector flex-shrink-0 m-0" style="order: 3 !important;">
+          <button class="btn btn-link dropdown-toggle theme-btn-icon p-0 border-0" type="button" id="themeDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="color: var(--nav-color); text-decoration: none; font-size: 1.2rem;">
+            <i class="bi bi-palette-fill"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end shadow-sm" aria-labelledby="themeDropdown">
+            <li><a class="dropdown-item theme-option" href="#" data-set-theme="dark"><i class="bi bi-moon-stars-fill me-2" style="color: #0056b3;"></i> Corporate Dark</a></li>
+            <li><a class="dropdown-item theme-option" href="#" data-set-theme="light"><i class="bi bi-brightness-high-fill me-2" style="color: #f39c12;"></i> Clean Light</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item theme-option" href="#" data-set-theme="dracula"><i class="bi bi-droplet-fill me-2" style="color: #ff79c6;"></i> Dracula</a></li>
+            <li><a class="dropdown-item theme-option" href="#" data-set-theme="ubuntu"><i class="bi bi-ubuntu me-2" style="color: #E95420;"></i> Ubuntu</a></li>
+            <li><a class="dropdown-item theme-option" href="#" data-set-theme="matrix"><i class="bi bi-terminal-fill me-2" style="color: #00FF41;"></i> Matrix</a></li>
+            <li><a class="dropdown-item theme-option" href="#" data-set-theme="nord"><i class="bi bi-snow me-2" style="color: #88c0d0;"></i> Nord</a></li>
+            <li><a class="dropdown-item theme-option" href="#" data-set-theme="monokai"><i class="bi bi-code-square me-2" style="color: #a6e22e;"></i> Monokai</a></li>
+            <li><a class="dropdown-item theme-option" href="#" data-set-theme="solarized"><i class="bi bi-sun me-2" style="color: #b58900;"></i> Solarized</a></li>
+            <li><a class="dropdown-item theme-option" href="#" data-set-theme="gruvbox"><i class="bi bi-box-seam me-2" style="color: #fe8019;"></i> Gruvbox</a></li>
+            <li><a class="dropdown-item theme-option" href="#" data-set-theme="cyberpunk"><i class="bi bi-lightning-charge-fill me-2" style="color: #fcee0a;"></i> Cyberpunk</a></li>
+          </ul>
+        </div>
+
+        <!-- 6. Mobile Nav Toggle (Forced into position, overrides template positioning) -->
+        <i class="mobile-nav-toggle d-xl-none bi bi-list flex-shrink-0 m-0" style="font-size: 1.6rem; color: var(--nav-color); cursor: pointer; order: 4 !important; position: static !important;"></i>
+
+      </div>
 
     </div>
   </header>
@@ -224,8 +242,31 @@
     </div>
 </main>
 
-  <footer id="footer" class="footer position-relative dark-background">
+  <div class="modal fade" id="globalSearchModal" tabindex="-1" aria-labelledby="globalSearchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" style="margin-top: 5rem;">
+      <div class="modal-content shadow-lg" style="background-color: #171923; border: 1px solid #2a2e40; border-radius: 12px;">
+        
+        <div class="modal-header border-0 pb-0">
+          <div class="input-group input-group-lg">
+            <span class="input-group-text bg-transparent border-secondary text-info border-end-0">
+              <i class="bi bi-search"></i>
+            </span>
+            <input type="text" id="globalSearchInput" class="form-control bg-transparent border-secondary text-white border-start-0 shadow-none" placeholder="Search projects, skills, jobs..." autocomplete="off">
+          </div>
+          <button type="button" class="btn-close btn-close-white ms-3" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
 
+        <div class="modal-body pt-3 pb-4">
+          <div id="globalSearchResults" class="list-group list-group-flush border-0">
+            <p class="text-muted small text-center mt-2">What are you looking for?</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer id="footer" class="footer position-relative dark-background">
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
@@ -239,73 +280,45 @@
             <p><strong>Email:</strong> <span>shahab99khan@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-                    <a href="https://www.linkedin.com/in/shahab-khan-8b9711142" class="social-link"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://www.youtube.com/@SGAI." class="social-link"><i class="bi bi-youtube"></i></a>
-                    <a href="https://github.com/Shahabkhan99" class="social-link"><i class="bi bi-github"></i></a>
-          <a href="https://xdaforums.com/m/shahabkhan99.4639231/" class="social-link" title="My XDA Profile" target="_blank" style="text-decoration: none; font-weight: bold; font-family: monospace;"><i class="bi bi-android2"></i></a>
-          <a href="https://wa.me/966570323979" class="social-link"><i class="bi bi-whatsapp"></i></a>
-          <a href="https://t.me/shahab99khan" class="social-link"><i class="bi bi-telegram"></i></a> 
+            <a href="https://www.linkedin.com/in/shahab-khan-8b9711142" class="social-link"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/@SGAI." class="social-link"><i class="bi bi-youtube"></i></a>
+            <a href="https://github.com/Shahabkhan99" class="social-link"><i class="bi bi-github"></i></a>
+			<a href="https://xdaforums.com/m/shahabkhan99.4639231/" class="social-link" title="My XDA Profile" target="_blank" style="text-decoration: none; font-weight: bold; font-family: monospace;"><i class="bi bi-android2"></i></a>
+			<a href="https://wa.me/966570323979" class="social-link"><i class="bi bi-whatsapp"></i></a>
+			<a href="https://t.me/shahab99khan" class="social-link"><i class="bi bi-telegram"></i></a> 
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="terms.html">Terms of service</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>My Expertise</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="web-development.html">Web Development</a></li>
+            <li><a href="python-automation.html">Python Automation</a></li>
+            <li><a href="trade-finance.html">Trade Finance</a></li>
+            <li><a href="operations-management.html">Operations Management</a></li>
+            <li><a href="business-development.html">Business Development</a></li>
           </ul>
         </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
-        </div>
-
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <span id="year"></span> All rights reserved.</p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://Google.com/">SGAI</a>
+        Designed by <a href="index.html">SGAI</a>
       </div>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
@@ -323,68 +336,30 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 
-  <!-- ============================================== -->
-  <!-- FETCH EXTERNAL JSON & POPULATE MODAL SCRIPT  -->
-  <!-- ============================================== -->
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/search.js"></script>
+
+  <!-- Mobile Dropdown Override Script -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      document.getElementById("year").textContent = new Date().getFullYear();
-
-      let experienceData = {};
-
-      // 1. Fetch the JSON file containing all the bullet points
-      fetch('assets/json/exp.json')
-        .then(response => {
-          if(!response.ok) throw new Error("JSON file not found. Make sure you are using a local server (Live Server).");
-          return response.json();
-        })
-        .then(data => {
-          experienceData = data;
-        })
-        .catch(error => {
-          console.error('Error Loading JSON:', error);
-        });
-
-      // 2. Listen for clicks on the cards to open the modal
-      const expModal = document.getElementById('dynamicExpModal');
+      const dropdownLinks = document.querySelectorAll('.navmenu .dropdown > a');
       
-      expModal.addEventListener('show.bs.modal', function (event) {
-        // Find out which card was clicked
-        const clickedCard = event.relatedTarget;
-        const jobId = clickedCard.getAttribute('data-job-id'); // e.g., 'alma', 'law', etc.
-        
-        // Find the specific parts of the modal we need to change
-        const modalTitle = expModal.querySelector('.modal-title');
-        const modalBody = expModal.querySelector('.modal-body');
-
-        // Check if our data successfully loaded from the JSON
-        if (experienceData[jobId]) {
-          const job = experienceData[jobId];
-          
-          // Set the title
-          modalTitle.textContent = job.company;
-          
-          // Build the HTML for the bullets dynamically
-          let htmlContent = '';
-          job.sections.forEach(section => {
-            htmlContent += `<h6 class="text-info fw-bold mb-3">${section.title}</h6>`;
-            htmlContent += `<ul class="small mb-4" style="color: #cbd5e1; line-height: 1.8;">`;
-            section.bullets.forEach(bullet => {
-              htmlContent += `<li>${bullet}</li>`;
-            });
-            htmlContent += `</ul>`;
-          });
-          
-          // Inject the newly built HTML into the modal
-          modalBody.innerHTML = htmlContent;
-
-        } else {
-          // Fallback error message if testing without a Live Server
-          modalTitle.textContent = "Data Not Available";
-          modalBody.innerHTML = `<p class="text-danger">Failed to load experience details. Please ensure you are viewing this page through a local server (like VS Code Live Server) so the browser can read the JSON file.</p>`;
-        }
+      dropdownLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          if (window.innerWidth < 1200) {
+            e.preventDefault();           
+            e.stopPropagation();          
+            
+            this.classList.toggle('active');
+            const subMenu = this.nextElementSibling;
+            if (subMenu) {
+              subMenu.classList.toggle('dropdown-active');
+            }
+          }
+        }, true);
       });
     });
   </script>
