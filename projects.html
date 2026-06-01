@@ -24,8 +24,11 @@
   <link href="assets/css/main.css" rel="stylesheet">
   
   <style>
-    .project-master-swiper { padding-bottom: 50px; }
-    .project-nav-buttons { position: relative; z-index: 10; margin-top: 2rem; }
+    /* Removed the massive 50px padding that was leaving empty space at the bottom */
+    .project-master-swiper { padding-bottom: 10px; } 
+    /* Reduced margin-top to pull the buttons closer to the content */
+    .project-nav-buttons { position: relative; z-index: 10; margin-top: 10px; } 
+    
     .swiper-slide { opacity: 0 !important; transition: opacity 0.5s ease; }
     .swiper-slide-active { opacity: 1 !important; }
 
@@ -67,29 +70,38 @@
       transform: scale(1.15);
       box-shadow: 0 4px 10px rgba(13, 110, 253, 0.4);
     }
+
+    /* Force the search placeholder to be a readable light gray */
+    #globalSearchInput::placeholder {
+      color: #a0aec0 !important;
+      opacity: 1;
+    }
+    /* Ensure typed text is bright white */
+    #globalSearchInput {
+      color: #ffffff !important;
+    }
   </style>
 </head>
 
 <body class="index-page">
 
-<header id="header" class="header d-flex align-items-center sticky-top">
-    <!-- flex-nowrap ensures it never stacks, flex-row forces strictly Left-to-Right -->
+  <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="header-container container-fluid container-xl d-flex align-items-center justify-content-between flex-nowrap" style="flex-direction: row !important;">
       
-      <!-- 1. Logo / Name (Forced to Far Left) -->
+      <!-- 1. Logo / Name -->
       <a href="index.html" class="logo d-flex align-items-center" style="order: 1 !important; margin-right: auto;">
         <h1 class="sitename mb-0" style="white-space: nowrap;">Shahab Khan</h1>
       </a>
 
-      <!-- 2. Navmenu (Perfectly Centered on Desktop) -->
+      <!-- 2. Navmenu -->
       <nav id="navmenu" class="navmenu mx-auto" style="order: 2 !important;">
         <ul>
           <li><a href="index.html#hero">Home</a></li>
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#services">Skills</a></li>
           <li><a href="index.html#portfolio">Experience</a></li>
-          <li><a href="index.html#team" class="active">Projects</a></li>
-            <li class="dropdown"><a href="javascript:void(0);"><span>Deep Down</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="index.html#team">Projects</a></li>
+            <li class="dropdown"><a href="javascript:void(0);" class="active"><span>Deep Down</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="me.html">About Me</a></li>
               <li><a href="skills.html">Technical Proficiency</a></li>
@@ -103,8 +115,7 @@
         </ul>
       </nav>
 
-      <!-- Action Buttons Container (Forced to Far Right) -->
-      <!-- gap-2 keeps spacing clean without using margin classes -->
+      <!-- Action Buttons Container -->
       <div class="header-actions d-flex align-items-center gap-2 gap-sm-3" style="order: 3 !important; margin-left: auto; flex-direction: row !important;">
         
         <!-- 3. Search Icon -->
@@ -113,7 +124,7 @@
         </button>
 
         <!-- 4. Download CV -->
-        <a class="btn-getstarted cv-download-link flex-shrink-0 m-0" href="#" style="white-space: nowrap; padding: 6px 12px; font-size: 14px; order: 2 !important;" download>Download CV</a>
+        <a class="btn-getstarted cv-download-link flex-shrink-0 m-0" href="javascript:void(0);" style="white-space: nowrap; padding: 6px 12px; font-size: 14px; order: 2 !important;" download>Download CV</a>
 
         <!-- 5. Theme Button -->
         <div class="dropdown theme-selector flex-shrink-0 m-0" style="order: 3 !important;">
@@ -121,53 +132,56 @@
             <i class="bi bi-palette-fill"></i>
           </button>
           <ul class="dropdown-menu dropdown-menu-end shadow-sm" aria-labelledby="themeDropdown">
-            <li><a class="dropdown-item theme-option" href="#" data-set-theme="dark"><i class="bi bi-moon-stars-fill me-2" style="color: #0056b3;"></i> Corporate Dark</a></li>
-            <li><a class="dropdown-item theme-option" href="#" data-set-theme="light"><i class="bi bi-brightness-high-fill me-2" style="color: #f39c12;"></i> Clean Light</a></li>
+            <li><a class="dropdown-item theme-option" href="javascript:void(0);" data-set-theme="dark"><i class="bi bi-moon-stars-fill me-2" style="color: #0056b3;"></i> Corporate Dark</a></li>
+            <li><a class="dropdown-item theme-option" href="javascript:void(0);" data-set-theme="light"><i class="bi bi-brightness-high-fill me-2" style="color: #f39c12;"></i> Clean Light</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item theme-option" href="#" data-set-theme="dracula"><i class="bi bi-droplet-fill me-2" style="color: #ff79c6;"></i> Dracula</a></li>
-            <li><a class="dropdown-item theme-option" href="#" data-set-theme="ubuntu"><i class="bi bi-ubuntu me-2" style="color: #E95420;"></i> Ubuntu</a></li>
-            <li><a class="dropdown-item theme-option" href="#" data-set-theme="matrix"><i class="bi bi-terminal-fill me-2" style="color: #00FF41;"></i> Matrix</a></li>
-            <li><a class="dropdown-item theme-option" href="#" data-set-theme="nord"><i class="bi bi-snow me-2" style="color: #88c0d0;"></i> Nord</a></li>
-            <li><a class="dropdown-item theme-option" href="#" data-set-theme="monokai"><i class="bi bi-code-square me-2" style="color: #a6e22e;"></i> Monokai</a></li>
-            <li><a class="dropdown-item theme-option" href="#" data-set-theme="solarized"><i class="bi bi-sun me-2" style="color: #b58900;"></i> Solarized</a></li>
-            <li><a class="dropdown-item theme-option" href="#" data-set-theme="gruvbox"><i class="bi bi-box-seam me-2" style="color: #fe8019;"></i> Gruvbox</a></li>
-            <li><a class="dropdown-item theme-option" href="#" data-set-theme="cyberpunk"><i class="bi bi-lightning-charge-fill me-2" style="color: #fcee0a;"></i> Cyberpunk</a></li>
+            <li><a class="dropdown-item theme-option" href="javascript:void(0);" data-set-theme="dracula"><i class="bi bi-droplet-fill me-2" style="color: #ff79c6;"></i> Dracula</a></li>
+            <li><a class="dropdown-item theme-option" href="javascript:void(0);" data-set-theme="ubuntu"><i class="bi bi-ubuntu me-2" style="color: #E95420;"></i> Ubuntu</a></li>
+            <li><a class="dropdown-item theme-option" href="javascript:void(0);" data-set-theme="matrix"><i class="bi bi-terminal-fill me-2" style="color: #00FF41;"></i> Matrix</a></li>
+            <li><a class="dropdown-item theme-option" href="javascript:void(0);" data-set-theme="nord"><i class="bi bi-snow me-2" style="color: #88c0d0;"></i> Nord</a></li>
+            <li><a class="dropdown-item theme-option" href="javascript:void(0);" data-set-theme="monokai"><i class="bi bi-code-square me-2" style="color: #a6e22e;"></i> Monokai</a></li>
+            <li><a class="dropdown-item theme-option" href="javascript:void(0);" data-set-theme="solarized"><i class="bi bi-sun me-2" style="color: #b58900;"></i> Solarized</a></li>
+            <li><a class="dropdown-item theme-option" href="javascript:void(0);" data-set-theme="gruvbox"><i class="bi bi-box-seam me-2" style="color: #fe8019;"></i> Gruvbox</a></li>
+            <li><a class="dropdown-item theme-option" href="javascript:void(0);" data-set-theme="cyberpunk"><i class="bi bi-lightning-charge-fill me-2" style="color: #fcee0a;"></i> Cyberpunk</a></li>
           </ul>
         </div>
 
-        <!-- 6. Mobile Nav Toggle (Forced into position, overrides template positioning) -->
+        <!-- 6. Mobile Nav Toggle -->
         <i class="mobile-nav-toggle d-xl-none bi bi-list flex-shrink-0 m-0" style="font-size: 1.6rem; color: var(--nav-color); cursor: pointer; order: 4 !important; position: static !important;"></i>
 
       </div>
-
     </div>
   </header>
 
   <main class="main">
+
     <!-- ========================================== -->
     <!-- SECTION 1: PROFESSIONAL PROJECTS -->
     <!-- ========================================== -->
     <section id="professional-projects" class="portfolio-details section pb-0">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         
-        <div class="section-title text-center mb-5">
+        <!-- Changed mb-5 to mb-3 to pull the numbers up -->
+        <div class="section-title text-center mb-3">
           <h2 style="font-size: 2.5rem; color: var(--heading-color);">Professional Projects</h2>
           <p>Corporate assignments developed during my tenures at global institutions.</p>
-        </div>
+        </div> 
 
-        <div class="text-center mb-5">
+        <!-- Changed mb-5 to mb-3 to pull the swiper up -->
+        <div class="text-center mb-3">
           <h5 class="project-pagination-label mb-3 text-uppercase">Select Project Number</h5>
           <div class="project-pagination d-flex justify-content-center align-items-center" id="pp-pagination"></div>
         </div>
 
-        <!-- Swiper Container (Removed .init-swiper so JS can handle it) -->
+        <!-- Swiper Container -->
         <div class="project-master-swiper swiper" id="pp-swiper">
           <div class="swiper-wrapper" id="pp-wrapper">
-            <!-- Professional projects will be injected here via JSON -->
+            <!-- Professional projects injected via JSON -->
           </div>
-        </div>
+        </div> 
 
-        <div class="d-flex justify-content-center project-nav-buttons pb-5">
+        <!-- Reduced padding here from pb-5 to mb-4 to pull the next section closer -->
+        <div class="d-flex justify-content-center project-nav-buttons mb-4">
           <button class="btn btn-outline-primary me-3" id="pp-btn-prev"><i class="bi bi-arrow-left"></i> Previous Project</button>
           <button class="btn btn-primary" id="pp-btn-next">Next Project <i class="bi bi-arrow-right"></i></button>
         </div>
@@ -178,15 +192,16 @@
     <!-- ========================================== -->
     <!-- SECTION 2: FREELANCER PROJECTS -->
     <!-- ========================================== -->
-    <section id="freelancer-projects" class="portfolio-details section pt-5">
+    <section id="freelancer-projects" class="portfolio-details section pt-4 border-top">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         
-        <div class="section-title text-center mb-5 mt-5 border-top pt-5">
+        <!-- Adjusted spacing to pull the title tighter -->
+        <div class="section-title text-center mb-3 mt-4">
           <h2 style="font-size: 2.5rem; color: var(--heading-color);">Freelance Projects</h2>
           <p>Independent consulting, custom automations, and bespoke software solutions.</p>
         </div>
 
-        <div class="text-center mb-5">
+        <div class="text-center mb-3">
           <h5 class="project-pagination-label mb-3 text-uppercase">Select Project Number</h5>
           <div class="project-pagination d-flex justify-content-center align-items-center" id="fp-pagination"></div>
         </div>
@@ -194,11 +209,11 @@
         <!-- Swiper Container -->
         <div class="project-master-swiper swiper" id="fp-swiper">
           <div class="swiper-wrapper" id="fp-wrapper">
-            <!-- Freelance projects will be injected here via JSON -->
+            <!-- Freelance projects injected via JSON -->
           </div>
         </div>
 
-        <div class="d-flex justify-content-center project-nav-buttons pb-5">
+        <div class="d-flex justify-content-center project-nav-buttons mb-4 pb-4">
           <button class="btn btn-outline-primary me-3" id="fp-btn-prev"><i class="bi bi-arrow-left"></i> Previous Project</button>
           <button class="btn btn-primary" id="fp-btn-next">Next Project <i class="bi bi-arrow-right"></i></button>
         </div>
@@ -207,21 +222,10 @@
     </section>
 
   </main>
-<!-- ========================================== -->
+
+  <!-- ========================================== -->
   <!-- GLOBAL SEARCH MODAL -->
   <!-- ========================================== -->
-  <style>
-    /* Force the search placeholder to be a readable light gray */
-    #globalSearchInput::placeholder {
-      color: #a0aec0 !important;
-      opacity: 1;
-    }
-    /* Ensure typed text is bright white */
-    #globalSearchInput {
-      color: #ffffff !important;
-    }
-  </style>
-
   <div class="modal fade" id="globalSearchModal" tabindex="-1" aria-labelledby="globalSearchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable" style="margin-top: 5rem;">
       <div class="modal-content shadow-lg" style="background-color: #171923; border: 1px solid #2a2e40; border-radius: 12px;">
@@ -238,7 +242,6 @@
 
         <div class="modal-body pt-3 pb-4">
           <div id="globalSearchResults" class="list-group list-group-flush border-0">
-            <!-- Changed to text-white-50 so it's readable on dark backgrounds -->
             <p class="text-white-50 small text-center mt-2">What are you looking for?</p>
           </div>
         </div>
@@ -264,9 +267,9 @@
             <a href="https://www.linkedin.com/in/shahab-khan-8b9711142" class="social-link"><i class="bi bi-linkedin"></i></a>
             <a href="https://www.youtube.com/@SGAI." class="social-link"><i class="bi bi-youtube"></i></a>
             <a href="https://github.com/Shahabkhan99" class="social-link"><i class="bi bi-github"></i></a>
-			<a href="https://xdaforums.com/m/shahabkhan99.4639231/" class="social-link" title="My XDA Profile" target="_blank" style="text-decoration: none; font-weight: bold; font-family: monospace;"><i class="bi bi-android2"></i></a>
-			<a href="https://wa.me/966570323979" class="social-link"><i class="bi bi-whatsapp"></i></a>
-			<a href="https://t.me/shahab99khan" class="social-link"><i class="bi bi-telegram"></i></a> 
+            <a href="https://xdaforums.com/m/shahabkhan99.4639231/" class="social-link" title="My XDA Profile" target="_blank" style="text-decoration: none; font-weight: bold; font-family: monospace;"><i class="bi bi-android2"></i></a>
+            <a href="https://wa.me/966570323979" class="social-link"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://t.me/shahab99khan" class="social-link"><i class="bi bi-telegram"></i></a> 
           </div>
         </div>
 
@@ -284,11 +287,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>My Expertise</h4>
           <ul>
-            <li><a href="web-development.html">Web Development</a></li>
-            <li><a href="python-automation.html">Python Automation</a></li>
-            <li><a href="trade-finance.html">Trade Finance</a></li>
-            <li><a href="operations-management.html">Operations Management</a></li>
-            <li><a href="business-development.html">Business Development</a></li>
+            <li><a href="projects.html">Web Development</a></li>
+            <li><a href="skills.html">Python Automation</a></li>
+            <li><a href="exp.html">Trade Finance</a></li>
+            <li><a href="exp.html">Operations Management</a></li>
+            <li><a href="exp.html">Business Development</a></li>
           </ul>
         </div>
       </div>
@@ -303,7 +306,7 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="javascript:void(0);" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -346,16 +349,16 @@
   </script>
 
   <!-- ========================================================= -->
-  <!-- DYNAMIC PROJECT LOADER SCRIPT -->
-  <!-- Loads the JSON, builds the HTML, and triggers Swiper -->
+  <!-- DYNAMIC PROJECT LOADER SCRIPT                             -->
   <!-- ========================================================= -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       
-      // Reusable function to fetch JSON, generate cards, and activate Swiper
       function loadProjects(jsonUrl, wrapperId, swiperId, prevBtnId, nextBtnId, paginationId, typePrefix) {
         
-        fetch(jsonUrl)
+        const cacheBusterUrl = `${jsonUrl}?t=${new Date().getTime()}`;
+
+        fetch(cacheBusterUrl)
           .then(response => {
             if (!response.ok) throw new Error(`Could not load ${jsonUrl}`);
             return response.json();
@@ -364,30 +367,28 @@
             const wrapper = document.getElementById(wrapperId);
             let htmlContent = '';
 
-            // Loop through each project in the JSON and build the HTML
             data.forEach((proj, index) => {
-              // Generate the tech stack tags
               let tagsHtml = '';
               if(proj.tech_stack) {
                 proj.tech_stack.forEach(tag => {
-                  tagsHtml += `<span>${tag}</span>`;
+                  tagsHtml += `<span class="badge bg-secondary me-1">${tag}</span>`;
                 });
               }
 
-              // Create unique IDs for the Bootstrap Accordions
               const accId = `accordion-${typePrefix}-${index}`;
               const col1 = `col-${typePrefix}-${index}-1`;
               const col2 = `col-${typePrefix}-${index}-2`;
               const col3 = `col-${typePrefix}-${index}-3`;
 
-              // Assemble the Slide
+              const imageSrc = proj.image ? proj.image : 'https://placehold.co/800x500/171923/a0aec0?text=No+Image+Provided';
+
               htmlContent += `
                 <div class="swiper-slide">
                   <div class="row gy-4">
                     <div class="col-lg-6">
                       <div class="portfolio-details-media">
                         <div class="main-image mb-3">
-                          <img src="${proj.image}" alt="${proj.title}" class="img-fluid rounded shadow-sm w-100" onerror="this.src='assets/img/certificates/default.webp'">
+                          <img src="${imageSrc}" alt="${proj.title || 'Project Image'}" class="img-fluid rounded shadow-sm w-100" style="min-height: 300px; object-fit: cover;" onerror="this.onerror=null; this.src='https://placehold.co/800x500/171923/a0aec0?text=Image+Not+Found';">
                         </div>
                         <div class="tech-stack-badges mt-4">
                           ${tagsHtml}
@@ -397,43 +398,43 @@
                     <div class="col-lg-6">
                       <div class="portfolio-details-content">
                         <div class="project-meta mb-3">
-                          <div class="badge-wrapper"><span class="project-badge">${proj.badge}</span></div>
+                          <div class="badge-wrapper"><span class="project-badge text-primary fw-bold">${proj.badge || ''}</span></div>
                           <div class="date-client mt-2">
-                            <div class="meta-item"><i class="bi bi-buildings"></i><span> ${proj.client}</span></div>
+                            <div class="meta-item text-white-50"><i class="bi bi-buildings"></i><span> ${proj.client || ''}</span></div>
                           </div>
                         </div>
-                        <h2 class="project-title">${proj.title}</h2>
+                        <h2 class="project-title text-white">${proj.title || 'Untitled Project'}</h2>
                         <div class="project-overview mt-4">
-                          <p class="lead">${proj.lead}</p>
+                          <p class="lead text-white-50">${proj.lead || ''}</p>
                           <div class="accordion project-accordion mt-4" id="${accId}">
-                            <div class="accordion-item">
+                            <div class="accordion-item bg-dark border-secondary">
                               <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#${col1}">
+                                <button class="accordion-button bg-dark text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#${col1}">
                                   <i class="bi bi-clipboard-data me-2"></i> Project Overview
                                 </button>
                               </h2>
                               <div id="${col1}" class="accordion-collapse collapse show" data-bs-parent="#${accId}">
-                                <div class="accordion-body"><p>${proj.overview}</p></div>
+                                <div class="accordion-body text-white-50"><p>${proj.overview || ''}</p></div>
                               </div>
                             </div>
-                            <div class="accordion-item">
+                            <div class="accordion-item bg-dark border-secondary">
                               <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${col2}">
+                                <button class="accordion-button collapsed bg-dark text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#${col2}">
                                   <i class="bi bi-exclamation-diamond me-2"></i> The Challenge
                                 </button>
                               </h2>
                               <div id="${col2}" class="accordion-collapse collapse" data-bs-parent="#${accId}">
-                                <div class="accordion-body"><p>${proj.challenge}</p></div>
+                                <div class="accordion-body text-white-50"><p>${proj.challenge || ''}</p></div>
                               </div>
                             </div>
-                            <div class="accordion-item">
+                            <div class="accordion-item bg-dark border-secondary">
                               <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${col3}">
+                                <button class="accordion-button collapsed bg-dark text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#${col3}">
                                   <i class="bi bi-award me-2"></i> The Solution
                                 </button>
                               </h2>
                               <div id="${col3}" class="accordion-collapse collapse" data-bs-parent="#${accId}">
-                                <div class="accordion-body"><p>${proj.solution}</p></div>
+                                <div class="accordion-body text-white-50"><p>${proj.solution || ''}</p></div>
                               </div>
                             </div>
                           </div>
@@ -445,52 +446,36 @@
               `;
             });
 
-            // Inject the HTML into the page
             wrapper.innerHTML = htmlContent;
 
-            // Initialize Swiper ONLY AFTER the HTML is fully loaded
-            new Swiper(`#${swiperId}`, {
-              loop: true,
-              speed: 800,
-              autoHeight: true,
-              navigation: {
-                nextEl: `#${nextBtnId}`,
-                prevEl: `#${prevBtnId}`
-              },
-              pagination: {
-                el: `#${paginationId}`,
-                clickable: true
-              }
-            });
+            setTimeout(() => {
+              new Swiper(`#${swiperId}`, {
+                loop: false,
+                speed: 800,
+                autoHeight: true,
+                navigation: {
+                  nextEl: `#${nextBtnId}`,
+                  prevEl: `#${prevBtnId}`
+                },
+                pagination: {
+                  el: `#${paginationId}`,
+                  clickable: true
+                }
+              });
+            }, 100);
 
           })
           .catch(error => {
             console.error(`Error loading projects for ${typePrefix}:`, error);
-            document.getElementById(wrapperId).innerHTML = `<div class="text-center p-5 text-muted"><h4>Unable to load projects.</h4><p>Ensure you are running on a local server and your JSON file exists.</p></div>`;
+            document.getElementById(wrapperId).innerHTML = `<div class="text-center p-5 text-muted"><h4>Unable to load projects.</h4><p>Check if ${jsonUrl} exists and is formatted correctly.</p></div>`;
           });
       }
 
-      // Execute function for Professional Projects
-      loadProjects(
-        'assets/json/pp.json',  // JSON URL
-        'pp-wrapper',           // Content container
-        'pp-swiper',            // Swiper ID
-        'pp-btn-prev',          // Previous button
-        'pp-btn-next',          // Next button
-        'pp-pagination',        // Pagination dots container
-        'pp'                    // Prefix for unique accordions
-      );
-
-      // Execute function for Freelance Projects
-      loadProjects(
-        'assets/json/fp.json',  
-        'fp-wrapper',           
-        'fp-swiper',            
-        'fp-btn-prev',          
-        'fp-btn-next',          
-        'fp-pagination',        
-        'fp'                    
-      );
+      // Initialize Professional Projects
+      loadProjects('assets/json/pp.json', 'pp-wrapper', 'pp-swiper', 'pp-btn-prev', 'pp-btn-next', 'pp-pagination', 'pp');
+      
+      // Initialize Freelance Projects
+      loadProjects('assets/json/fp.json', 'fp-wrapper', 'fp-swiper', 'fp-btn-prev', 'fp-btn-next', 'fp-pagination', 'fp');
 
     });
   </script>
