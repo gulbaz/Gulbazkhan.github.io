@@ -1,24 +1,24 @@
 [
   {
-    "image": "assets/img/portfolio/portfolio-12.webp",
-    "badge": "VBA Automation",
+    "image": "assets/img/portfolio/portfolio-5.webp",
+    "tech_stack": ["Trade Finance", "MS Visio", "UAT Testing", "SAMA Compliance"],
+    "badge": "System Development",
     "client": "Saudi National Bank (SNB)",
-    "title": "Corporate Loan Agreement Generator",
-    "lead": "A massive architectural shift cutting manual contract drafting time by 90%.",
-    "tech_stack": ["Excel VBA", "Data Parsing", "Macros", "Compliance"],
-    "overview": "Designed and deployed a fully autonomous reporting and drafting tool specifically for corporate banking. This system unified fragmented data sets into a single click-to-print operation.",
-    "challenge": "Relationship Managers were spending up to 4 hours manually typing data across 15 different compliance forms, leading to severe data entry errors and audit failures.",
-    "solution": "Built an advanced VBA mapping architecture that scraped internal databases, cross-verified client details, and automatically populated 100% compliant legal documents in under 2 seconds."
+    "title": "Bank Trade System Enhancements",
+    "lead": "Assigned for various Bank Trade System Projects like I/E LC’s, LG’s, Payment & Settlement, Data cleansing, Imaging Data base Development & enhancement Project.",
+    "overview": "Assisting in all Trade enhancements Projects + Reviewing BRD & Test Cases for UAT. This involved deep coordination to ensure financial system updates met rigorous operational standards.",
+    "challenge": "Processing Letter of Credits, Letter of Guarantees, Collection, Settlement, Payment Vouchers, and Loan agreements in the Bank System while working under full pressure.",
+    "solution": "Preparing Policy & Procedures for All Trade Products in MS Visio & Project. Assisting Kingdom wide staff for all new System enhancement by visiting or online."
   },
   {
-    "image": "assets/img/portfolio/portfolio-6.webp",
-    "badge": "Infrastructure",
-    "client": "Intercontinental Hotels",
-    "title": "Enterprise Network Core Overhaul",
-    "lead": "Upgrading legacy routing systems to support modern high-speed enterprise demands.",
-    "tech_stack": ["Cisco Routing", "Hardware Deployment", "VLAN Structuring"],
-    "overview": "Led the complete teardown and replacement of the hotel's central data routing infrastructure, ensuring zero downtime for critical guest services.",
-    "challenge": "The legacy network was bottlenecking under the load of new digital guest amenities, causing daily crashes and severe lag in the financial processing terminals.",
-    "solution": "Deployed top-tier Cisco CCNA-level routing topologies. Segmented administrative, guest, and financial traffic into secure, dedicated VLANs resulting in 99.9% uptime."
+    "image": "assets/img/portfolio/portfolio-8.webp",
+    "tech_stack": ["VBA Scripting", "MS Access", "Process Automation", "Financial Reporting"],
+    "badge": "Software Development",
+    "client": "Saudi National Bank (SNB)",
+    "title": "Automated Loan Agreement Generator",
+    "lead": "Developed & maintaining a dynamic loan agreement generator built completely in MS-Access/VBA.",
+    "overview": "Designed a custom application to automate the drafting of complex corporate banking loan agreements, significantly reducing manual documentation time.",
+    "challenge": "Managing and processing high volumes of Loan agreements in the Bank System while working under full pressure required a more robust solution than manual entry.",
+    "solution": "Leveraged advanced programming skills, effectively maintaining all transactions records in VBA base Excel formats created by me."
   }
 ]
