@@ -1,353 +1,11 @@
 {
-  "cert-1": {
-    "title": "Universal Principles of Design",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Jan 2024",
-    "details": [
-      "Mastered fundamental design principles for corporate projects.",
-      "Applied visual hierarchy to improve user experience."
-    ]
-  },
-  "cert-2": {
-    "title": "Quality Management for Operational Excellence",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Jan 2024",
-    "details": [
-      "Learned core methodologies for optimizing daily operations.",
-      "Implemented quality control frameworks to reduce errors."
-    ]
-  },
-  "cert-3": {
-    "title": "Supply Chain Fundamentals: Risk and Resilience",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-4": {
-    "title": "Quality Management Foundations",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-5": {
-    "title": "Cybersecurity Foundations: GRC",
-    "issuer": "LinkedIn Learning",
-    "date": "Governance, Risk, and Compliance. Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-6": {
-    "title": "Construction Management: Safety and Health",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-7": {
-    "title": "Understanding PPE",
-    "issuer": "LinkedIn Learning",
-    "date": "Personal Protective Equipment. Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-8": {
-    "title": "Construction Management: Lean Strategies",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-9": {
-    "title": "Construction Industry: Safety",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-10": {
-    "title": "Occupational Safety: Slips, Trips, and Falls",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-11": {
-    "title": "Cert Prep: Revit MEP Electrical",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-12": {
-    "title": "ISO 27001:2013 Annex A Controls",
-    "issuer": "LinkedIn Learning",
-    "date": "Compliant Cybersecurity. Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-13": {
-    "title": "Revit 2018: Essential Training for MEP",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-14": {
-    "title": "Revit: Fire-Alarm Systems Design",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-15": {
-    "title": "ISO 27001:2013 Getting Started",
-    "issuer": "LinkedIn Learning",
-    "date": "Compliant Cybersecurity. Issued Jan 2024",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-16": {
-    "title": "B2B Marketing: Pricing Strategies",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-17": {
-    "title": "B2B Marketing on LinkedIn",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-18": {
-    "title": "B2B Marketing Foundations",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-19": {
-    "title": "B2B Go-to-Market Strategy",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-20": {
-    "title": "Market Research: B2B",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-21": {
-    "title": "B2B Foundations: Content Marketing",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-22": {
-    "title": "Develop Your B2B Marketing Skills",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-23": {
-    "title": "How to Write a B2B Marketing Plan",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-24": {
-    "title": "Getting Things Done",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-25": {
-    "title": "Getting Organized for Peak Performance",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-26": {
-    "title": "Improve Your Organizational Skills",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-27": {
-    "title": "How to Organize Your Time and Your Life",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-28": {
-    "title": "Learning Study Skills",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-29": {
-    "title": "Writing Emails People Want to Read",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-30": {
-    "title": "Business Writing Principles",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-31": {
-    "title": "Intro to ISO Global BIM Standards",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-32": {
-    "title": "IT Service Management: ISO20000",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-33": {
-    "title": "Project Management Foundations: Quality",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-34": {
-    "title": "IT Service Management: ISO/IEC 20000-1",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-35": {
-    "title": "Finance Foundations for Solopreneurs",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-36": {
-    "title": "Choosing an Ecommerce Platform for Developers",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-37": {
-    "title": "Learning SAP Human Capital Management",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-38": {
-    "title": "SAP Financials Essential Training",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-39": {
-    "title": "Cert Prep: CompTIA Linux+ (XK0-005)",
-    "issuer": "LinkedIn Learning",
+  "cert-125": {
+    "title": "A Day In The Life of a Data Scientist",
+    "issuer": "LinkedIn Premium",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Explored the daily workflows and collaborative processes of professional data science teams.",
+      "Gained insights into real-world applications of data analytics in corporate environments."
     ]
   },
   "cert-40": {
@@ -355,611 +13,8 @@
     "issuer": "LinkedIn Learning",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-41": {
-    "title": "Python in Excel",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-42": {
-    "title": "Master Microsoft Excel",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-43": {
-    "title": "Excel: Advanced Formulas and Functions",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-44": {
-    "title": "Excel Essential Training (Microsoft 365)",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-45": {
-    "title": "Excel: Productivity Tips",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-46": {
-    "title": "Excel: Introduction to Formatting",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-47": {
-    "title": "Excel Formulas and Functions Quick Tips",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-48": {
-    "title": "Excel: Dashboards for Beginners",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-49": {
-    "title": "Excel PivotTable Quick Tips",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-50": {
-    "title": "Excel: Power Query for Beginners",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-51": {
-    "title": "Excel: Macros and VBA for Beginners",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-52": {
-    "title": "Data Wrangling in R",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-53": {
-    "title": "R Essential Training Part 2: Modeling Data",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Dec 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-54": {
-    "title": "Getting Started with R for Data Science",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-55": {
-    "title": "What Is Business Analysis?",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-56": {
-    "title": "Ethics in the Age of Generative AI",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-57": {
-    "title": "What Is Generative AI?",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-58": {
-    "title": "Microsoft 365 Copilot First Look",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-59": {
-    "title": "Streamlining Your Work with Microsoft Bing Chat",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-60": {
-    "title": "Generative AI: Evolution of Online Search",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-61": {
-    "title": "Learning Windows Terminal",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-62": {
-    "title": "Microsoft Loop: AI-Enhanced Project Mgmt",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-63": {
-    "title": "Becoming an Ally to All",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-64": {
-    "title": "Canva Essential Training",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-65": {
-    "title": "Canva: Web and Digital Design Projects",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-66": {
-    "title": "Learning Canva",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-67": {
-    "title": "Microsoft Designer: Designs with AI",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-68": {
-    "title": "Microsoft Azure Solutions Architect (AZ-305)",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-69": {
-    "title": "Implementing Supply Chain Management",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-70": {
-    "title": "Supply Chain and Operations Careers",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-71": {
-    "title": "Body Language for Leaders and Managers",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-72": {
-    "title": "Intro to Career Skills in Software Development",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-73": {
-    "title": "Improve SEO for Your Ecommerce Site",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-74": {
-    "title": "Marketing Tools: SEO",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-75": {
-    "title": "International SEO",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-76": {
-    "title": "Marketing Strategy: SEO Content Writing",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-77": {
-    "title": "Technical SEO",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-78": {
-    "title": "SEO: Ecommerce Strategies",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-79": {
-    "title": "SEO Strategy: Link Building",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-80": {
-    "title": "SEO: Keyword Strategy",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-81": {
-    "title": "SEO Foundations",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-82": {
-    "title": "Develop Your SEO Skills",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-83": {
-    "title": "SEO: Optimize Your Social Media Profiles",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-84": {
-    "title": "Machine Learning for iOS Developers",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-85": {
-    "title": "Corporate Finance Foundations",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-86": {
-    "title": "Python for Data Visualization",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-87": {
-    "title": "Six Sigma White Belt",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-88": {
-    "title": "Six Sigma Green Belt (CSSGB)",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-89": {
-    "title": "Six Sigma Foundations",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-90": {
-    "title": "Operational Excellence Foundations",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-91": {
-    "title": "Six Sigma Black Belt (CSSBB)",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-92": {
-    "title": "Root Cause Analysis",
-    "issuer": "LinkedIn Learning",
-    "date": "Getting to the Root of Business Problems. Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-93": {
-    "title": "Lean Six Sigma: Define and Measure Tools",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-94": {
-    "title": "Lean Six Sigma: Analyze, Improve, and Control Tools",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-95": {
-    "title": "Become a Six Sigma Yellow Belt",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-96": {
-    "title": "Financial Modeling and Forecasting Financial Statements",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-97": {
-    "title": "Statistics Foundations 3: Using Data Sets",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-98": {
-    "title": "How to Manage Lean Six Sigma Projects: Part I",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-99": {
-    "title": "Learning Minitab",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-100": {
-    "title": "Become a Six Sigma Green Belt",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-101": {
-    "title": "Change Management Foundations",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-102": {
-    "title": "How to Manage Lean Six Sigma Projects: Part II",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-103": {
-    "title": "Project Management Foundations: Teams",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-104": {
-    "title": "Driving Measurable, Sustainable Change",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-105": {
-    "title": "Project Management Foundations: Communication",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-106": {
-    "title": "Become a Six Sigma Black Belt",
-    "issuer": "LinkedIn Learning",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-107": {
-    "title": "YouTube Marketing 2023",
-    "issuer": "Udemy",
-    "date": "Issued Oct 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Examined the core architecture and hardware-interaction subsystems of the Linux kernel.",
+      "Learned advanced system optimization and secure module management techniques."
     ]
   },
   "cert-108": {
@@ -967,8 +22,8 @@
     "issuer": "Ziraat Bankası",
     "date": "Issued Sep 2021",
     "details": [
-      "Completed rigorous internal training on identifying financial fraud.",
-      "Certified in securing trade finance transactions against compliance risks."
+      "Completed rigorous internal training on identifying complex financial fraud schemes.",
+      "Certified in securing trade finance transactions against operational and compliance risks."
     ]
   },
   "cert-109": {
@@ -976,8 +31,8 @@
     "issuer": "Ziraat Bankası",
     "date": "Issued May 2022",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Mastered advanced protocols for detecting and reporting suspicious financial activities.",
+      "Applied strict internal controls to maintain corporate banking compliance."
     ]
   },
   "cert-110": {
@@ -985,8 +40,8 @@
     "issuer": "Ziraat Bankası",
     "date": "Issued Apr 2021",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Trained in foundational Anti-Money Laundering (AML) identification techniques.",
+      "Ensured regulatory adherence for international trade and corporate finance channels."
     ]
   },
   "cert-111": {
@@ -998,13 +53,49 @@
       "Certified in operational tracking and risk mapping for AML."
     ]
   },
-  "cert-112": {
-    "title": "Intro to Career Skills in Software Development",
-    "issuer": "LinkedIn Premium",
-    "date": "Issued Nov 2023",
+  "cert-21": {
+    "title": "B2B Foundations: Content Marketing",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Developed strategies to create compelling digital content for business-to-business clients.",
+      "Learned techniques for aligning content architecture with corporate sales funnels."
+    ]
+  },
+  "cert-19": {
+    "title": "B2B Go-to-Market Strategy",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Engineered comprehensive launch strategies for introducing products to enterprise markets.",
+      "Analyzed competitive positioning, pricing structures, and channel distribution."
+    ]
+  },
+  "cert-18": {
+    "title": "B2B Marketing Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Mastered the core principles of marketing directly to businesses and enterprise stakeholders.",
+      "Developed frameworks for understanding corporate buying committees and procurement cycles."
+    ]
+  },
+  "cert-17": {
+    "title": "B2B Marketing on LinkedIn",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Optimized corporate outreach and lead generation strategies using LinkedIn's ecosystem.",
+      "Leveraged targeted networking tools to establish authority and capture enterprise accounts."
+    ]
+  },
+  "cert-16": {
+    "title": "B2B Marketing: Pricing Strategies",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Analyzed value-based pricing models designed specifically for enterprise-level services.",
+      "Learned tactics to maximize corporate profitability while maintaining client trust."
     ]
   },
   "cert-113": {
@@ -1012,44 +103,44 @@
     "issuer": "LinkedIn Premium",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Completed a comprehensive track on data manipulation, visualization, and predictive modeling.",
+      "Developed robust technical skills for extracting business intelligence from raw data structures."
     ]
   },
-  "cert-114": {
-    "title": "Lessons from Data Scientists",
-    "issuer": "LinkedIn Premium",
+  "cert-106": {
+    "title": "Become a Six Sigma Black Belt",
+    "issuer": "LinkedIn Learning",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Mastered elite-level problem solving methodologies using the DMAIC framework.",
+      "Certified to lead cross-functional teams in driving major organizational efficiency improvements."
     ]
   },
-  "cert-115": {
-    "title": "Side Hustle Strategies for Data Science",
-    "issuer": "LinkedIn Premium",
+  "cert-100": {
+    "title": "Become a Six Sigma Green Belt",
+    "issuer": "LinkedIn Learning",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Acquired advanced statistical analysis skills to identify and eliminate process defects.",
+      "Learned to execute medium-to-large scale quality improvement projects within corporate settings."
     ]
   },
-  "cert-116": {
-    "title": "Data Fluency: Exploring and Describing Data",
-    "issuer": "LinkedIn Premium",
+  "cert-95": {
+    "title": "Become a Six Sigma Yellow Belt",
+    "issuer": "LinkedIn Learning",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Gained foundational knowledge in continuous improvement and waste reduction.",
+      "Learned to assist in operational excellence projects by mapping core business processes."
     ]
   },
-  "cert-117": {
-    "title": "Learning Data Governance",
-    "issuer": "LinkedIn Premium",
+  "cert-63": {
+    "title": "Becoming an Ally to All",
+    "issuer": "LinkedIn Learning",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Developed crucial interpersonal skills for fostering inclusive corporate environments.",
+      "Learned actionable strategies to support diverse teams and enhance workplace culture."
     ]
   },
   "cert-118": {
@@ -1057,89 +148,89 @@
     "issuer": "LinkedIn Premium",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Explored the intersection of massive datasets and modern artificial intelligence algorithms.",
+      "Learned strategic frameworks for leveraging big data to drive automated corporate decision-making."
     ]
   },
-  "cert-119": {
-    "title": "Data Visualization: Storytelling",
-    "issuer": "LinkedIn Premium",
+  "cert-71": {
+    "title": "Body Language for Leaders and Managers",
+    "issuer": "LinkedIn Learning",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Mastered nonverbal communication cues to project authority and build trust during negotiations.",
+      "Learned to interpret client and team member signals to enhance corporate communication."
     ]
   },
-  "cert-120": {
-    "title": "Statistics Foundations 2: Probability",
-    "issuer": "LinkedIn Premium",
+  "cert-136": {
+    "title": "Business Process Reengineering",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Corporate operations processing.",
+    "details": [
+      "Analyzed and redesigned core banking workflows to eliminate bottlenecks and reduce costs.",
+      "Implemented streamlined operational processing models across trade finance channels."
+    ]
+  },
+  "cert-30": {
+    "title": "Business Writing Principles",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Perfected the art of drafting clear, concise, and persuasive corporate documentation.",
+      "Learned to structure executive summaries and proposals for maximum impact."
+    ]
+  },
+  "cert-64": {
+    "title": "Canva Essential Training",
+    "issuer": "LinkedIn Learning",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Gained proficiency in digital design utilizing Canva's modern layout and branding tools.",
+      "Created highly professional visual assets for corporate presentations and marketing."
     ]
   },
-  "cert-121": {
-    "title": "Data Science Foundations: Fundamentals",
-    "issuer": "LinkedIn Premium",
+  "cert-65": {
+    "title": "Canva: Web and Digital Design Projects",
+    "issuer": "LinkedIn Learning",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Executed full-scale digital design projects focused on web layouts and social media.",
+      "Applied advanced typography and visual hierarchy to business-centric marketing materials."
     ]
   },
-  "cert-122": {
-    "title": "Statistics Foundations 1: The Basics",
-    "issuer": "LinkedIn Premium",
+  "cert-39": {
+    "title": "Cert Prep: CompTIA Linux+ (XK0-005)",
+    "issuer": "LinkedIn Learning",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Studied enterprise-level Linux system administration, networking, and secure scripting.",
+      "Mastered command-line operations essential for server management and IT infrastructure."
     ]
   },
-  "cert-123": {
-    "title": "Data Science and Analytics Career Paths",
-    "issuer": "LinkedIn Premium",
+  "cert-11": {
+    "title": "Cert Prep: Revit MEP Electrical",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Gained deep technical understanding of 3D modeling for electrical engineering projects.",
+      "Learned drafting and design principles for industrial facility infrastructure."
+    ]
+  },
+  "cert-101": {
+    "title": "Change Management Foundations",
+    "issuer": "LinkedIn Learning",
     "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Learned strategic frameworks for guiding organizations through systemic transformations.",
+      "Developed communication plans to minimize operational disruption during corporate changes."
     ]
   },
-  "cert-124": {
-    "title": "Non-Technical Skills of Effective Data Scientists",
-    "issuer": "LinkedIn Premium",
-    "date": "Issued Nov 2023",
+  "cert-36": {
+    "title": "Choosing an Ecommerce Platform for Developers",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-125": {
-    "title": "A Day In The Life of a Data Scientist",
-    "issuer": "LinkedIn Premium",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-126": {
-    "title": "Corporate Financial Statement Analysis",
-    "issuer": "LinkedIn Premium",
-    "date": "Issued Nov 2023",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-127": {
-    "title": "Diploma in Computer Application",
-    "issuer": "Pakistan International School Jeddah",
-    "date": "Microsoft Office/MS-DOS/Network & Windows OS",
-    "details": [
-      "Comprehensive training in Microsoft Office suite and MS-DOS environments.",
-      "Hands-on experience with foundational Network and Windows OS configurations."
+      "Analyzed the technical architecture and scalability of major digital commerce platforms.",
+      "Learned to evaluate APIs, hosting environments, and CRM integrations for retail development."
     ]
   },
   "cert-128": {
@@ -1147,8 +238,422 @@
     "issuer": "Cisco Systems",
     "date": "Issued Jan 2013",
     "details": [
-      "Achieved industry-standard certification for routing and switching.",
-      "Configured, troubleshot, and managed enterprise-level network infrastructure."
+      "Achieved industry-standard certification for enterprise routing and switching.",
+      "Configured, troubleshot, and managed high-uptime network infrastructure for government sites."
+    ]
+  },
+  "cert-9": {
+    "title": "Construction Industry: Safety",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Reviewed foundational safety protocols to mitigate physical risk in industrial environments.",
+      "Learned compliance standards necessary for managing large-scale facility operations."
+    ]
+  },
+  "cert-8": {
+    "title": "Construction Management: Lean Strategies",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Applied Lean Six Sigma principles specifically to infrastructure and site development.",
+      "Mastered strategies for eliminating material waste and accelerating project timelines."
+    ]
+  },
+  "cert-6": {
+    "title": "Construction Management: Safety and Health",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Studied advanced regulatory frameworks for maintaining health standards on site.",
+      "Developed strategic plans to ensure operational continuity through rigorous risk auditing."
+    ]
+  },
+  "cert-85": {
+    "title": "Corporate Finance Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Mastered the fundamental concepts of capital budgeting, valuation, and financial analysis.",
+      "Analyzed strategies for maximizing shareholder value through strategic resource allocation."
+    ]
+  },
+  "cert-126": {
+    "title": "Corporate Financial Statement Analysis",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Learned to deconstruct balance sheets, income statements, and cash flow reports.",
+      "Developed advanced skills in identifying enterprise liquidity, solvency, and profitability trends."
+    ]
+  },
+  "cert-5": {
+    "title": "Cybersecurity Foundations: GRC",
+    "issuer": "LinkedIn Learning",
+    "date": "Governance, Risk, and Compliance. Issued Jan 2024",
+    "details": [
+      "Studied comprehensive frameworks for managing digital enterprise risk and regulatory adherence.",
+      "Learned to align IT security infrastructure with corporate governance and business objectives."
+    ]
+  },
+  "cert-116": {
+    "title": "Data Fluency: Exploring and Describing Data",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Mastered methodologies for accurately summarizing and communicating raw data sets.",
+      "Learned to identify statistical patterns to drive actionable business intelligence."
+    ]
+  },
+  "cert-123": {
+    "title": "Data Science and Analytics Career Paths",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Explored the specific roles, tools, and technical requirements across the modern data sector.",
+      "Aligned personal automation and parsing skills with high-demand data engineering tracks."
+    ]
+  },
+  "cert-121": {
+    "title": "Data Science Foundations: Fundamentals",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Gained a firm grasp on the mathematical and computational principles driving data science.",
+      "Studied foundational algorithms required for predictive modeling and corporate analysis."
+    ]
+  },
+  "cert-119": {
+    "title": "Data Visualization: Storytelling",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Learned to transform complex statistical insights into compelling, executive-level visual narratives.",
+      "Mastered design principles for dashboards that facilitate rapid corporate decision-making."
+    ]
+  },
+  "cert-52": {
+    "title": "Data Wrangling in R",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Developed programming proficiency in cleaning, parsing, and restructuring messy datasets using R.",
+      "Automated the transformation of raw corporate inputs into analysis-ready databases."
+    ]
+  },
+  "cert-22": {
+    "title": "Develop Your B2B Marketing Skills",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Enhanced strategic abilities in navigating prolonged corporate sales cycles.",
+      "Learned advanced targeting techniques to effectively reach multi-tiered enterprise decision makers."
+    ]
+  },
+  "cert-82": {
+    "title": "Develop Your SEO Skills",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Expanded technical knowledge in organic search algorithms and sustained web traffic growth.",
+      "Applied best practices in on-page and off-page optimization for digital asset visibility."
+    ]
+  },
+  "cert-127": {
+    "title": "Diploma in Computer Application",
+    "issuer": "Pakistan International School Jeddah",
+    "date": "Microsoft Office/MS-DOS/Network & Windows OS",
+    "details": [
+      "Comprehensive training in Microsoft Office suite and fundamental MS-DOS environments.",
+      "Hands-on experience with hardware troubleshooting and foundational Windows OS networking."
+    ]
+  },
+  "cert-152": {
+    "title": "Documentary Collection Under URC 522",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Collections rule processing.",
+    "details": [
+      "Certified in the Uniform Rules for Collections mapping global banking procedures.",
+      "Mastered financial processing frameworks to secure documentary exchange across borders."
+    ]
+  },
+  "cert-144": {
+    "title": "Documentary Credit in Practice Workshop",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Facility settlements.",
+    "details": [
+      "Participated in high-level executive workshops to streamline facility settlements.",
+      "Executed practical risk-mitigation strategies for high-value corporate credit portfolios."
+    ]
+  },
+  "cert-148": {
+    "title": "Documents Examination According to ISBP 745",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Global standard checks.",
+    "details": [
+      "Mastered the International Standard Banking Practice for verifying trade documents.",
+      "Ensured zero-defect compliance when checking intricate bills of lading and corporate invoices."
+    ]
+  },
+  "cert-104": {
+    "title": "Driving Measurable, Sustainable Change",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Learned deployment strategies to enact long-term corporate shifts without losing productivity.",
+      "Established KPI tracking systems to definitively measure the ROI of organizational changes."
+    ]
+  },
+  "cert-56": {
+    "title": "Ethics in the Age of Generative AI",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Explored the legal and moral implications of utilizing LLMs in corporate software ecosystems.",
+      "Studied frameworks to ensure data privacy and prevent algorithmic bias in automated tasks."
+    ]
+  },
+  "cert-44": {
+    "title": "Excel Essential Training (Microsoft 365)",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Solidified core competencies in the modern 365 spreadsheet environment.",
+      "Mastered array management, fluid UI navigation, and basic logical formula execution."
+    ]
+  },
+  "cert-47": {
+    "title": "Excel Formulas and Functions Quick Tips",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Acquired rapid-deployment skills for complex string manipulation and logical operators.",
+      "Streamlined massive financial audits by integrating time-saving formula shortcuts."
+    ]
+  },
+  "cert-49": {
+    "title": "Excel PivotTable Quick Tips",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Learned to rapidly dynamically slice and summarize multi-thousand row datasets.",
+      "Implemented calculated fields and custom groupings for immediate corporate reporting."
+    ]
+  },
+  "cert-43": {
+    "title": "Excel: Advanced Formulas and Functions",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Engineered deep logical architectures using nested IFs, INDEX/MATCH, and dynamic arrays.",
+      "Built automated data-cleaning environments directly into corporate financial trackers."
+    ]
+  },
+  "cert-48": {
+    "title": "Excel: Dashboards for Beginners",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Designed visual command centers to represent complex KPIs in an accessible format.",
+      "Utilized interactive slicers and conditional formatting for executive-level presentations."
+    ]
+  },
+  "cert-46": {
+    "title": "Excel: Introduction to Formatting",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Mastered visual organization techniques to make dense financial grids readable and professional.",
+      "Applied advanced conditional rules to automatically flag data anomalies in trade reports."
+    ]
+  },
+  "cert-51": {
+    "title": "Excel: Macros and VBA for Beginners",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Formalized structural knowledge of Visual Basic for Applications (VBA) object-oriented syntax.",
+      "Designed loop scripts and automated macros to dramatically reduce repetitive corporate data entry."
+    ]
+  },
+  "cert-50": {
+    "title": "Excel: Power Query for Beginners",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Learned to seamlessly extract, transform, and load (ETL) data from external databases.",
+      "Automated the merging of disconnected branch reports into a single, clean analytic model."
+    ]
+  },
+  "cert-45": {
+    "title": "Excel: Productivity Tips",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Implemented keyboard automation and hidden feature sets to double spreadsheet navigation speed.",
+      "Optimized standard workflows for processing massive enterprise billing ledgers."
+    ]
+  },
+  "cert-35": {
+    "title": "Finance Foundations for Solopreneurs",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Studied the mechanics of personal corporate structuring, cash flow forecasting, and tax strategy.",
+      "Gained financial autonomy skills applicable to freelance consulting and independent operations."
+    ]
+  },
+  "cert-96": {
+    "title": "Financial Modeling and Forecasting Financial Statements",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Built rigorous predictive models to forecast corporate growth and liability over multi-year terms.",
+      "Mastered the integration of historical market data to calculate future operational solvency."
+    ]
+  },
+  "cert-138": {
+    "title": "Foundation to Credit",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Risk modeling and operations.",
+    "details": [
+      "Trained in strict risk-assessment modeling for evaluating corporate creditworthiness.",
+      "Gained deep understanding of operational compliance required before issuing financial facilities."
+    ]
+  },
+  "cert-141": {
+    "title": "Foundation to Credit (Mandated)",
+    "issuer": "BIBF",
+    "date": "Central Bank of Bahrain mandate.",
+    "details": [
+      "Completed regulatory financial curriculum mandated by the Central Bank of Bahrain.",
+      "Certified in multi-national credit risk evaluation and secure lending protocols."
+    ]
+  },
+  "cert-60": {
+    "title": "Generative AI: Evolution of Online Search",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Analyzed the shift from traditional keyword scraping to semantic, AI-driven query interpretation.",
+      "Explored methods to optimize future corporate web properties for AI-based discovery."
+    ]
+  },
+  "cert-25": {
+    "title": "Getting Organized for Peak Performance",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Implemented systematic routines to manage intense, high-pressure corporate workloads.",
+      "Learned strategies for inbox-zero methodologies and absolute diary control."
+    ]
+  },
+  "cert-54": {
+    "title": "Getting Started with R for Data Science",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Gained foundational syntax fluency in R for statistical computing and graphics.",
+      "Learned to deploy data manipulation packages to process complex organizational metrics."
+    ]
+  },
+  "cert-24": {
+    "title": "Getting Things Done",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Mastered the renowned 'GTD' methodology for breaking down massive projects into actionable steps.",
+      "Developed mental frameworks to maintain focus and execute tasks with zero operational delay."
+    ]
+  },
+  "cert-98": {
+    "title": "How to Manage Lean Six Sigma Projects: Part I",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Learned to initiate and chart the scope of high-level quality improvement operations.",
+      "Studied methods for securing stakeholder buy-in and establishing definitive project charters."
+    ]
+  },
+  "cert-102": {
+    "title": "How to Manage Lean Six Sigma Projects: Part II",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Mastered the execution and control phases of complex, data-driven optimization projects.",
+      "Learned to cement operational improvements so that legacy defects do not return."
+    ]
+  },
+  "cert-27": {
+    "title": "How to Organize Your Time and Your Life",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Developed strict personal discipline frameworks for balancing intense professional demands.",
+      "Learned to prioritize high-yield corporate objectives over low-value administrative noise."
+    ]
+  },
+  "cert-23": {
+    "title": "How to Write a B2B Marketing Plan",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Drafted comprehensive, data-backed go-to-market strategies for enterprise-tier services.",
+      "Learned to align marketing budgets with projected B2B sales cycles to guarantee ROI."
+    ]
+  },
+  "cert-132": {
+    "title": "IHG Be My Guest",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Guest Satisfaction Program",
+    "details": [
+      "Completed specialized training on anticipating client needs to drive brand loyalty.",
+      "Certified in premium hospitality protocols to guarantee absolute client satisfaction."
+    ]
+  },
+  "cert-135": {
+    "title": "IHG Fire Fighting Training",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Emergency facility defense protocols.",
+    "details": [
+      "Certified in physical risk mitigation and emergency crisis management.",
+      "Learned to coordinate safe, rapid evacuation and response protocols in corporate facilities."
+    ]
+  },
+  "cert-134": {
+    "title": "IHG IQ Training",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Guest/Customer Relation & Answer Their Questions",
+    "details": [
+      "Mastered rapid-response techniques for de-escalating customer friction.",
+      "Developed high-level corporate communication skills for client-facing operations."
+    ]
+  },
+  "cert-130": {
+    "title": "IHG Make It Happened",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Guest and Customer Service",
+    "details": [
+      "Certified in dynamic problem solving for complex hospitality and operational roadblocks.",
+      "Learned to execute immediate service recovery strategies to maintain brand prestige."
+    ]
+  },
+  "cert-133": {
+    "title": "IHG Orientation Training",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Information Program for Intercontinental Hotels & groups",
+    "details": [
+      "Studied the internal corporate structures and legacy standards of a top-tier global enterprise.",
+      "Assimilated quickly into highly rigid, prestigious international operational environments."
+    ]
+  },
+  "cert-131": {
+    "title": "IHG Priority Club",
+    "issuer": "IHG Hotels & Resorts",
+    "date": "Reward Program For Guests",
+    "details": [
+      "Managed loyalty infrastructures designed to track and reward elite-tier clientele.",
+      "Executed database administration to ensure seamless VIP customer experiences."
     ]
   },
   "cert-129": {
@@ -1157,214 +662,70 @@
     "date": "How to Achieve the Target",
     "details": [
       "Completed executive hospitality training on achieving high-level corporate targets.",
-      "Mastered internal strategies for driving business growth and guest satisfaction."
+      "Mastered internal strategies for driving business growth and maintaining elite service quality."
     ]
   },
-  "cert-130": {
-    "title": "IHG Make It Happened",
-    "issuer": "IHG Hotels & Resorts",
-    "date": "Guest and Customer Service",
+  "cert-69": {
+    "title": "Implementing Supply Chain Management",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Analyzed logistical frameworks to streamline the flow of physical and digital goods.",
+      "Learned software integration tactics to track and verify global supply operations."
     ]
   },
-  "cert-131": {
-    "title": "IHG Priority Club",
-    "issuer": "IHG Hotels & Resorts",
-    "date": "Reward Program For Guests",
+  "cert-73": {
+    "title": "Improve SEO for Your Ecommerce Site",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Mastered product indexing to ensure massive digital retail catalogs rank highly on search engines.",
+      "Applied schema markup to drive immediate consumer conversions from organic traffic."
     ]
   },
-  "cert-132": {
-    "title": "IHG Be My Guest",
-    "issuer": "IHG Hotels & Resorts",
-    "date": "Guest Satisfaction Program",
+  "cert-26": {
+    "title": "Improve Your Organizational Skills",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Adopted stringent physical and digital asset management techniques.",
+      "Learned to maintain zero-friction working environments to dramatically boost output."
     ]
   },
-  "cert-133": {
-    "title": "IHG Orientation Training",
-    "issuer": "IHG Hotels & Resorts",
-    "date": "Information Program for Intercontinental Hotels & groups",
+  "cert-75": {
+    "title": "International SEO",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Studied global search ranking strategies using hreflang tags and localized content structures.",
+      "Learned to deploy web properties that respect geographical algorithms and global audiences."
     ]
   },
-  "cert-134": {
-    "title": "IHG IQ Training",
-    "issuer": "IHG Hotels & Resorts",
-    "date": "Guest/Customer Relation & Answer Their Questions",
+  "cert-72": {
+    "title": "Intro to Career Skills in Software Development",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Explored the fundamental workflows, version control protocols, and agile methods of modern dev teams.",
+      "Gained a strong orientation for executing scalable Python and web application projects."
     ]
   },
-  "cert-135": {
-    "title": "IHG Fire Fighting Training",
-    "issuer": "IHG Hotels & Resorts",
-    "date": "Emergency facility defense protocols.",
+  "cert-112": {
+    "title": "Intro to Career Skills in Software Development",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Deepened technical insight into full-stack architecture and code deployment pipelines.",
+      "Learned to bridge the gap between heavy corporate operations and bespoke IT solutions."
     ]
   },
-  "cert-136": {
-    "title": "Business Process Reengineering",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Corporate operations processing.",
+  "cert-31": {
+    "title": "Intro to ISO Global BIM Standards",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-137": {
-    "title": "Intermediate Credit",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Facility limits evaluation.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-138": {
-    "title": "Foundation to Credit",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Risk modeling and operations.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-139": {
-    "title": "Legal Aspects of Banking (Part 1)",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Banking regulations.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-140": {
-    "title": "Legal Aspects of Banking (Part 2)",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Advanced compliance laws.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-141": {
-    "title": "Foundation to Credit (Mandated)",
-    "issuer": "BIBF",
-    "date": "Central Bank of Bahrain mandate.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-142": {
-    "title": "Practical forms of Murabaha",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Islamic finance products.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-143": {
-    "title": "Time Management Supervision and Team Building",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Corporate management execution.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-144": {
-    "title": "Documentary Credit in Practice Workshop",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Facility settlements.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-145": {
-    "title": "Operational Risk Management",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Mitigation models for branch operations.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-146": {
-    "title": "NCB Ambassador Program",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Client retention architectures.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-147": {
-    "title": "SWIFT Messages Used In Trade Operations",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "International money transfers formatting.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-148": {
-    "title": "Documents Examination According to ISBP 745",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Global standard checks.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-149": {
-    "title": "Understanding URDG 758",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Demand Guarantees.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-150": {
-    "title": "Understanding UCP 600",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Documentary Credits.",
-    "details": [
-      "Certified in the Uniform Customs and Practice for Documentary Credits.",
-      "Applied international banking standards to global trade finance operations."
-    ]
-  },
-  "cert-151": {
-    "title": "Understanding Inco-terms 2010",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "International commercial terms.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
-    ]
-  },
-  "cert-152": {
-    "title": "Documentary Collection Under URC 522",
-    "issuer": "Saudi National Bank (SNB)",
-    "date": "Collections rule processing.",
-    "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Studied international Building Information Modeling criteria used in massive infrastructure projects.",
+      "Gained awareness of strict digital compliance requirements for architectural data."
     ]
   },
   "cert-153": {
@@ -1372,8 +733,638 @@
     "issuer": "Saudi National Bank (SNB)",
     "date": "Foundations of trade finance.",
     "details": [
-      "Add detail 1 here.",
-      "Add detail 2 here."
+      "Mastered the core portfolio of international banking facilities and letters of guarantee.",
+      "Established foundational knowledge essential for managing multi-million SAR corporate accounts."
+    ]
+  },
+  "cert-12": {
+    "title": "ISO 27001:2013 Annex A Controls",
+    "issuer": "LinkedIn Learning",
+    "date": "Compliant Cybersecurity. Issued Jan 2024",
+    "details": [
+      "Analyzed the specific, tactical security controls required by elite international cybersecurity standards.",
+      "Learned to enforce rigid access management and cryptography policies in corporate networks."
+    ]
+  },
+  "cert-15": {
+    "title": "ISO 27001:2013 Getting Started",
+    "issuer": "LinkedIn Learning",
+    "date": "Compliant Cybersecurity. Issued Jan 2024",
+    "details": [
+      "Studied the overarching infrastructure required to establish an Information Security Management System.",
+      "Gained perspective on defending critical banking and organizational data from modern threats."
+    ]
+  },
+  "cert-34": {
+    "title": "IT Service Management: ISO/IEC 20000-1",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Mastered the specific, auditable clauses required to achieve global IT service certification.",
+      "Learned to align technical support desks perfectly with ongoing corporate business needs."
+    ]
+  },
+  "cert-32": {
+    "title": "IT Service Management: ISO20000",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Studied the fundamental design and transition of rigorous IT services.",
+      "Ensured maximum operational uptime by standardizing technological deployment procedures."
+    ]
+  },
+  "cert-66": {
+    "title": "Learning Canva",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Acquired rapid digital publishing skills to construct sleek business collateral and reports.",
+      "Integrated brand toolkits into automated workflows to ensure consistent visual identity."
+    ]
+  },
+  "cert-117": {
+    "title": "Learning Data Governance",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Mastered the frameworks needed to ensure internal data integrity, security, and usability.",
+      "Learned to implement strict compliance policies over large-scale corporate data lakes."
+    ]
+  },
+  "cert-99": {
+    "title": "Learning Minitab",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Developed technical proficiency in the premier software used by Six Sigma practitioners.",
+      "Executed advanced statistical analysis and variance tracking on raw operational data."
+    ]
+  },
+  "cert-37": {
+    "title": "Learning SAP Human Capital Management",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Navigated the intricate SAP environment used by global enterprises to manage personnel.",
+      "Learned module interactions specifically related to payroll, organizational structure, and time tracking."
+    ]
+  },
+  "cert-28": {
+    "title": "Learning Study Skills",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Optimized personal neurological workflows to rapidly assimilate complex, dense information.",
+      "Developed tactics for intense technical exam preparation (e.g. CME-5 and Cisco certs)."
+    ]
+  },
+  "cert-61": {
+    "title": "Learning Windows Terminal",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Mastered customized command-line interfaces to exponentially speed up daily IT operations.",
+      "Integrated PowerShell and Bash tools to execute bulk system administrative tasks."
+    ]
+  },
+  "cert-94": {
+    "title": "Lean Six Sigma: Analyze, Improve, and Control Tools",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Learned to deploy root-cause identification tools like Ishikawa diagrams and FMEA.",
+      "Executed sophisticated control plans to prevent backsliding after operational improvements."
+    ]
+  },
+  "cert-93": {
+    "title": "Lean Six Sigma: Define and Measure Tools",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Mastered process mapping and data collection strategies to quantify current baseline performance.",
+      "Utilized SIPOC and value stream maps to precisely define corporate failure points."
+    ]
+  },
+  "cert-139": {
+    "title": "Legal Aspects of Banking (Part 1)",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Banking regulations.",
+    "details": [
+      "Studied stringent judicial frameworks dictating corporate account liabilities and asset holdings.",
+      "Gained critical insight into regulatory requirements to prevent institutional legal exposure."
+    ]
+  },
+  "cert-140": {
+    "title": "Legal Aspects of Banking (Part 2)",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Advanced compliance laws.",
+    "details": [
+      "Mastered advanced legal protocols surrounding complex loan agreements and trade defaults.",
+      "Ensured corporate banking portfolios remained flawlessly compliant with local legislation."
+    ]
+  },
+  "cert-114": {
+    "title": "Lessons from Data Scientists",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Extracted practical, real-world advice from senior analysts managing massive datasets.",
+      "Learned tactics to overcome common coding bottlenecks and optimize Python/R scripts."
+    ]
+  },
+  "cert-84": {
+    "title": "Machine Learning for iOS Developers",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Explored the integration of CoreML to embed predictive algorithms directly into mobile apps.",
+      "Learned to deploy visual recognition and language processing tools onto native architectures."
+    ]
+  },
+  "cert-20": {
+    "title": "Market Research: B2B",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Deployed quantitative and qualitative research models specifically for enterprise target audiences.",
+      "Analyzed macroeconomic trends to identify highly lucrative B2B expansion opportunities."
+    ]
+  },
+  "cert-76": {
+    "title": "Marketing Strategy: SEO Content Writing",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Mastered the integration of high-value search intent keywords into persuasive marketing copy.",
+      "Learned to balance algorithmic indexing requirements with engaging human readability."
+    ]
+  },
+  "cert-74": {
+    "title": "Marketing Tools: SEO",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Evaluated industry-standard diagnostic tools to audit website health and search ranking.",
+      "Executed technical crawling to isolate and eliminate crawl errors on web properties."
+    ]
+  },
+  "cert-42": {
+    "title": "Master Microsoft Excel",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Completed rigorous architectural training encompassing the absolute peak of Excel's capabilities.",
+      "Combined arrays, VBA, and Power Query to engineer self-sufficient reporting ecosystems."
+    ]
+  },
+  "cert-58": {
+    "title": "Microsoft 365 Copilot First Look",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Explored the immediate productivity gains of integrating AI directly into Word and Excel.",
+      "Learned prompts to automate drafting, summarizing, and data analysis within the Microsoft ecosystem."
+    ]
+  },
+  "cert-68": {
+    "title": "Microsoft Azure Solutions Architect (AZ-305)",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Studied high-level design principles for deploying secure, scalable enterprise infrastructure in the cloud.",
+      "Evaluated computing, storage, and networking solutions inside the Azure environment."
+    ]
+  },
+  "cert-67": {
+    "title": "Microsoft Designer: Designs with AI",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Leveraged generative text-to-image AI to rapidly prototype custom graphic assets.",
+      "Streamlined visual branding workflows without the need for manual illustration."
+    ]
+  },
+  "cert-62": {
+    "title": "Microsoft Loop: AI-Enhanced Project Mgmt",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Mastered collaborative, fluid workspaces designed to sync remote and hybrid corporate teams.",
+      "Used AI augmentation to instantly organize scattered notes into structured project tasks."
+    ]
+  },
+  "cert-146": {
+    "title": "NCB Ambassador Program",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Client retention architectures.",
+    "details": [
+      "Certified in representing the highest tier of banking professionalism and institutional loyalty.",
+      "Mastered advanced client retention architectures to lock in elite-level corporate accounts."
+    ]
+  },
+  "cert-124": {
+    "title": "Non-Technical Skills of Effective Data Scientists",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Developed the critical communication abilities required to translate code into business strategy.",
+      "Learned to manage stakeholder expectations and confidently present analytical findings."
+    ]
+  },
+  "cert-10": {
+    "title": "Occupational Safety: Slips, Trips, and Falls",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Audited facility environments to systematically eliminate the most common sources of physical injury.",
+      "Applied regulatory compliance standards to protect corporate liability and human health."
+    ]
+  },
+  "cert-90": {
+    "title": "Operational Excellence Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Studied the cultural and technical frameworks required to build a flawless organizational engine.",
+      "Learned to align every corporate tier towards continuous improvement and zero-defect execution."
+    ]
+  },
+  "cert-145": {
+    "title": "Operational Risk Management",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Mitigation models for branch operations.",
+    "details": [
+      "Mastered stringent internal defense mechanisms to prevent institutional losses from systemic failure.",
+      "Certified to audit branch operations, identifying and locking down vulnerable procedural gaps."
+    ]
+  },
+  "cert-142": {
+    "title": "Practical forms of Murabaha",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Islamic finance products.",
+    "details": [
+      "Certified in the execution of Sharia-compliant financing architectures.",
+      "Applied strict ethical banking frameworks to successfully structure specialized corporate transactions."
+    ]
+  },
+  "cert-105": {
+    "title": "Project Management Foundations: Communication",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Mastered the distribution of critical timeline data to executives, vendors, and team members.",
+      "Learned to establish communication matrices that guarantee absolute clarity during project rollouts."
+    ]
+  },
+  "cert-33": {
+    "title": "Project Management Foundations: Quality",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Integrated rigorous Quality Assurance protocols directly into standard project milestones.",
+      "Ensured final deliverables exceeded baseline corporate expectations without breaking budget."
+    ]
+  },
+  "cert-103": {
+    "title": "Project Management Foundations: Teams",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Studied the psychology of high-performance squads to maximize output during complex builds.",
+      "Learned tactics for resolving internal friction and aligning cross-disciplinary experts."
+    ]
+  },
+  "cert-86": {
+    "title": "Python for Data Visualization",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Mastered advanced Python libraries (like Matplotlib and Seaborn) to graph massive datasets.",
+      "Programmed automated scripts to generate live, interactive corporate charting environments."
+    ]
+  },
+  "cert-41": {
+    "title": "Python in Excel",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Integrated powerful Python parsing logic natively into the Microsoft Excel ecosystem.",
+      "Executed machine-learning algorithms and advanced statistical arrays without leaving the spreadsheet."
+    ]
+  },
+  "cert-2": {
+    "title": "Quality Management for Operational Excellence",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Learned core methodologies for auditing and optimizing daily administrative operations.",
+      "Implemented strict quality control frameworks to drastically reduce processing errors."
+    ]
+  },
+  "cert-4": {
+    "title": "Quality Management Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Mastered the universally accepted standards for measuring and delivering elite-tier products.",
+      "Gained strategic tools to enforce compliance checks across multi-stage business pipelines."
+    ]
+  },
+  "cert-53": {
+    "title": "R Essential Training Part 2: Modeling Data",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Constructed sophisticated linear and non-linear predictive models using the R language.",
+      "Applied statistical programming to validate highly complex corporate hypotheses."
+    ]
+  },
+  "cert-13": {
+    "title": "Revit 2018: Essential Training for MEP",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Learned the absolute fundamentals of Mechanical, Electrical, and Plumbing (MEP) digital design.",
+      "Navigated massive 3D architecture files to audit infrastructure blueprints for accuracy."
+    ]
+  },
+  "cert-14": {
+    "title": "Revit: Fire-Alarm Systems Design",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Mastered specialized drafting software to map critical emergency hardware across complex facilities.",
+      "Ensured strict code compliance when routing digital schematics for life-safety systems."
+    ]
+  },
+  "cert-92": {
+    "title": "Root Cause Analysis",
+    "issuer": "LinkedIn Learning",
+    "date": "Getting to the Root of Business Problems. Issued Nov 2023",
+    "details": [
+      "Deployed surgical auditing techniques to track systemic corporate errors back to their origin.",
+      "Utilized the '5 Whys' and fault-tree analysis to permanently cure procedural bottlenecks."
+    ]
+  },
+  "cert-38": {
+    "title": "SAP Financials Essential Training",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Mastered the world's premier enterprise resource planning (ERP) environment for global ledgers.",
+      "Learned to navigate general accounting, accounts payable, and asset tracking inside SAP."
+    ]
+  },
+  "cert-81": {
+    "title": "SEO Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Gained absolute clarity on the core mechanics driving organic web traffic and indexation.",
+      "Applied best-practice metadata architecture to ensure digital portfolios dominate search queries."
+    ]
+  },
+  "cert-79": {
+    "title": "SEO Strategy: Link Building",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Mastered off-page authority generation to exponentially increase domain trust signals.",
+      "Executed white-hat outreach protocols to secure high-value backlinks for digital properties."
+    ]
+  },
+  "cert-78": {
+    "title": "SEO: Ecommerce Strategies",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Optimized complex, multi-tiered retail catalogs to capture transactional search intent.",
+      "Implemented structured data to ensure products are highly visible and immediately shoppable."
+    ]
+  },
+  "cert-80": {
+    "title": "SEO: Keyword Strategy",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Executed deep quantitative analysis on search volume metrics to identify lucrative consumer gaps.",
+      "Built content frameworks completely aligned with high-converting user search patterns."
+    ]
+  },
+  "cert-83": {
+    "title": "SEO: Optimize Your Social Media Profiles",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Synchronized external brand signals across LinkedIn, YouTube, and X to maximize search real estate.",
+      "Crafted authoritative biographies and descriptions tuned specifically for algorithmic parsing."
+    ]
+  },
+  "cert-115": {
+    "title": "Side Hustle Strategies for Data Science",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Explored monetization avenues for advanced Python, VBA, and parsing skill sets.",
+      "Learned protocols for safely managing freelance technical architecture outside of corporate hours."
+    ]
+  },
+  "cert-91": {
+    "title": "Six Sigma Black Belt (CSSBB)",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Achieved pinnacle-level mastery of data-driven waste elimination and corporate efficiency.",
+      "Prepared to architect, deploy, and govern massive organizational overhauls using strict statistical control."
+    ]
+  },
+  "cert-89": {
+    "title": "Six Sigma Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Absorbed the absolute core philosophies of Motorola's legendary quality control methodology.",
+      "Adopted a zero-defect mindset applicable to both digital automation and physical trade finance."
+    ]
+  },
+  "cert-88": {
+    "title": "Six Sigma Green Belt (CSSGB)",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Gained rigorous capabilities in deploying the DMAIC cycle to solve localized business problems.",
+      "Certified to lead dedicated improvement squads and calculate the ROI of procedural modifications."
+    ]
+  },
+  "cert-87": {
+    "title": "Six Sigma White Belt",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Completed the entry-level orientation for understanding continuous corporate improvement.",
+      "Learned the basic terminology required to interact smoothly with advanced efficiency teams."
+    ]
+  },
+  "cert-122": {
+    "title": "Statistics Foundations 1: The Basics",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Grounded personal analytical skills in absolute mathematical logic and standard deviation.",
+      "Mastered the fundamental calculus required to ensure data scripts output accurate business truths."
+    ]
+  },
+  "cert-120": {
+    "title": "Statistics Foundations 2: Probability",
+    "issuer": "LinkedIn Premium",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Studied advanced probability matrices to accurately forecast risk and corporate exposure.",
+      "Learned to utilize combinatorial analysis to predict complex, multi-variable financial outcomes."
+    ]
+  },
+  "cert-97": {
+    "title": "Statistics Foundations 3: Using Data Sets",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Executed inferential statistical techniques to draw massive conclusions from limited sample sizes.",
+      "Applied robust hypothesis testing directly to real-world operational and sales scenarios."
+    ]
+  },
+  "cert-59": {
+    "title": "Streamlining Your Work with Microsoft Bing Chat",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Leveraged advanced LLM integrations to instantly synthesize deep technical documentation.",
+      "Mastered prompting logic to vastly accelerate code debugging and corporate research tasks."
+    ]
+  },
+  "cert-70": {
+    "title": "Supply Chain and Operations Careers",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Explored the specific structural hierarchies managing global logistical networks.",
+      "Gained insights into aligning trade finance knowledge with macro-level supply demands."
+    ]
+  },
+  "cert-3": {
+    "title": "Supply Chain Fundamentals: Risk and Resilience",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Analyzed extreme supply vulnerabilities and developed modern logistical mitigation strategies.",
+      "Mastered frameworks for maintaining absolute operational resilience during global disruptions."
+    ]
+  },
+  "cert-147": {
+    "title": "SWIFT Messages Used In Trade Operations",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "International money transfers formatting.",
+    "details": [
+      "Achieved deep technical fluency in the global SWIFT messaging architecture (MT700 series).",
+      "Ensured zero-error digital communication for international Letter of Credit execution."
+    ]
+  },
+  "cert-77": {
+    "title": "Technical SEO",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Audited server-side performance, page latency, and indexing logic for critical web assets.",
+      "Mastered backend optimization to ensure search engine spiders correctly render web applications."
+    ]
+  },
+  "cert-143": {
+    "title": "Time Management Supervision and Team Building",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Corporate management execution.",
+    "details": [
+      "Certified in directing multi-disciplinary corporate units under highly constrained deadlines.",
+      "Learned elite delegation strategies to foster trust and maximize departmental output."
+    ]
+  },
+  "cert-151": {
+    "title": "Understanding Inco-terms 2010",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "International commercial terms.",
+    "details": [
+      "Mastered the universal trade definitions that dictate global liability and shipping costs.",
+      "Applied exact ICC standards to ensure frictionless customs clearance for corporate clients."
+    ]
+  },
+  "cert-7": {
+    "title": "Understanding PPE",
+    "issuer": "LinkedIn Learning",
+    "date": "Personal Protective Equipment. Issued Jan 2024",
+    "details": [
+      "Trained in the precise deployment of specialized safety gear in industrial environments.",
+      "Ensured maximum physical compliance aligned with OSHA and corporate safety mandates."
+    ]
+  },
+  "cert-150": {
+    "title": "Understanding UCP 600",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Documentary Credits.",
+    "details": [
+      "Achieved absolute certification in the Uniform Customs and Practice for Documentary Credits.",
+      "Applied premier international banking standards to secure global trade finance operations."
+    ]
+  },
+  "cert-149": {
+    "title": "Understanding URDG 758",
+    "issuer": "Saudi National Bank (SNB)",
+    "date": "Demand Guarantees.",
+    "details": [
+      "Mastered the ICC's Uniform Rules for Demand Guarantees to protect institutional capital.",
+      "Ensured flawless drafting and execution of independent financial guarantees for global clients."
+    ]
+  },
+  "cert-1": {
+    "title": "Universal Principles of Design",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Jan 2024",
+    "details": [
+      "Mastered fundamental aesthetic principles to elevate corporate user interfaces and branding.",
+      "Applied psychological visual hierarchies to seamlessly guide client and user experience."
+    ]
+  },
+  "cert-55": {
+    "title": "What Is Business Analysis?",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Explored the core tenets of identifying critical business needs and proposing technical solutions.",
+      "Learned to act as the ultimate translation bridge between IT developers and corporate stakeholders."
+    ]
+  },
+  "cert-57": {
+    "title": "What Is Generative AI?",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Nov 2023",
+    "details": [
+      "Audited the underlying mechanics of modern Large Language Models and diffusion networks.",
+      "Gained perspective on how artificial intelligence will fundamentally restructure corporate automation."
+    ]
+  },
+  "cert-29": {
+    "title": "Writing Emails People Want to Read",
+    "issuer": "LinkedIn Learning",
+    "date": "Issued Dec 2023",
+    "details": [
+      "Perfected the psychology of high-converting, deeply persuasive corporate outreach.",
+      "Learned strategies to cut through inbox noise and generate immediate executive responses."
+    ]
+  },
+  "cert-107": {
+    "title": "YouTube Marketing 2023",
+    "issuer": "Udemy",
+    "date": "Issued Oct 2023",
+    "details": [
+      "Mastered video-specific SEO, thumbnail optimization, and deep audience retention algorithms.",
+      "Developed targeted digital marketing campaigns specifically formulated for massive video platforms."
     ]
   }
 }
