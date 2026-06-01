@@ -1,6 +1,6 @@
 [
   {
-    "image": "assets/img/projects/loan-generator.webp",
+    "image": "assets/img/portfolio/portfolio-12.webp",
     "badge": "VBA Automation",
     "client": "Saudi National Bank (SNB)",
     "title": "Corporate Loan Agreement Generator",
@@ -11,7 +11,7 @@
     "solution": "Built an advanced VBA mapping architecture that scraped internal databases, cross-verified client details, and automatically populated 100% compliant legal documents in under 2 seconds."
   },
   {
-    "image": "assets/img/projects/network-upgrade.webp",
+    "image": "assets/img/portfolio/portfolio-6.webp",
     "badge": "Infrastructure",
     "client": "Intercontinental Hotels",
     "title": "Enterprise Network Core Overhaul",
