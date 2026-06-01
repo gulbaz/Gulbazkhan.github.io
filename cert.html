@@ -23,7 +23,66 @@
 
   <link href="assets/css/main.css" rel="stylesheet">
      
-<header id="header" class="header d-flex align-items-center sticky-top">
+  <style>
+    /* Force exactly equal heights so Isotope aligns them in perfect rows */
+    .portfolio-wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 420px; /* Fixed height eliminates the up-and-down masonry stagger */
+      background-color: #171923; /* Matches the dark template card color */
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    
+    .portfolio-image {
+      height: 200px;
+      width: 100%;
+      background-color: #ffffff; /* White background for logos */
+    }
+    
+    .portfolio-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; /* Restores image to fill without padding */
+    }
+    
+    .portfolio-content {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    
+    .portfolio-content h3 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+    
+    .portfolio-content p {
+      font-size: 0.9rem;
+      margin-bottom: 0;
+      color: rgba(255, 255, 255, 0.7);
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* Limits text to 3 lines to keep it neat */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* Force the search placeholder to be a readable light gray */
+    #globalSearchInput::placeholder {
+      color: #a0aec0 !important;
+      opacity: 1;
+    }
+    /* Ensure typed text is bright white */
+    #globalSearchInput {
+      color: #ffffff !important;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
     <!-- flex-nowrap ensures it never stacks, flex-row forces strictly Left-to-Right -->
     <div class="header-container container-fluid container-xl d-flex align-items-center justify-content-between flex-nowrap" style="flex-direction: row !important;">
       
@@ -55,7 +114,6 @@
       </nav>
 
       <!-- Action Buttons Container (Forced to Far Right) -->
-      <!-- gap-2 keeps spacing clean without using margin classes -->
       <div class="header-actions d-flex align-items-center gap-2 gap-sm-3" style="order: 3 !important; margin-left: auto; flex-direction: row !important;">
         
         <!-- 3. Search Icon -->
@@ -86,105 +144,15 @@
           </ul>
         </div>
 
-        <!-- 6. Mobile Nav Toggle (Forced into position, overrides template positioning) -->
+        <!-- 6. Mobile Nav Toggle -->
         <i class="mobile-nav-toggle d-xl-none bi bi-list flex-shrink-0 m-0" style="font-size: 1.6rem; color: var(--nav-color); cursor: pointer; order: 4 !important; position: static !important;"></i>
 
       </div>
 
     </div>
   </header>
-  
-  <style>
-    /* Force exactly equal heights so Isotope aligns them in perfect rows */
-    .portfolio-wrapper {
-      display: flex;
-      flex-direction: column;
-      height: 420px; /* Fixed height eliminates the up-and-down masonry stagger */
-      background-color: #171923; /* Matches the dark template card color */
-      border-radius: 8px;
-      overflow: hidden;
-    }
-    
-    .portfolio-image {
-      height: 200px;
-      width: 100%;
-      background-color: #ffffff; /* White background for logos */
-    }
-    
-    .portfolio-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain; /* Restores image to fill without padding */
-    }
-    
-    .portfolio-content {
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-    }
-    
-    .portfolio-content h3 {
-      font-size: 1.1rem;
-      margin-bottom: 10px;
-    }
-    
-    .portfolio-content p {
-      font-size: 0.9rem;
-      margin-bottom: 0;
-      color: rgba(255, 255, 255, 0.7);
-      display: -webkit-box;
-      -webkit-line-clamp: 3; /* Limits text to 3 lines to keep it neat */
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
- <style>
-    /* Force exactly equal heights so Isotope aligns them in perfect rows */
-    .portfolio-wrapper {
-      display: flex;
-      flex-direction: column;
-      height: 420px; /* Fixed height eliminates the up-and-down masonry stagger */
-      background-color: #171923; /* Matches the dark template card color */
-      border-radius: 8px;
-      overflow: hidden;
-    }
-    
-    .portfolio-image {
-      height: 200px;
-      width: 100%;
-      background-color: #ffffff; /* White background for logos */
-    }
-    
-    .portfolio-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain; /* Restores image to fill without padding */
-    }
-    
-    .portfolio-content {
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-    }
-    
-    .portfolio-content h3 {
-      font-size: 1.1rem;
-      margin-bottom: 10px;
-    }
-    
-    .portfolio-content p {
-      font-size: 0.9rem;
-      margin-bottom: 0;
-      color: rgba(255, 255, 255, 0.7);
-      display: -webkit-box;
-      -webkit-line-clamp: 3; /* Limits text to 3 lines to keep it neat */
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-  </style>
 
-<main class="main">
+  <main class="main">
     <section id="portfolio" class="portfolio section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Professional Certifications</h2>
@@ -203,12 +171,14 @@
           </ul>
 
           <div class="row gy-4 isotope-container" id="cert-wrapper" data-aos="fade-up" data-aos-delay="300">
-             </div>
+             <!-- Dynamically injected by JS -->
+          </div>
 
         </div>
       </div>
     </section>
 
+    <!-- Certificate Modal -->
     <div class="modal fade" id="dynamicCertModal" tabindex="-1" aria-labelledby="dynamicCertModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content" style="background-color: #1a1e2d; border: 1px solid #2a2e40; border-radius: 8px;">
@@ -222,23 +192,11 @@
         </div>
       </div>
     </div>
-</main>
+  </main>
 
-<!-- ========================================== -->
+  <!-- ========================================== -->
   <!-- GLOBAL SEARCH MODAL -->
   <!-- ========================================== -->
-  <style>
-    /* Force the search placeholder to be a readable light gray */
-    #globalSearchInput::placeholder {
-      color: #a0aec0 !important;
-      opacity: 1;
-    }
-    /* Ensure typed text is bright white */
-    #globalSearchInput {
-      color: #ffffff !important;
-    }
-  </style>
-
   <div class="modal fade" id="globalSearchModal" tabindex="-1" aria-labelledby="globalSearchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable" style="margin-top: 5rem;">
       <div class="modal-content shadow-lg" style="background-color: #171923; border: 1px solid #2a2e40; border-radius: 12px;">
@@ -255,7 +213,6 @@
 
         <div class="modal-body pt-3 pb-4">
           <div id="globalSearchResults" class="list-group list-group-flush border-0">
-            <!-- Changed to text-white-50 so it's readable on dark backgrounds -->
             <p class="text-white-50 small text-center mt-2">What are you looking for?</p>
           </div>
         </div>
@@ -362,7 +319,7 @@
     });
   </script>
 
-<script>
+  <script>
     document.addEventListener('DOMContentLoaded', () => {
       
       const wrapper = document.getElementById('cert-wrapper');
@@ -379,7 +336,6 @@
           let htmlContent = '';
 
           // 2. Loop through JSON and build the HTML cards
-          // Object.entries allows us to get both the key (cert-1) and the data
           Object.entries(certData).forEach(([certId, cert]) => {
             htmlContent += `
               <div class="col-xl-4 col-lg-6 portfolio-item isotope-item ${cert.category}">
@@ -404,7 +360,6 @@
           // 4. Initialize Isotope Grid Filtering AFTER elements are in the DOM
           let isotopeContainer = document.querySelector('.isotope-container');
           
-          // Use imagesLoaded to ensure images don't overlap before organizing the grid
           imagesLoaded(isotopeContainer, function() {
             let initIsotope = new Isotope(isotopeContainer, {
               itemSelector: '.isotope-item',
@@ -412,7 +367,6 @@
               filter: '*'
             });
 
-            // Re-bind the filter click events to the newly created Isotope instance
             let filters = document.querySelectorAll('.portfolio-filters li');
             filters.forEach(function(filter) {
               filter.addEventListener('click', function() {
@@ -436,7 +390,6 @@
           wrapper.innerHTML = `<div class="col-12 text-center text-white-50"><p>Database connection failed. Please ensure you are on a live server.</p></div>`;
         });
 
-      // Function to handle modal population
       function attachModalListeners() {
         const cards = document.querySelectorAll('.portfolio-wrapper[data-cert-id]');
         
