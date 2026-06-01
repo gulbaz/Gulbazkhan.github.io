@@ -1,6 +1,6 @@
 [
   {
-    "image": "assets/img/portfolio/portfolio-5.webp",
+    "image": "assets/img/portfolio/portfolio-12.webp",
     "tech_stack": ["Trade Finance", "MS Visio", "UAT Testing", "SAMA Compliance"],
     "badge": "System Development",
     "client": "Saudi National Bank (SNB)",
@@ -11,7 +11,7 @@
     "solution": "Preparing Policy & Procedures for All Trade Products in MS Visio & Project. Assisting Kingdom wide staff for all new System enhancement by visiting or online."
   },
   {
-    "image": "assets/img/portfolio/portfolio-8.webp",
+    "image": "assets/img/portfolio/portfolio-6.webp",
     "tech_stack": ["VBA Scripting", "MS Access", "Process Automation", "Financial Reporting"],
     "badge": "Software Development",
     "client": "Saudi National Bank (SNB)",
