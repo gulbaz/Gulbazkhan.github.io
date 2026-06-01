@@ -530,5 +530,66 @@
     });
   </script>
 
+	<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      let certData = {};
+
+      // 1. Fetch the JSON file
+      fetch('assets/json/cert.json')
+        .then(response => {
+          if(!response.ok) throw new Error("JSON file not found.");
+          return response.json();
+        })
+        .then(data => {
+          certData = data;
+        })
+        .catch(error => console.error('Error Loading JSON:', error));
+
+      // 2. Direct click listener for EVERY cert card
+      const cards = document.querySelectorAll('.portfolio-wrapper[data-cert-id]');
+      
+      cards.forEach(card => {
+        card.addEventListener('click', function () {
+          // Grab the specific ID (cert-1, cert-2, etc.)
+          const certId = this.getAttribute('data-cert-id'); 
+          
+          const modalTitle = document.getElementById('dynamicCertModalLabel');
+          const modalBody = document.getElementById('dynamicCertModalBody');
+
+          // Check if data is loaded from the JSON
+          if (certData[certId]) {
+            const cert = certData[certId];
+            
+            // Set Title
+            modalTitle.textContent = cert.title;
+            
+            // Build the interior content using the correct cert.json structure
+            let htmlContent = `<h6 class="text-info fw-bold mb-3">${cert.issuer}</h6>`;
+            htmlContent += `<p class="text-white-50 small mb-4"><i class="bi bi-patch-check-fill text-success me-2"></i> ${cert.date}</p>`;
+            
+            // Add bullet points if they exist
+            if (cert.details && cert.details.length > 0) {
+              htmlContent += `<ul class="small mb-0" style="color: #cbd5e1; line-height: 1.8;">`;
+              cert.details.forEach(bullet => {
+                htmlContent += `<li>${bullet}</li>`;
+              });
+              htmlContent += `</ul>`;
+            }
+            
+            // Inject into modal
+            modalBody.innerHTML = htmlContent;
+
+          } else {
+            // Fallback if they click a card you haven't added to JSON yet
+            modalTitle.textContent = "Details Unavailable";
+            modalBody.innerHTML = `<p class="text-white-50">Detailed information for this certification is currently being updated in the database.</p>`;
+          }
+        });
+      });
+    });
+  </script>
+
 </body>
 </html>
