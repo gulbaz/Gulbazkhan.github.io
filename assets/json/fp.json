@@ -21,16 +21,16 @@
     "challenge": "Corporate clients were spending excessive man-hours manually drafting compliance documentation, increasing the risk of data entry errors and audit penalties.",
     "solution": "Built custom data import/export systems featuring structured logging and audit-ready record management, eliminating manual drafting and reducing processing times by over 80%."
   },
-  {
+{
     "image": "assets/img/projects/dms-system.webp",
-    "tech_stack": ["Excel VBA", "File Indexing", "Database Architecture", "Search Algorithms"],
+    "tech_stack": ["Python", "PyInstaller (.exe)", "MS OneDrive Cloud", "Role-Based Auth", "Excel Export"],
     "badge": "Enterprise Software",
     "client": "Corporate & Freelance Clients",
     "title": "Document Management System (DMS)",
-    "lead": "Engineered a local Document Management System with automated indexing and version tracking.",
-    "overview": "Designed and deployed customized DMS tools built entirely within VBA environments, allowing companies to digitally organize, index, and retrieve critical business documents instantly.",
-    "challenge": "Organizations struggled with unstructured file storage, making document retrieval, historical auditing, and version control nearly impossible during high-pressure operations.",
-    "solution": "Programmed a secure, searchable database interface that streamlined document retrieval, maintained structural integrity, and provided seamless version tracking for all corporate files."
+    "lead": "Engineered a secure, Python-based desktop Document Management System with multi-tier access and MS OneDrive cloud integration.",
+    "overview": "Designed and deployed a standalone Python executable (.exe) DMS featuring robust user authentication (Admin, Inputter, Viewer roles). The system manages client databases, registers documents with unique tracking IDs, and automatically syncs scanned soft copies directly to a shared MS OneDrive cloud folder.",
+    "challenge": "Organizations required a highly secure, restricted-access desktop application to manage unstructured file storage, prevent unauthorized access, and securely backup records without relying on complex, expensive server infrastructure.",
+    "solution": "Programmed a complete desktop solution equipped with hardware-level device authorization and an online app activation system. Included automated Excel reporting for both client and document lists, plus a one-click backup routing system to guarantee data integrity."
   },
   {
     "image": "assets/img/projects/hr-tools.webp",
