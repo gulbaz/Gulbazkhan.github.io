@@ -22,7 +22,7 @@
     "solution": "Built custom data import/export systems featuring structured logging and audit-ready record management, eliminating manual drafting and reducing processing times by over 80%."
   },
 {
-    "image": "assets/img/projects/dms-system.webp",
+    "image": "assets/img/projects/dms.jpg",
     "tech_stack": ["Python", "PyInstaller (.exe)", "MS OneDrive Cloud", "Role-Based Auth", "Excel Export"],
     "badge": "Enterprise Software",
     "client": "Corporate & Freelance Clients",
