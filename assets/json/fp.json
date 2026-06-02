@@ -21,7 +21,7 @@
     "challenge": "Corporate clients were spending excessive man-hours manually drafting compliance documentation, increasing the risk of data entry errors and audit penalties.",
     "solution": "Built custom data import/export systems featuring structured logging and audit-ready record management, eliminating manual drafting and reducing processing times by over 80%."
   },
-{
+  {
     "image": "assets/img/projects/dms.jpg",
     "tech_stack": ["Python", "PyInstaller (.exe)", "MS OneDrive Cloud", "Role-Based Auth", "Excel Export"],
     "badge": "Enterprise Software",
@@ -31,6 +31,39 @@
     "overview": "Designed and deployed a standalone Python executable (.exe) DMS featuring robust user authentication (Admin, Inputter, Viewer roles). The system manages client databases, registers documents with unique tracking IDs, and automatically syncs scanned soft copies directly to a shared MS OneDrive cloud folder.",
     "challenge": "Organizations required a highly secure, restricted-access desktop application to manage unstructured file storage, prevent unauthorized access, and securely backup records without relying on complex, expensive server infrastructure.",
     "solution": "Programmed a complete desktop solution equipped with hardware-level device authorization and an online app activation system. Included automated Excel reporting for both client and document lists, plus a one-click backup routing system to guarantee data integrity."
+  },
+  {
+    "image": "assets/img/projects/mom.png",
+    "tech_stack": ["Python", "AI Speech-to-Text", "Bilingual Support", "Hardware Auth"],
+    "badge": "AI & Audio Processing",
+    "client": "Corporate & Freelance Clients",
+    "title": "AI Minutes of Meeting (MOM) Recorder",
+    "lead": "An intelligent voice-recording application that automatically transcribes live meetings into English and Arabic text.",
+    "overview": "Designed a sophisticated Python desktop executable that records live meeting audio and uses AI transcription to instantly generate bilingual text summaries for official minutes. The software includes a secure login portal and online device activation.",
+    "challenge": "Corporate teams were losing critical details and man-hours manually typing minutes of meetings, especially in fast-paced bilingual (Arabic/English) enterprise environments.",
+    "solution": "Deployed a secure, licensed desktop app that autonomously records, transcribes, translates, and saves organized meeting records into designated local folders, fully protected by a custom authentication system."
+  },
+  {
+    "image": "assets/img/projects/pray.png",
+    "tech_stack": ["Python", "PyInstaller (.exe)", "Audio Processing", "Open Source"],
+    "badge": "Open Source Utility",
+    "client": "Public GitHub Repository",
+    "title": "Islamic Prayer Time & Athan Reminder",
+    "lead": "A lightweight Python executable that provides accurate 5-time daily Islamic prayer alerts with customizable Athan audio.",
+    "overview": "Developed and published a free, standalone desktop application that calculates accurate daily prayer times. It runs seamlessly in the background and triggers audible Athan notifications precisely on schedule.",
+    "challenge": "Users needed an unobtrusive, offline-capable desktop utility for prayer reminders without relying on ad-heavy mobile apps or browser extensions while working on their PCs.",
+    "solution": "Engineered a reliable Python-based `.exe` that sits in the system tray, plays custom Athan sounds on time, and is published publicly for free on my GitHub repository."
+  },
+  {
+    "image": "assets/img/projects/hijricalander.png",
+    "tech_stack": ["Python", "PyInstaller (.exe)", "API Integration", "Open Source"],
+    "badge": "Open Source Utility",
+    "client": "Public GitHub Repository",
+    "title": "Dynamic Hijri Calendar & Converter",
+    "lead": "A standalone desktop application for seamless Hijri-to-Gregorian date conversion and live calendar tracking.",
+    "overview": "Programmed a comprehensive calendar utility in Python that provides full Hijri calendar views and instant date conversions. The application automatically fetches online updates to ensure perfect lunar alignment.",
+    "challenge": "Corporate and personal users frequently struggle with accurate Hijri-Gregorian date conversions due to regional moon-sighting variations and disjointed online tools.",
+    "solution": "Packaged a lightweight `.exe` that utilizes online synchronization to provide flawlessly accurate date conversions and calendar views, published freely on GitHub."
   },
   {
     "image": "assets/img/projects/hr-tools.webp",
