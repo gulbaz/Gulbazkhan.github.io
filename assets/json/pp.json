@@ -21,4 +21,37 @@
     "challenge": "Managing and processing high volumes of Loan agreements in the Bank System while working under full pressure required a more robust solution than manual entry.",
     "solution": "Leveraged advanced programming skills, effectively maintaining all transactions records in VBA base Excel formats created by me."
   }
+  {
+    "image": "assets/img/portfolio/portfolio-5.webp",
+    "tech_stack": ["Trade Finance", "MS Visio", "UAT Testing", "SAMA Compliance"],
+    "badge": "System Development",
+    "client": "Saudi National Bank (SNB)",
+    "title": "Bank Trade System Enhancements",
+    "lead": "Assigned for various Bank Trade System Projects like I/E LC’s, LG’s, Payment & Settlement, Data cleansing, Imaging Data base Development & enhancement Project.",
+    "overview": "Assisting in all Trade enhancements Projects + Reviewing BRD & Test Cases for UAT. This involved deep coordination to ensure financial system updates met rigorous operational standards.",
+    "challenge": "Processing Letter of Credits, Letter of Guarantees, Collection, Settlement, Payment Vouchers, and Loan agreements in the Bank System while working under full pressure.",
+    "solution": "Preparing Policy & Procedures for All Trade Products in MS Visio & Project. Assisting Kingdom wide staff for all new System enhancement by visiting or online."
+  },
+  {
+    "image": "assets/img/portfolio/portfolio-8.webp",
+    "tech_stack": ["VBA Scripting", "MS Access", "Process Automation", "Financial Reporting"],
+    "badge": "Software Development",
+    "client": "Saudi National Bank (SNB)",
+    "title": "Automated Loan Agreement Generator",
+    "lead": "Developed & maintaining a dynamic loan agreement generator built completely in MS-Access/VBA.",
+    "overview": "Designed a custom application to automate the drafting of complex corporate banking loan agreements, significantly reducing manual documentation time.",
+    "challenge": "Managing and processing high volumes of Loan agreements in the Bank System while working under full pressure required a more robust solution than manual entry.",
+    "solution": "Leveraged advanced programming skills, effectively maintaining all transactions records in VBA base Excel formats created by me."
+  },
+  {
+    "image": "assets/img/portfolio/portfolio-11.webp",
+    "tech_stack": ["VBA Scripting", "MS Excel", "Process Automation", "Documentation", "Financial Reporting"],
+    "badge": "Software Development",
+    "client": "Ziraat Bank",
+    "title": "Automated Trade Finance Records Management",
+    "lead": "Developed & maintaining a dynamic Letter of Credit registration generator built completely in MS-Excel/VBA.",
+    "overview": "Designed a custom application to automate the drafting of complex corporate banking Trade Finance records, significantly reducing manual documentation time.",
+    "challenge": "Managing and processing high volumes of LC records in the Bank System while working under full pressure required a more robust solution than manual entry.",
+    "solution": "One click generate approval forms for AML, Compliance and Operations. This application is used by all Trade Finance staff in Ziraat Bank for all LC records management."
+  }
 ]
