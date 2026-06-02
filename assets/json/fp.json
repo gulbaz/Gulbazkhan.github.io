@@ -1,35 +1,68 @@
 [
   {
-    "image": "assets/img/portfolio/portfolio-5.webp",
-    "tech_stack": ["Trade Finance", "MS Visio", "UAT Testing", "SAMA Compliance"],
-    "badge": "System Development",
-    "client": "Saudi National Bank (SNB)",
-    "title": "Bank Trade System Enhancements",
-    "lead": "Assigned for various Bank Trade System Projects like I/E LC’s, LG’s, Payment & Settlement, Data cleansing, Imaging Data base Development & enhancement Project.",
-    "overview": "Assisting in all Trade enhancements Projects + Reviewing BRD & Test Cases for UAT. This involved deep coordination to ensure financial system updates met rigorous operational standards.",
-    "challenge": "Processing Letter of Credits, Letter of Guarantees, Collection, Settlement, Payment Vouchers, and Loan agreements in the Bank System while working under full pressure.",
-    "solution": "Preparing Policy & Procedures for All Trade Products in MS Visio & Project. Assisting Kingdom wide staff for all new System enhancement by visiting or online."
+    "image": "assets/img/projects/devisers-tfs.webp",
+    "tech_stack": ["Trade Finance", "BRD/FSD", "UAT Testing", "SAMA Compliance", "Data Migration"],
+    "badge": "System Architecture",
+    "client": "Devisers Tech Arabia, KSA",
+    "title": "Core Banking Trade Finance System (TFS)",
+    "lead": "Subject Matter Expert (SME) and Project Lead bridging business requirements, technology, and end-users.",
+    "overview": "Directed system developers on functional design, system architecture, and end-to-end trade finance workflows. Managed the entire project lifecycle including scope definition, milestone tracking, risk management, and cross-team coordination.",
+    "challenge": "The new Trade Finance platform required strict adherence to Saudi regulations, internal banking policies, and SAMA requirements, while migrating massive amounts of legacy data without corruption.",
+    "solution": "Defined and reviewed BRDs and functional specifications. Oversaw rigorous data cleansing, mapping, and UAT coordination to deliver an end-user-friendly, fast, and 100% compliant banking system."
   },
   {
-    "image": "assets/img/portfolio/portfolio-8.webp",
-    "tech_stack": ["VBA Scripting", "MS Access", "Process Automation", "Financial Reporting"],
-    "badge": "Software Development",
-    "client": "Saudi National Bank (SNB)",
-    "title": "Automated Loan Agreement Generator",
-    "lead": "Developed & maintaining a dynamic loan agreement generator built completely in MS-Access/VBA.",
-    "overview": "Designed a custom application to automate the drafting of complex corporate banking loan agreements, significantly reducing manual documentation time.",
-    "challenge": "Managing and processing high volumes of Loan agreements in the Bank System while working under full pressure required a more robust solution than manual entry.",
-    "solution": "Leveraged advanced programming skills, effectively maintaining all transactions records in VBA base Excel formats created by me."
+    "image": "assets/img/projects/vba-trade.webp",
+    "tech_stack": ["Excel VBA", "Data Parsing", "Macros", "Audit Management"],
+    "badge": "VBA Automation",
+    "client": "Various Corporate Clients",
+    "title": "Trade Finance & KYC Automation Suite",
+    "lead": "Delivered robust data processing, validation, tracking, and reporting tools for Trade Finance operations.",
+    "overview": "Developed comprehensive, customized Excel VBA solutions capable of automatically generating highly regulated documents, including KYC forms, compliance approval histories, and operational file summaries.",
+    "challenge": "Corporate clients were spending excessive man-hours manually drafting compliance documentation, increasing the risk of data entry errors and audit penalties.",
+    "solution": "Built custom data import/export systems featuring structured logging and audit-ready record management, eliminating manual drafting and reducing processing times by over 80%."
   },
   {
-    "image": "assets/img/portfolio/portfolio-11.webp",
-    "tech_stack": ["VBA Scripting", "MS Excel", "Process Automation", "Documentation", "Financial Reporting"],
-    "badge": "Software Development",
-    "client": "Ziraat Bank",
-    "title": "Automated Trade Finance Records Management",
-    "lead": "Developed & maintaining a dynamic Letter of Credit registration generator built completely in MS-Excel/VBA.",
-    "overview": "Designed a custom application to automate the drafting of complex corporate banking Trade Finance records, significantly reducing manual documentation time.",
-    "challenge": "Managing and processing high volumes of LC records in the Bank System while working under full pressure required a more robust solution than manual entry.",
-    "solution": "One click generate approval forms for AML, Compliance and Operations. This application is used by all Trade Finance staff in Ziraat Bank for all LC records management."
+    "image": "assets/img/projects/dms-system.webp",
+    "tech_stack": ["Excel VBA", "File Indexing", "Database Architecture", "Search Algorithms"],
+    "badge": "Enterprise Software",
+    "client": "Corporate & Freelance Clients",
+    "title": "Document Management System (DMS)",
+    "lead": "Engineered a local Document Management System with automated indexing and version tracking.",
+    "overview": "Designed and deployed customized DMS tools built entirely within VBA environments, allowing companies to digitally organize, index, and retrieve critical business documents instantly.",
+    "challenge": "Organizations struggled with unstructured file storage, making document retrieval, historical auditing, and version control nearly impossible during high-pressure operations.",
+    "solution": "Programmed a secure, searchable database interface that streamlined document retrieval, maintained structural integrity, and provided seamless version tracking for all corporate files."
+  },
+  {
+    "image": "assets/img/projects/hr-tools.webp",
+    "tech_stack": ["Excel VBA", "Data Visualization", "Workflow Management"],
+    "badge": "Operations Automation",
+    "client": "Corporate & Freelance Clients",
+    "title": "HR & Operations Workflow Trackers",
+    "lead": "Automated human resources tracking, including attendance systems and staff records.",
+    "overview": "Built end-to-end operational workflow management tools tailored to client HR departments, enabling them to monitor staff performance, process payroll data, and map operational bottlenecks.",
+    "challenge": "Manual tracking of employee records and attendance led to severe payroll bottlenecks, inaccurate reporting, and administrative friction.",
+    "solution": "Developed dynamic tracking dashboards that calculated attendance metrics autonomously and provided HR managers with instant, reliable data visualization."
+  },
+  {
+    "image": "assets/img/projects/security-utils.webp",
+    "tech_stack": ["Excel VBA", "Cryptography", "Outlook Integration", "Automation"],
+    "badge": "Utility Development",
+    "client": "Corporate & Freelance Clients",
+    "title": "Security & Productivity Applications",
+    "lead": "Developed offline security utilities and event-driven productivity planners.",
+    "overview": "Created a suite of custom desktop utilities including encrypted password lockers, automatic password generators, event diary planners, and schedule generators.",
+    "challenge": "Clients required highly secure, offline methods for credential management and automated scheduling without relying on expensive, cloud-based third-party SaaS subscriptions.",
+    "solution": "Programmed encrypted VBA data vaults and integrated Microsoft Outlook automation to trigger scheduled notifications, auto-emails, and calendar reminders natively."
+  },
+  {
+    "image": "assets/img/projects/web-dev.webp",
+    "tech_stack": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "UI/UX"],
+    "badge": "Web Development",
+    "client": "Freelance Clients",
+    "title": "Modern Business Portfolios & Websites",
+    "lead": "Completed multiple website development projects focusing on performance, usability, and modern design standards.",
+    "overview": "Engineered highly responsive, professional websites tailored to client specifications. Focused on cross-device compatibility, modern aesthetic layouts, and interactive user experiences.",
+    "challenge": "Clients required fast-loading, visually appealing digital storefronts that adhered to modern mobile-first design and SEO standards.",
+    "solution": "Delivered custom-coded web environments with clean architecture, intuitive navigation, and high-conversion layouts tailored specifically to each client's industry."
   }
 ]
