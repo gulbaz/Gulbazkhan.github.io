@@ -8,21 +8,21 @@
   },
   {
     "title": "Executive Appreciation Letter",
-    "date": "March 2022",
+    "date": "March 2012",
     "image": "assets/img/person/award1.png",
     "detail": "Received formal recognition from the Senior Executive VP for flawlessly managing a massive backlog of Trade Finance transactions during a critical system migration.",
     "category": "filter-appreciation"
   },
   {
     "title": "Employee of the Year",
-    "date": "December 2021",
+    "date": "December 2011",
     "image": "assets/img/achievements/award-1.webp",
     "detail": "Awarded for outstanding operational excellence and achieving a 0% error rate in Letters of Credit document examination over a 12-month period.",
     "category": "filter-awards"
   },
   {
     "title": "Disaster Recovery Champion",
-    "date": "August 2020",
+    "date": "August 2010",
     "image": "assets/img/achievements/dr-champion.webp",
     "detail": "Successfully led the branch disaster recovery simulation, ensuring all corporate banking networks securely failed over to backup servers with zero data loss.",
     "category": "filter-milestones"
