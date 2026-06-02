@@ -1,5 +1,12 @@
 [
   {
+    "title": "Employee of the Year",
+    "date": "December 2013",
+    "image": "assets/img/achievements/award-1.webp",
+    "detail": "NCB Star of the Year 2013, nominated by sector head and awarded by CEO Mr. Seed alghamdi for outstanding performance operational excellence.",
+    "category": "filter-awards"
+  },
+  {
     "title": "Executive Appreciation Letter",
     "date": "March 2022",
     "image": "assets/img/person/award1.png",
