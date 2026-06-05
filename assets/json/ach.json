@@ -2,28 +2,28 @@
   {
     "title": "Employee of the Year",
     "date": "December 2013",
-    "image": "assets/img/achievements/award-1.webp",
+    "image": "assets/img/about/award-1.jpg",
     "detail": "NCB Star of the Year 2013, nominated by sector head and awarded by CEO Mr. Seed alghamdi for outstanding performance operational excellence.",
     "category": "filter-awards"
   },
   {
     "title": "Executive Appreciation Letter",
     "date": "March 2012",
-    "image": "assets/img/person/award1.png",
+    "image": "assets/img/about/award-10.png",
     "detail": "Received formal recognition from the Senior Executive VP for flawlessly managing a massive backlog of Trade Finance transactions during a critical system migration.",
     "category": "filter-appreciation"
   },
   {
     "title": "Employee of the Year",
     "date": "December 2011",
-    "image": "assets/img/achievements/award-1.webp",
+    "image": "assets/img/about/award-8.jpg",
     "detail": "Awarded for outstanding operational excellence and achieving a 0% error rate in Letters of Credit document examination over a 12-month period.",
     "category": "filter-awards"
   },
   {
     "title": "Disaster Recovery Champion",
     "date": "August 2010",
-    "image": "assets/img/achievements/dr-champion.webp",
+    "image": "assets/img/about/award-7.jpg",
     "detail": "Successfully led the branch disaster recovery simulation, ensuring all corporate banking networks securely failed over to backup servers with zero data loss.",
     "category": "filter-milestones"
   }
