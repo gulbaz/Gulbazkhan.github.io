@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- FIX: Corrected Tab Icons Path & Type -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+
     <title>My Profile Card</title>
     
+    <!-- FontAwesome (For the Sun/Moon switch) -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
     
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
     <link rel="stylesheet" href="styles.css">
@@ -20,11 +27,10 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            gap: 20px; /* Clean spacing between large icons */
+            gap: 20px;
             margin: 25px 0;
         }
         
-        /* Removed the bounding box and background completely */
         .links a {
             display: inline-flex;
             align-items: center;
@@ -34,28 +40,30 @@
         }
 
         .links a:hover {
-            transform: translateY(-5px) scale(1.1); /* Gentle hover lift and grow */
+            transform: translateY(-5px) scale(1.1); 
         }
 
-        /* Scaled up the icons to Full Size */
-        .links i {
-            font-size: 36px; /* Massive, crisp icons */
+        .links i, .links img.custom-icon {
+            font-size: 36px; 
+            width: 36px;     
+            height: 36px;
+            object-fit: contain;
             line-height: 1;
             transition: opacity 0.3s ease;
         }
 
-        .links a:hover i {
-            opacity: 0.85; /* Subtle brightness change on hover */
+        .links a:hover i, .links a:hover img.custom-icon {
+            opacity: 0.85; 
         }
 
         /* Original Official Brand Colors */
-        .icon-web { color: #0d6efd; }       /* Standard Web Blue */
-        .icon-linkedin { color: #0a66c2; }  /* LinkedIn Blue */
-        .icon-youtube { color: #FF0000; }   /* YouTube Red */
-        .icon-github { color: #f0f6fc; }    /* GitHub White/Light */
-        .icon-android { color: #3DDC84; }   /* Android/XDA Green */
-        .icon-whatsapp { color: #25D366; }  /* WhatsApp Green */
-        .icon-telegram { color: #229ED9; }  /* Telegram Blue */
+        .icon-web { color: #ce0458; }
+        .icon-linkedin { color: #0a66c2; }  
+        .icon-youtube { color: #FF0000; }   
+        .icon-github { color: #f0f6fc; }    
+        .icon-android { color: #3DDC84; }   
+        .icon-whatsapp { color: #25D366; }  
+        .icon-telegram { color: #229ED9; }  
     </style>
 </head>
 <body class="black-theme"> 
