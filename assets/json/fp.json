@@ -65,6 +65,106 @@
     "challenge": "Corporate and personal users frequently struggle with accurate Hijri-Gregorian date conversions due to regional moon-sighting variations and disjointed online tools.",
     "solution": "Packaged a lightweight `.exe` that utilizes online synchronization to provide flawlessly accurate date conversions and calendar views, published freely on GitHub."
   },
+    {
+    "image": "assets/img/projects/arc cs.png",
+    "tech_stack": ["Excel VBA", "Data Visualization", "Workflow Management"],
+    "badge": "Operations Automation",
+    "client": "Corporate & Freelance Clients",
+    "title": "HR & Operations Workflow Trackers",
+    "lead": "Automated human resources tracking, including attendance systems and staff records.",
+    "overview": "Built end-to-end operational workflow management tools tailored to client HR departments, enabling them to monitor staff performance, process payroll data, and map operational bottlenecks.",
+    "challenge": "Manual tracking of employee records and attendance led to severe payroll bottlenecks, inaccurate reporting, and administrative friction.",
+    "solution": "Developed dynamic tracking dashboards that calculated attendance metrics autonomously and provided HR managers with instant, reliable data visualization."
+  },
+      {
+    "image": "assets/img/projects/bmi app.png",
+    "tech_stack": ["Excel VBA", "Data Visualization", "Workflow Management"],
+    "badge": "Operations Automation",
+    "client": "Corporate & Freelance Clients",
+    "title": "HR & Operations Workflow Trackers",
+    "lead": "Automated human resources tracking, including attendance systems and staff records.",
+    "overview": "Built end-to-end operational workflow management tools tailored to client HR departments, enabling them to monitor staff performance, process payroll data, and map operational bottlenecks.",
+    "challenge": "Manual tracking of employee records and attendance led to severe payroll bottlenecks, inaccurate reporting, and administrative friction.",
+    "solution": "Developed dynamic tracking dashboards that calculated attendance metrics autonomously and provided HR managers with instant, reliable data visualization."
+  },
+      {
+    "image": "assets/img/projects/bra app.png",
+    "tech_stack": ["Excel VBA", "Data Visualization", "Workflow Management"],
+    "badge": "Operations Automation",
+    "client": "Corporate & Freelance Clients",
+    "title": "HR & Operations Workflow Trackers",
+    "lead": "Automated human resources tracking, including attendance systems and staff records.",
+    "overview": "Built end-to-end operational workflow management tools tailored to client HR departments, enabling them to monitor staff performance, process payroll data, and map operational bottlenecks.",
+    "challenge": "Manual tracking of employee records and attendance led to severe payroll bottlenecks, inaccurate reporting, and administrative friction.",
+    "solution": "Developed dynamic tracking dashboards that calculated attendance metrics autonomously and provided HR managers with instant, reliable data visualization."
+  },
+      {
+    "image": "assets/img/projects/business card h.png",
+    "tech_stack": ["Excel VBA", "Data Visualization", "Workflow Management"],
+    "badge": "Operations Automation",
+    "client": "Corporate & Freelance Clients",
+    "title": "HR & Operations Workflow Trackers",
+    "lead": "Automated human resources tracking, including attendance systems and staff records.",
+    "overview": "Built end-to-end operational workflow management tools tailored to client HR departments, enabling them to monitor staff performance, process payroll data, and map operational bottlenecks.",
+    "challenge": "Manual tracking of employee records and attendance led to severe payroll bottlenecks, inaccurate reporting, and administrative friction.",
+    "solution": "Developed dynamic tracking dashboards that calculated attendance metrics autonomously and provided HR managers with instant, reliable data visualization."
+  },
+      {
+    "image": "assets/img/projects/business card v.png",
+    "tech_stack": ["Excel VBA", "Data Visualization", "Workflow Management"],
+    "badge": "Operations Automation",
+    "client": "Corporate & Freelance Clients",
+    "title": "HR & Operations Workflow Trackers",
+    "lead": "Automated human resources tracking, including attendance systems and staff records.",
+    "overview": "Built end-to-end operational workflow management tools tailored to client HR departments, enabling them to monitor staff performance, process payroll data, and map operational bottlenecks.",
+    "challenge": "Manual tracking of employee records and attendance led to severe payroll bottlenecks, inaccurate reporting, and administrative friction.",
+    "solution": "Developed dynamic tracking dashboards that calculated attendance metrics autonomously and provided HR managers with instant, reliable data visualization."
+  },
+      {
+    "image": "assets/img/projects/fitness app.png",
+    "tech_stack": ["Excel VBA", "Data Visualization", "Workflow Management"],
+    "badge": "Operations Automation",
+    "client": "Corporate & Freelance Clients",
+    "title": "HR & Operations Workflow Trackers",
+    "lead": "Automated human resources tracking, including attendance systems and staff records.",
+    "overview": "Built end-to-end operational workflow management tools tailored to client HR departments, enabling them to monitor staff performance, process payroll data, and map operational bottlenecks.",
+    "challenge": "Manual tracking of employee records and attendance led to severe payroll bottlenecks, inaccurate reporting, and administrative friction.",
+    "solution": "Developed dynamic tracking dashboards that calculated attendance metrics autonomously and provided HR managers with instant, reliable data visualization."
+  },
+      {
+    "image": "assets/img/projects/keto app.png",
+    "tech_stack": ["Excel VBA", "Data Visualization", "Workflow Management"],
+    "badge": "Operations Automation",
+    "client": "Corporate & Freelance Clients",
+    "title": "HR & Operations Workflow Trackers",
+    "lead": "Automated human resources tracking, including attendance systems and staff records.",
+    "overview": "Built end-to-end operational workflow management tools tailored to client HR departments, enabling them to monitor staff performance, process payroll data, and map operational bottlenecks.",
+    "challenge": "Manual tracking of employee records and attendance led to severe payroll bottlenecks, inaccurate reporting, and administrative friction.",
+    "solution": "Developed dynamic tracking dashboards that calculated attendance metrics autonomously and provided HR managers with instant, reliable data visualization."
+  },
+      {
+    "image": "assets/img/projects/lucky draw app.png",
+    "tech_stack": ["Excel VBA", "Data Visualization", "Workflow Management"],
+    "badge": "Operations Automation",
+    "client": "Corporate & Freelance Clients",
+    "title": "HR & Operations Workflow Trackers",
+    "lead": "Automated human resources tracking, including attendance systems and staff records.",
+    "overview": "Built end-to-end operational workflow management tools tailored to client HR departments, enabling them to monitor staff performance, process payroll data, and map operational bottlenecks.",
+    "challenge": "Manual tracking of employee records and attendance led to severe payroll bottlenecks, inaccurate reporting, and administrative friction.",
+    "solution": "Developed dynamic tracking dashboards that calculated attendance metrics autonomously and provided HR managers with instant, reliable data visualization."
+  },
+      {
+    "image": "assets/img/projects/qr code app.png",
+    "tech_stack": ["Excel VBA", "Data Visualization", "Workflow Management"],
+    "badge": "Operations Automation",
+    "client": "Corporate & Freelance Clients",
+    "title": "HR & Operations Workflow Trackers",
+    "lead": "Automated human resources tracking, including attendance systems and staff records.",
+    "overview": "Built end-to-end operational workflow management tools tailored to client HR departments, enabling them to monitor staff performance, process payroll data, and map operational bottlenecks.",
+    "challenge": "Manual tracking of employee records and attendance led to severe payroll bottlenecks, inaccurate reporting, and administrative friction.",
+    "solution": "Developed dynamic tracking dashboards that calculated attendance metrics autonomously and provided HR managers with instant, reliable data visualization."
+  },
+
   {
     "image": "assets/img/projects/hr-tools.webp",
     "tech_stack": ["Excel VBA", "Data Visualization", "Workflow Management"],
