@@ -178,10 +178,10 @@
   },
   {
     "image": "assets/img/projects/security-utils.webp",
-    "tech_stack": ["Excel VBA", "Cryptography", "Outlook Integration", "Automation"],
+    "tech_stack": ["Accounts", "Excel VBA", "Invoice"],
     "badge": "Utility Development",
-    "client": "Corporate & Freelance Clients",
-    "title": "Security & Productivity Applications",
+    "client": "Ali Hawkash Est. For Communications & IT",
+    "title": "Payments and Credit Collector",
     "lead": "Developed offline security utilities and event-driven productivity planners.",
     "overview": "Created a suite of custom desktop utilities including encrypted password lockers, automatic password generators, event diary planners, and schedule generators.",
     "challenge": "Clients required highly secure, offline methods for credential management and automated scheduling without relying on expensive, cloud-based third-party SaaS subscriptions.",
