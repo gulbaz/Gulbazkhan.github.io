@@ -26,8 +26,6 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
             color: #fff; 
             transition: background-color 0.3s; 
-            
-            /* FIX 1: Strictly forbid the page from going wider than the screen */
             width: 100vw;
             max-width: 100%;
             overflow-x: hidden;
@@ -41,8 +39,6 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between; 
-            
-            /* FIX 2: Ensure wrapper doesn't stretch */
             width: 100%; 
             max-width: 100vw;
             overflow-x: hidden; 
@@ -52,16 +48,14 @@
             display: flex;
             justify-content: center;
             align-items: flex-start; 
-            /* FIX: Reduced side padding on mobile to let the card be wider */
             padding: 30px 10px; 
             box-sizing: border-box;
             flex-grow: 1; 
         }
 
         /* THEME SWITCHER BUTTON */
-        /* THEME SWITCHER BUTTON */
         #switch {
-            position: absolute; /* Changed from fixed to absolute */
+            position: absolute; 
             top: 20px;
             right: 20px;
             background: #1c1d24;
@@ -94,14 +88,14 @@
             margin: auto; 
         }
 
-        /* ========================================= */
+/* ========================================= */
         /* PANEL 1: Image & Overlay Section          */
         /* ========================================= */
         .id-photo-area {
             position: relative;
             width: 100%;
-            /* FIX: Increased the minimum height so the image doesn't squish the face */
-            height: clamp(380px, 10vh, 500px); 
+            /* FIX: Restored the proper 50vh scaling so it fits mobile screens */
+            height: clamp(380px, 50vh, 500px); 
             overflow: hidden;
         }
 
@@ -115,14 +109,13 @@
         .image-gradient-overlay {
             position: absolute;
             top: 0; left: 0; width: 100%; height: 100%;
-            /* FIX: Lowered the dark fade so it stays below the chin */
             background: linear-gradient(to top, #0f1015 5%, rgba(15, 16, 21, 0.8) 25%, transparent 55%);
         }
 
         .header-content {
             position: absolute;
-            /* FIX: Pulled the text closer to the bottom edge */
-            bottom: 15px; 
+            /* FIX: Lifted the text from 15px to 35px to clear the About Me card */
+            bottom: 35px; 
             left: 25px; 
             z-index: 2;
         }
@@ -151,11 +144,12 @@
         /* PANEL 2: Details & Social Section         */
         /* ========================================= */
         .id-details-area {
-            padding: 0 25px 20px 25px;
+            /* FIX: Added 10px top padding and removed the negative margin */
+            padding: 10px 25px 20px 25px;
             display: flex;
             flex-direction: column;
             z-index: 3;
-            margin-top: -20px; 
+            margin-top: 0; 
         }
 
         .about-card {
@@ -190,7 +184,6 @@
         /* PANEL 3: Bottom Action Dock               */
         /* ========================================= */
         .id-action-area {
-            /* FIX: Drastically reduced horizontal padding and gap so buttons fit on mobile */
             padding: 20px 15px 25px 15px; 
             display: flex; justify-content: space-between; align-items: center; gap: 10px;
             transition: background-color 0.3s, border-color 0.3s;
@@ -202,41 +195,46 @@
             transition: transform 0.2s, background-color 0.3s, color 0.3s;
         }
 
-        /* FIX: Strict min-width forbids the browser from making these ovals */
         .action-circle-btn { 
-            width: 45px; 
-            height: 45px; 
-            min-width: 45px; 
-            min-height: 45px;
-            border-radius: 50%; 
-            font-size: 20px; 
-            flex-shrink: 0; 
+            width: 45px; height: 45px; min-width: 45px; min-height: 45px;
+            border-radius: 50%; font-size: 20px; flex-shrink: 0; 
         }
 
-        /* FIX: Slightly smaller text padding for mobile so it fits the screen */
         .action-pill-btn { 
-            flex-grow: 1; 
-            height: 45px; 
-            border-radius: 25px; 
-            font-weight: 700; 
-            gap: 8px; 
-            padding: 0 15px; 
-            text-align: center; 
-            font-size: 0.9rem;
+            flex-grow: 1; height: 45px; border-radius: 25px; font-weight: 700; 
+            gap: 8px; padding: 0 15px; text-align: center; font-size: 0.9rem;
         }
 
         .action-circle-btn:hover, .action-pill-btn:hover { transform: scale(1.05); }
 
-        /* QR Modal */
+        /* ========================================= */
+        /* MODALS (QR & vCard)                       */
+        /* ========================================= */
         .modal-overlay {
             display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(5px); z-index: 10000;
             justify-content: center; align-items: center;
         }
-        .modal-content { background: #1c1d24; padding: 30px; border-radius: 24px; text-align: center; position: relative; width: 85%; max-width: 350px; transition: background-color 0.3s; }
+        .modal-content { 
+            background: #1c1d24; padding: 30px; border-radius: 24px; text-align: center; 
+            position: relative; width: 85%; max-width: 350px; transition: background-color 0.3s; 
+        }
         .close-modal { position: absolute; top: 15px; right: 20px; font-size: 28px; color: #a0aec0; cursor: pointer; }
+        
         .qr-code-img { width: 200px; height: 200px; background: #fff; padding: 10px; border-radius: 12px; margin-bottom: 20px; }
         .barcode-img { height: 60px; max-width: 100%; background: #fff; padding: 10px; border-radius: 8px; }
+
+        /* NEW: Contact Details List Styling inside Modal */
+        .contact-details-list { display: flex; flex-direction: column; gap: 12px; text-align: left; }
+        .detail-item {
+            display: flex; align-items: center; gap: 15px; background: #2a2e40;
+            padding: 15px; border-radius: 12px; transition: background 0.3s;
+        }
+        .detail-item i { font-size: 20px; color: #facc15; width: 25px; text-align: center; }
+        .detail-item div { display: flex; flex-direction: column; }
+        .detail-item small { color: #a0aec0; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px; }
+        .detail-info { color: #ffffff; font-size: 0.95rem; font-weight: 500; word-break: break-word; }
+
 
         /* ========================================= */
         /* DESKTOP LAYOUT OVERRIDES                  */
@@ -251,7 +249,6 @@
             .id-details-area { flex: 1; justify-content: center; padding: 40px 30px; margin-top: 0; }
             .links { max-width: none; justify-content: flex-start; margin-left: 0; margin-right: 0; }
             
-            /* Restore large buttons and wide padding for desktop */
             .id-action-area {
                 flex: 0 0 220px; flex-direction: column; justify-content: center; align-items: center; 
                 border-left: 1px dashed #2a2e40; padding: 40px 30px; gap: 20px; 
@@ -261,7 +258,7 @@
         }
 
         /* ========================================= */
-        /* LIGHT THEME OVERRIDES (Panel 3 Only)      */
+        /* LIGHT THEME OVERRIDES                     */
         /* ========================================= */
         body.light-theme { background-color: #e2e8f0; }
         body.light-theme .id-action-area { background-color: #ffffff; }
@@ -270,35 +267,20 @@
         @media (max-width: 849px) { body.light-theme .id-action-area { border-top: 1px dashed #cbd5e1; } }
 
         body.light-theme .action-circle-btn, body.light-theme .action-pill-btn { background: #0f1015; color: #fff; }
+        
+        /* Modal Light Theme */
         body.light-theme .modal-content { background: #ffffff; border: 1px solid #cbd5e1; }
         body.light-theme .modal-content h3 { color: #0f1015 !important; }
+        body.light-theme .detail-item { background: #f8fafc; border: 1px solid #e2e8f0; }
+        body.light-theme .detail-info { color: #0f1015; }
 
-        /* FIX 3: Counter Formatting & Containment */
+        /* Counter Containment */
         .page-bottom-counter {
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px; 
-            color: #a0aec0;
-            font-size: 14px;
-            position: relative;
-            z-index: 10;
-            
-            /* Quarantine the third-party script so it can't break the layout */
-            width: 100%;
-            max-width: 100vw;
-            overflow: hidden; /* Chops off any oversized graphics they inject */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            text-align: center; padding: 20px; margin-top: 20px; color: #a0aec0;
+            font-size: 14px; position: relative; z-index: 10;
+            width: 100%; max-width: 100vw; overflow: hidden; display: flex; flex-direction: column; align-items: center;
         }
-        
-        /* Force any images/iframes injected by the counter to shrink if they are too big */
-        .page-bottom-counter img, 
-        .page-bottom-counter iframe {
-            max-width: 100%;
-            height: auto;
-        }
-
+        .page-bottom-counter img, .page-bottom-counter iframe { max-width: 100%; height: auto; }
         body.light-theme .page-bottom-counter { color: #475569; }
     </style>
 </head>
@@ -368,14 +350,53 @@
         </div>
     </div>
 
+    <div id="vcardModal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeVcardModal()">&times;</span>
+            <h3 style="margin-top: 0; margin-bottom: 20px; color: #fff;">Contact Details</h3>
+            
+            <div class="contact-details-list">
+                <div class="detail-item">
+                    <i class="fas fa-user"></i>
+                    <div>
+                        <small>Full Name</small>
+                        <div class="detail-info" id="dom-modal-name">Loading...</div>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <small>Email</small>
+                        <div class="detail-info" id="dom-modal-email">Loading...</div>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <small>Phone Number</small>
+                        <div class="detail-info" id="dom-modal-phone">Loading...</div>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <small>Address</small>
+                        <div class="detail-info" id="dom-modal-address">Loading...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="vanilla-tilt.js"></script>
     <script src="script.js"></script> 
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
+       document.addEventListener('DOMContentLoaded', () => {
             fetch(`json/data.json?t=${new Date().getTime()}`)
                 .then(response => response.json())
                 .then(data => {
+                    // Populate Main Card
                     document.getElementById('dom-company').textContent = data.company;
                     document.getElementById('dom-name').innerHTML = data.name.replace(" ", "<br>"); 
                     document.getElementById('dom-designation').textContent = data.designation;
@@ -386,17 +407,37 @@
                     document.getElementById('dom-qr-code').src = data.qr_code;
                     document.getElementById('dom-barcode').src = data.barcode;
                     
-                    document.getElementById('dom-contact-btn').href = "mailto:" + data.email;
+                    // Populate Contact Modal Variables
+                    document.getElementById('dom-modal-name').textContent = data.name;
+                    document.getElementById('dom-modal-email').textContent = data.email;
+                    document.getElementById('dom-modal-phone').textContent = data.phone || "Not provided";
+                    document.getElementById('dom-modal-address').textContent = data.address || "Not provided";
+
+                    // FIX: Attach vCard generator to the Add to Contact button
+                    const contactBtn = document.getElementById('dom-contact-btn');
+                    contactBtn.href = "#"; // Remove any leftover mailto links
+                    contactBtn.addEventListener('click', (e) => {
+                        e.preventDefault(); // Stop page from jumping to top
+                        generateAndDownloadVCard(data);
+                    });
 
                     const linksContainer = document.getElementById('dom-social-links');
                     let linksHTML = '';
                     
                     data.social_links.forEach(link => {
-                        linksHTML += `
-                            <a href="${link.url}" target="_blank" title="${link.platform}">
-                                <i class="${link.icon}" style="color: ${link.color};"></i>
-                            </a>
-                        `;
+                        if(link.platform === "Digital Card" || link.url === "card.html") {
+                            linksHTML += `
+                                <a href="javascript:void(0)" onclick="openVcardModal()" title="${link.platform}">
+                                    <i class="${link.icon}" style="color: ${link.color};"></i>
+                                </a>
+                            `;
+                        } else {
+                            linksHTML += `
+                                <a href="${link.url}" target="_blank" title="${link.platform}">
+                                    <i class="${link.icon}" style="color: ${link.color};"></i>
+                                </a>
+                            `;
+                        }
                     });
                     
                     linksContainer.innerHTML = linksHTML;
@@ -406,6 +447,35 @@
                     document.getElementById('dom-name').textContent = "Error";
                 });
         });
+
+        // NEW: vCard Generator Function
+        function generateAndDownloadVCard(data) {
+            // Build the vCard string format
+            let vcard = `BEGIN:VCARD\nVERSION:3.0\n`;
+            vcard += `FN:${data.name || ""}\n`;
+            if (data.company) vcard += `ORG:${data.company}\n`;
+            if (data.designation) vcard += `TITLE:${data.designation}\n`;
+            if (data.phone) vcard += `TEL;TYPE=WORK,VOICE:${data.phone}\n`;
+            if (data.email) vcard += `EMAIL;TYPE=WORK,INTERNET:${data.email}\n`;
+            if (data.address) vcard += `ADR;TYPE=WORK:;;${data.address};;;;\n`;
+            vcard += `END:VCARD`;
+
+            // Create a Blob containing the vCard data
+            const blob = new Blob([vcard], { type: 'text/vcard' });
+            const url = URL.createObjectURL(blob);
+
+            // Create a temporary hidden link to trigger the download
+            const newLink = document.createElement('a');
+            newLink.download = `${(data.name || "Contact").replace(/\s+/g, '_')}.vcf`;
+            newLink.href = url;
+            newLink.style.display = 'none';
+            document.body.appendChild(newLink);
+            
+            // Auto-click it, then clean up
+            newLink.click();
+            document.body.removeChild(newLink);
+            URL.revokeObjectURL(url);
+        }
 
         const themeBtn = document.getElementById('switch');
         const themeIcon = themeBtn.querySelector('i');
@@ -427,9 +497,14 @@
 
         function openQRModal() { document.getElementById('qrModal').style.display = 'flex'; }
         function closeQRModal() { document.getElementById('qrModal').style.display = 'none'; }
+        function openVcardModal() { document.getElementById('vcardModal').style.display = 'flex'; }
+        function closeVcardModal() { document.getElementById('vcardModal').style.display = 'none'; }
+
         window.onclick = function(event) {
-            let modal = document.getElementById('qrModal');
-            if (event.target == modal) { modal.style.display = "none"; }
+            let qrModal = document.getElementById('qrModal');
+            let vcardModal = document.getElementById('vcardModal');
+            if (event.target == qrModal) { qrModal.style.display = "none"; }
+            if (event.target == vcardModal) { vcardModal.style.display = "none"; }
         }
 
         function shareCard() {
