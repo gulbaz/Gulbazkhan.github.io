@@ -1,7 +1,7 @@
-# shahabkhan99.github.io
-Shahab Khan Portfolio
+# gulbazkhan.github.i
+gulbaz Khan Portfolio
 
-https://shahabkhan99.github.io
+https://gulbazkhan.github.io
 
-https://shahabkhan99.github.io/mycard/card.html
+https://gulbazkhan.github.io/mycard/card.html
 
