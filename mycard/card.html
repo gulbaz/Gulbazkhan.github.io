@@ -15,18 +15,36 @@
     <link rel="stylesheet" href="styles.css">
 
     <style>
-        /* ========================================= */
+/* ========================================= */
         /* GLOBAL, CONTAINER & THEME                 */
         /* ========================================= */
-        body { margin: 0; background-color: #050505; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #fff; transition: background-color 0.3s; }
+        body { 
+            margin: 0; 
+            background-color: #050505; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            color: #fff; 
+            transition: background-color 0.3s; 
+            /* Removed strict overflow to allow native, smooth mobile scrolling */
+        }
         
+        .main-wrapper {
+            /* -webkit-fill-available fixes the iOS Safari bottom-bar bug */
+            min-height: 100vh;
+            min-height: -webkit-fill-available; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+        }
+
         .container {
-display: flex;
+            display: flex;
             justify-content: center;
-            /* FIX 1: Removed align-items: center to prevent trapping the scroll */
-            padding: 40px 20px; 
+            /* align-items: flex-start + margin: auto on the card is the ultimate trick 
+               to center a card when it fits, but allow it to scroll when it doesn't! */
+            align-items: flex-start; 
+            padding: 40px 15px; 
             box-sizing: border-box;
-            flex-grow: 1;
+            flex-grow: 1; 
         }
 
         /* THEME SWITCHER BUTTON */
@@ -58,11 +76,10 @@ display: flex;
             display: flex;
             flex-direction: column;
             width: 100%;
-            max-width: 420px;
+            max-width: 400px; /* Slightly slimmer to ensure it fits all phone widths */
             box-shadow: 0 15px 35px rgba(0,0,0,0.8);
             position: relative;
-            /* FIX 2: Added margin: auto. This securely centers the card but restores the native scroll! */
-            margin: auto;
+            margin: auto; /* Crucial for the flex-start scrolling fix */
         }
 
         /* ========================================= */
@@ -71,7 +88,9 @@ display: flex;
         .id-photo-area {
             position: relative;
             width: 100%;
-            height: 480px; 
+            /* FIX: Auto-adjusts resolution! It will scale between 320px and 450px 
+               depending on exactly how tall the user's phone screen is. */
+            height: clamp(320px, 45vh, 450px); 
             overflow: hidden;
         }
 
@@ -85,7 +104,7 @@ display: flex;
         .image-gradient-overlay {
             position: absolute;
             top: 0; left: 0; width: 100%; height: 100%;
-            background: linear-gradient(to top, #0f1015 0%, transparent 50%);
+            background: linear-gradient(to top, #0f1015 10%, rgba(15, 16, 21, 0.8) 30%, transparent 60%);
         }
 
         .header-content {
