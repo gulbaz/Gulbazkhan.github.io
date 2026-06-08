@@ -1,12 +1,16 @@
 {
   "company": "SGAI Portfolio",
   "profile_image": "images/profile.jpg",
+  
   "name": "Shahab Khan",
   "designation": "Operations & Tech Leader",
   "tagline": "Life is more exciting when shared.<br>Follow me & let’s explore it together.",
   "email": "shahab99khan@gmail.com",
   "phone": "+966 570 323 979",
   "address": "Jeddah, Saudi Arabia",
+
+  "company": "SGAI Portfolio",
+  "company_icon": "images/logo.png",
   
   "qr_code": "images/QR_Code_6.png",
   "barcode": "images/Barcode_1.png",
