@@ -226,15 +226,24 @@
 
         /* NEW: Contact Details List Styling inside Modal */
         .contact-details-list { display: flex; flex-direction: column; gap: 12px; text-align: left; }
+
+        /* NEW: Contact Details List Styling inside Modal */
+        .contact-details-list { display: flex; flex-direction: column; gap: 12px; text-align: left; }
+        
         .detail-item {
             display: flex; align-items: center; gap: 15px; background: #2a2e40;
-            padding: 15px; border-radius: 12px; transition: background 0.3s;
+            padding: 15px; border-radius: 12px; transition: all 0.3s ease;
+            cursor: pointer; /* Makes it look clickable */
         }
+        
+        /* Hover effect to show it's interactive */
+        .detail-item:hover { background: #373c52; transform: translateY(-2px); }
+        body.light-theme .detail-item:hover { background: #e2e8f0; }
+
         .detail-item i { font-size: 20px; color: #facc15; width: 25px; text-align: center; }
         .detail-item div { display: flex; flex-direction: column; }
-        .detail-item small { color: #a0aec0; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px; }
+        .detail-item small { color: #a0aec0; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px; transition: color 0.3s; }
         .detail-info { color: #ffffff; font-size: 0.95rem; font-weight: 500; word-break: break-word; }
-
 
         /* ========================================= */
         /* DESKTOP LAYOUT OVERRIDES                  */
@@ -356,34 +365,38 @@
             <h3 style="margin-top: 0; margin-bottom: 20px; color: #fff;">Contact Details</h3>
             
             <div class="contact-details-list">
-                <div class="detail-item">
+                <div class="detail-item" onclick="copyDetail('dom-modal-name', this)">
                     <i class="fas fa-user"></i>
                     <div>
                         <small>Full Name</small>
                         <div class="detail-info" id="dom-modal-name">Loading...</div>
                     </div>
                 </div>
-                <div class="detail-item">
+                <div class="detail-item" onclick="copyDetail('dom-modal-email', this)">
                     <i class="fas fa-envelope"></i>
                     <div>
                         <small>Email</small>
                         <div class="detail-info" id="dom-modal-email">Loading...</div>
                     </div>
                 </div>
-                <div class="detail-item">
+                <div class="detail-item" onclick="copyDetail('dom-modal-phone', this)">
                     <i class="fas fa-phone"></i>
                     <div>
                         <small>Phone Number</small>
                         <div class="detail-info" id="dom-modal-phone">Loading...</div>
                     </div>
                 </div>
-                <div class="detail-item">
+                <div class="detail-item" onclick="copyDetail('dom-modal-address', this)">
                     <i class="fas fa-map-marker-alt"></i>
                     <div>
                         <small>Address</small>
                         <div class="detail-info" id="dom-modal-address">Loading...</div>
                     </div>
                 </div>
+            </div>
+            
+            <div style="margin-top: 15px; font-size: 0.8rem; color: #a0aec0; font-style: italic;">
+                *Tap any detail to copy
             </div>
         </div>
     </div>
@@ -516,6 +529,34 @@
                 }).catch(console.error);
             } else {
                 alert("Sharing is not supported on this browser. Copy the URL from your address bar!");
+            }
+        }
+        // NEW: Copy to Clipboard Function with Visual Feedback
+        function copyDetail(elementId, clickedItem) {
+            const textToCopy = document.getElementById(elementId).innerText;
+            const labelElement = clickedItem.querySelector('small');
+            
+            // Prevent copying empty or loading states
+            if (textToCopy && textToCopy !== "Loading..." && textToCopy !== "Not provided") {
+                
+                // Write to clipboard
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    
+                    // Visual Feedback: Change label to "Copied!" and turn it green
+                    const originalText = labelElement.innerText;
+                    labelElement.innerText = "Copied!";
+                    labelElement.style.color = "#4ade80"; // Bright green
+                    
+                    // Reset back to normal after 2 seconds
+                    setTimeout(() => {
+                        labelElement.innerText = originalText;
+                        labelElement.style.color = ""; // Removes the inline green color
+                    }, 2000);
+                    
+                }).catch(err => {
+                    console.error('Failed to copy: ', err);
+                    alert("Failed to copy text. Your browser might not support this feature.");
+                });
             }
         }
     </script>
