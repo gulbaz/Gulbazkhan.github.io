@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+
+    <title>Dynamic Digital ID Card</title>
+    
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* ========================================= */
+        /* GLOBAL, CONTAINER & THEME                 */
+        /* ========================================= */
+        body { margin: 0; background-color: #050505; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #fff; transition: background-color 0.3s; }
+        
+        .container {
+display: flex;
+            justify-content: center;
+            /* FIX 1: Removed align-items: center to prevent trapping the scroll */
+            padding: 40px 20px; 
+            box-sizing: border-box;
+            flex-grow: 1;
+        }
+
+        /* THEME SWITCHER BUTTON */
+        #switch {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #1c1d24;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            z-index: 9999;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            color: #facc15;
+            font-size: 20px;
+            transition: transform 0.2s ease, background 0.3s;
+        }
+        #switch:hover { transform: scale(1.1); }
+
+        /* Base Mobile Layout (Vertical) */
+        .id-card {
+            background: #0f1015;
+            border-radius: 30px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 420px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+            position: relative;
+            /* FIX 2: Added margin: auto. This securely centers the card but restores the native scroll! */
+            margin: auto;
+        }
+
+        /* ========================================= */
+        /* PANEL 1: Image & Overlay Section          */
+        /* ========================================= */
+        .id-photo-area {
+            position: relative;
+            width: 100%;
+            height: 480px; 
+            overflow: hidden;
+        }
+
+        .id-photo-area img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+        }
+
+        .image-gradient-overlay {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(to top, #0f1015 0%, transparent 50%);
+        }
+
+        .header-content {
+            position: absolute;
+            bottom: 20px; left: 30px; z-index: 2;
+        }
+
+        .header-content h2 {
+            margin: 0; font-size: 2.5rem; color: #ffffff; text-transform: uppercase;
+            line-height: 1.1; letter-spacing: 1px; text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+        }
+
+        .id-designation {
+            color: #e2e8f0; font-weight: 500; font-size: 1.1rem;
+            margin-top: 5px; margin-bottom: 15px; text-shadow: 0 2px 5px rgba(0,0,0,0.8);
+        }
+
+        .id-company-wrapper { display: flex; align-items: center; gap: 10px; }
+        .company-icon {
+            background: #facc15; color: #000; width: 24px; height: 24px;
+            border-radius: 50%; display: flex; justify-content: center; align-items: center;
+            font-weight: bold; font-size: 12px;
+        }
+        .id-company-header {
+            font-size: 1rem; color: #ffffff; font-weight: 700; text-shadow: 0 2px 5px rgba(0,0,0,0.8);
+        }
+
+        /* ========================================= */
+        /* PANEL 2: Details & Social Section         */
+        /* ========================================= */
+        .id-details-area {
+            padding: 0 30px 20px 30px;
+            display: flex;
+            flex-direction: column;
+            z-index: 3;
+            margin-top: -20px; 
+        }
+
+        .about-card {
+            background: #1c1d24; border-radius: 20px; padding: 20px 25px;
+            text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            margin-bottom: 25px; 
+        }
+        .about-card h3 { margin: 0 0 10px 0; font-size: 1.2rem; color: #ffffff; }
+        .id-tagline { color: #a0aec0; font-size: 0.9rem; margin: 0; line-height: 1.5; }
+
+        /* Social Links Grid (FIX 1: Removed Background Circles) */
+        .links {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center;
+            gap: 15px; /* Slightly wider gap */
+            max-width: 300px; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .links a {
+            background: transparent; /* No more white circle */
+            width: 40px; height: 40px;
+            display: flex; justify-content: center; align-items: center;
+            text-decoration: none; transition: transform 0.3s ease;
+        }
+
+        .links a:hover { transform: translateY(-3px) scale(1.1); }
+        .links i { font-size: 28px; } /* Larger icons to make up for no background */
+
+        /* ========================================= */
+        /* PANEL 3: Bottom Action Dock               */
+        /* ========================================= */
+        .id-action-area {
+            padding: 20px 30px 30px 30px;
+            display: flex; justify-content: space-between; align-items: center; gap: 15px;
+            transition: background-color 0.3s, border-color 0.3s; /* Smooth theme transition */
+        }
+
+        .action-circle-btn, .action-pill-btn {
+            background: #ffffff; color: #0f1015; border: none; cursor: pointer;
+            display: flex; justify-content: center; align-items: center; text-decoration: none;
+            transition: transform 0.2s, background-color 0.3s, color 0.3s;
+        }
+        .action-circle-btn { width: 50px; height: 50px; border-radius: 50%; font-size: 22px; }
+        .action-pill-btn { flex-grow: 1; height: 50px; border-radius: 25px; font-weight: 700; gap: 10px; padding: 0 20px; }
+        .action-circle-btn:hover, .action-pill-btn:hover { transform: scale(1.05); }
+
+        /* QR Modal */
+        .modal-overlay {
+            display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(5px); z-index: 10000;
+            justify-content: center; align-items: center;
+        }
+        .modal-content { background: #1c1d24; padding: 30px; border-radius: 24px; text-align: center; position: relative; width: 85%; max-width: 350px; transition: background-color 0.3s; }
+        .close-modal { position: absolute; top: 15px; right: 20px; font-size: 28px; color: #a0aec0; cursor: pointer; }
+        .qr-code-img { width: 200px; height: 200px; background: #fff; padding: 10px; border-radius: 12px; margin-bottom: 20px; }
+        .barcode-img { height: 60px; max-width: 100%; background: #fff; padding: 10px; border-radius: 8px; }
+
+        /* ========================================= */
+        /* DESKTOP LAYOUT OVERRIDES                  */
+        /* ========================================= */
+        @media (min-width: 850px) {
+            .id-card {
+                flex-direction: row; 
+                max-width: 1050px; 
+                width: 95%; 
+                height: 500px; 
+            }
+            .id-photo-area { flex: 0 0 35%; height: 100%; } 
+            
+            .image-gradient-overlay { 
+                background: linear-gradient(to right, transparent 40%, #0f1015 100%); 
+            }
+            
+            .header-content { bottom: 40px; left: 40px; }
+            
+            .id-details-area {
+                flex: 1; justify-content: center; padding: 40px 30px; margin-top: 0;
+            }
+            
+            .links { max-width: none; justify-content: flex-start; margin-left: 0; margin-right: 0; }
+            
+            .id-action-area {
+                flex: 0 0 220px; 
+                flex-direction: column; 
+                justify-content: center; 
+                align-items: center; 
+                border-left: 1px dashed #2a2e40; 
+                padding: 40px 30px;
+                gap: 20px; 
+            }
+            .action-pill-btn { width: 100%; flex-grow: 0; white-space: nowrap; }
+        }
+
+        /* ========================================= */
+        /* LIGHT THEME OVERRIDES (FIX 2: Panel 3 Only)*/
+        /* ========================================= */
+        
+        /* 1. Page Background becomes light */
+        body.light-theme { background-color: #e2e8f0; }
+        
+        /* 2. ONLY Panel 3 turns light */
+        body.light-theme .id-action-area {
+            background-color: #ffffff;
+        }
+
+        /* 3. Adjust dashed borders for light mode */
+        @media (min-width: 850px) {
+            body.light-theme .id-action-area { border-left-color: #cbd5e1; }
+        }
+        @media (max-width: 849px) {
+            body.light-theme .id-action-area { border-top: 1px dashed #cbd5e1; } /* subtle top line for mobile */
+        }
+
+        /* 4. Invert Action Buttons (Dark text/bg on the light panel) */
+        body.light-theme .action-circle-btn, body.light-theme .action-pill-btn { 
+            background: #0f1015; color: #fff; 
+        }
+        
+        /* 5. Keep Modal bright in light mode */
+        body.light-theme .modal-content { background: #ffffff; border: 1px solid #cbd5e1; }
+        body.light-theme .modal-content h3 { color: #0f1015 !important; }
+    </style>
+</head>
+<body class="black-theme"> 
+    
+    <div id="switch">
+        <i class="fas fa-sun"></i>
+    </div>    
+    
+    <div class="container">
+        <div class="id-card" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
+            
+            <div class="id-photo-area">
+                <img id="dom-profile-img" src="" alt="Profile Image">
+                <div class="image-gradient-overlay"></div>
+                
+                <div class="header-content">
+                    <h2 id="dom-name">Loading...</h2>
+                    <div class="id-designation" id="dom-designation">Loading...</div>
+                    <div class="id-company-wrapper">
+                        <div class="company-icon">C</div>
+                        <div class="id-company-header" id="dom-company">Loading...</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="id-details-area">
+                
+                <div class="about-card">
+                    <h3>About Me</h3>
+                    <p class="id-tagline" id="dom-tagline">Loading information...</p>
+                </div>
+
+                <div class="links" id="dom-social-links"></div>
+                
+            </div> 
+
+            <div class="id-action-area">
+                <button class="action-circle-btn" onclick="openQRModal()" title="Show QR Code">
+                    <i class="fas fa-qrcode"></i>
+                </button>
+                
+                <button class="action-circle-btn" onclick="shareCard()" title="Share Profile">
+                    <i class="fas fa-share-square"></i>
+                </button>
+                
+                <a href="#" id="dom-contact-btn" target="_blank" class="action-pill-btn">
+                    Add to Contact <i class="fas fa-plus"></i>
+                </a>
+            </div>
+            
+        </div> 
+    </div> 
+
+    <div id="qrModal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeQRModal()">&times;</span>
+            <h3 style="margin-top: 0; margin-bottom: 20px; color: #fff;">Scan to Connect</h3>
+            <img id="dom-qr-code" src="" alt="QR Code" class="qr-code-img">
+            <img id="dom-barcode" src="" alt="Barcode" class="barcode-img">
+            <div class="barcode-text" id="dom-barcode-text">Loading...</div>
+        </div>
+    </div>
+
+    <script src="vanilla-tilt.js"></script>
+    <script src="script.js"></script> 
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            fetch(`json/data.json?t=${new Date().getTime()}`)
+                .then(response => response.json())
+                .then(data => {
+                    
+                    document.getElementById('dom-company').textContent = data.company;
+                    document.getElementById('dom-name').innerHTML = data.name.replace(" ", "<br>"); 
+                    document.getElementById('dom-designation').textContent = data.designation;
+                    document.getElementById('dom-tagline').innerHTML = data.tagline;
+                    document.getElementById('dom-barcode-text').textContent = data.employee_id;
+                    
+                    document.getElementById('dom-profile-img').src = data.profile_image;
+                    document.getElementById('dom-qr-code').src = data.qr_code;
+                    document.getElementById('dom-barcode').src = data.barcode;
+                    
+                    document.getElementById('dom-contact-btn').href = "mailto:" + data.email;
+
+                    const linksContainer = document.getElementById('dom-social-links');
+                    let linksHTML = '';
+                    
+                    data.social_links.forEach(link => {
+                        // Inline style color injected here
+                        linksHTML += `
+                            <a href="${link.url}" target="_blank" title="${link.platform}">
+                                <i class="${link.icon}" style="color: ${link.color};"></i>
+                            </a>
+                        `;
+                    });
+                    
+                    linksContainer.innerHTML = linksHTML;
+                })
+                .catch(error => {
+                    console.error("Error loading ID Card Data:", error);
+                    document.getElementById('dom-name').textContent = "Error";
+                });
+        });
+
+        // Theme Switcher Logic
+        const themeBtn = document.getElementById('switch');
+        const themeIcon = themeBtn.querySelector('i');
+        
+        themeBtn.addEventListener('click', () => {
+            document.body.classList.toggle('light-theme');
+            
+            if (document.body.classList.contains('light-theme')) {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+                themeBtn.style.color = '#fff';
+                themeBtn.style.background = '#0f1015';
+            } else {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+                themeBtn.style.color = '#facc15';
+                themeBtn.style.background = '#1c1d24';
+            }
+        });
+
+        // Modal Logic
+        function openQRModal() { document.getElementById('qrModal').style.display = 'flex'; }
+        function closeQRModal() { document.getElementById('qrModal').style.display = 'none'; }
+        window.onclick = function(event) {
+            let modal = document.getElementById('qrModal');
+            if (event.target == modal) { modal.style.display = "none"; }
+        }
+
+        // Share API
+        function shareCard() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'My Digital Business Card',
+                    text: 'Check out my professional profile!',
+                    url: window.location.href,
+                }).catch(console.error);
+            } else {
+                alert("Sharing is not supported on this browser. Copy the URL from your address bar!");
+            }
+        }
+    </script>
+			
+    <div class="page-bottom-counter" style="text-align: center; padding-bottom: 20px;">
+        <a href='http://www.freevisitorcounters.com'>free visitor counters</a> 
+        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=6a90fd511d85a5065fc6e135b2579f8964c9fc3e'></script>
+        <script type="text/javascript" src="https://freevisitorcounters.com/en/home/counter/1427915/t/13"></script>
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "company": "SGAI Portfolio",
+  "profile_image": "images/profile.jpg",
+  "name": "Shahab Khan",
+  "designation": "Operations & Tech Leader",
+  "tagline": "Life is more exciting when shared.<br>Follow me & let’s explore it together.",
+  "email": "shahab99khan@gmail.com",
+  
+  "qr_code": "images/QR_Code_6.png",
+  "barcode": "images/Barcode_1.png",
+  "employee_id": "EMP-001-KSA",
+
+  "social_links": [
+    { "platform": "My Website", "url": "https://shahabkhan99.github.io/", "icon": "bi bi-globe", "color": "#ce0458" },
+    { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/shahab-khan-8b9711142", "icon": "bi bi-linkedin", "color": "#0a66c2" },
+    { "platform": "YouTube", "url": "https://www.youtube.com/@SGAI.", "icon": "bi bi-youtube", "color": "#FF0000" },
+    { "platform": "GitHub", "url": "https://github.com/Shahabkhan99", "icon": "bi bi-github", "color": "#f0f6fc" },
+    { "platform": "XDA Profile", "url": "https://xdaforums.com/m/shahabkhan99.4639231/", "icon": "bi bi-android2", "color": "#3DDC84" },
+    { "platform": "WhatsApp", "url": "https://wa.me/966570323979", "icon": "bi bi-whatsapp", "color": "#25D366" },
+    { "platform": "Telegram", "url": "https://t.me/shahab99khan", "icon": "bi bi-telegram", "color": "#229ED9" },
+    { "platform": "Digital Card", "url": "mycard/card.html", "icon": "bi bi-person-vcard", "color": "#f39c12" }
+  ]
+}
