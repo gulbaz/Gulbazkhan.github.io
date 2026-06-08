@@ -88,18 +88,18 @@
             margin: auto; 
         }
 
-/* ========================================= */
+        /* ========================================= */
         /* PANEL 1: Image & Overlay Section          */
         /* ========================================= */
         .id-photo-area {
             position: relative;
             width: 100%;
-            /* FIX: Restored the proper 50vh scaling so it fits mobile screens */
-            height: clamp(380px, 50vh, 500px); 
+            height: clamp(380px, 55vh, 520px); 
             overflow: hidden;
         }
 
-        .id-photo-area img {
+        /* FIX: Changed from generic 'img' to the specific ID */
+        #dom-profile-img {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -109,13 +109,13 @@
         .image-gradient-overlay {
             position: absolute;
             top: 0; left: 0; width: 100%; height: 100%;
-            background: linear-gradient(to top, #0f1015 5%, rgba(15, 16, 21, 0.8) 25%, transparent 55%);
+            background: linear-gradient(to top, #0f1015 5%, rgba(15, 16, 21, 0.8) 25%, transparent 60%);
         }
 
         .header-content {
             position: absolute;
-            /* FIX: Lifted the text from 15px to 35px to clear the About Me card */
-            bottom: 35px; 
+            /* FIX: Pushed the text block as far down as safely possible */
+            bottom: 5px; 
             left: 25px; 
             z-index: 2;
         }
@@ -130,12 +130,18 @@
             margin-top: 5px; margin-bottom: 15px; text-shadow: 0 2px 5px rgba(0,0,0,0.8);
         }
 
-        .id-company-wrapper { display: flex; align-items: center; gap: 10px; }
+        .id-company-wrapper { display: flex; align-items: center; gap: 8px; }
+        
+        /* FIX: Resized to perfectly match the font height */
         .company-icon {
-            background: #facc15; color: #000; width: 24px; height: 24px;
-            border-radius: 50%; display: flex; justify-content: center; align-items: center;
-            font-weight: bold; font-size: 12px;
+            width: 18px; 
+            height: 18px;
+            border-radius: 50%; 
+            object-fit: cover; 
+            background-color: #ffffff; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
         }
+
         .id-company-header {
             font-size: 1rem; color: #ffffff; font-weight: 700; text-shadow: 0 2px 5px rgba(0,0,0,0.8);
         }
@@ -144,11 +150,12 @@
         /* PANEL 2: Details & Social Section         */
         /* ========================================= */
         .id-details-area {
-            /* FIX: Added 10px top padding and removed the negative margin */
-            padding: 10px 25px 20px 25px;
+            /* FIX: Added 25px of top padding to bring the space back! */
+            padding: 25px 25px 20px 25px;
             display: flex;
             flex-direction: column;
             z-index: 3;
+            /* Ensure there is no negative margin pulling it up */
             margin-top: 0; 
         }
 
@@ -224,19 +231,15 @@
         .qr-code-img { width: 200px; height: 200px; background: #fff; padding: 10px; border-radius: 12px; margin-bottom: 20px; }
         .barcode-img { height: 60px; max-width: 100%; background: #fff; padding: 10px; border-radius: 8px; }
 
-        /* NEW: Contact Details List Styling inside Modal */
-        .contact-details-list { display: flex; flex-direction: column; gap: 12px; text-align: left; }
-
-        /* NEW: Contact Details List Styling inside Modal */
+        /* Contact Details List Styling inside Modal */
         .contact-details-list { display: flex; flex-direction: column; gap: 12px; text-align: left; }
         
         .detail-item {
             display: flex; align-items: center; gap: 15px; background: #2a2e40;
             padding: 15px; border-radius: 12px; transition: all 0.3s ease;
-            cursor: pointer; /* Makes it look clickable */
+            cursor: pointer;
         }
         
-        /* Hover effect to show it's interactive */
         .detail-item:hover { background: #373c52; transform: translateY(-2px); }
         body.light-theme .detail-item:hover { background: #e2e8f0; }
 
@@ -244,6 +247,7 @@
         .detail-item div { display: flex; flex-direction: column; }
         .detail-item small { color: #a0aec0; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px; transition: color 0.3s; }
         .detail-info { color: #ffffff; font-size: 0.95rem; font-weight: 500; word-break: break-word; }
+
 
         /* ========================================= */
         /* DESKTOP LAYOUT OVERRIDES                  */
@@ -308,10 +312,12 @@
                     <div class="header-content">
                         <h2 id="dom-name">Loading...</h2>
                         <div class="id-designation" id="dom-designation">Loading...</div>
+                        
                         <div class="id-company-wrapper">
-                            <div class="company-icon">C</div>
+                            <img class="company-icon" id="dom-company-icon" src="" alt="Company Icon">
                             <div class="id-company-header" id="dom-company">Loading...</div>
                         </div>
+                        
                     </div>
                 </div>
                 
@@ -405,7 +411,7 @@
     <script src="script.js"></script> 
 
     <script>
-       document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener('DOMContentLoaded', () => {
             fetch(`json/data.json?t=${new Date().getTime()}`)
                 .then(response => response.json())
                 .then(data => {
@@ -420,17 +426,20 @@
                     document.getElementById('dom-qr-code').src = data.qr_code;
                     document.getElementById('dom-barcode').src = data.barcode;
                     
+                    // FIX: Load the company icon from JSON (with a blank fallback to prevent broken images)
+                    document.getElementById('dom-company-icon').src = data.company_icon || "";
+
                     // Populate Contact Modal Variables
                     document.getElementById('dom-modal-name').textContent = data.name;
                     document.getElementById('dom-modal-email').textContent = data.email;
                     document.getElementById('dom-modal-phone').textContent = data.phone || "Not provided";
                     document.getElementById('dom-modal-address').textContent = data.address || "Not provided";
 
-                    // FIX: Attach vCard generator to the Add to Contact button
+                    // vCard generator attached to the Add to Contact button
                     const contactBtn = document.getElementById('dom-contact-btn');
-                    contactBtn.href = "#"; // Remove any leftover mailto links
+                    contactBtn.href = "#"; 
                     contactBtn.addEventListener('click', (e) => {
-                        e.preventDefault(); // Stop page from jumping to top
+                        e.preventDefault(); 
                         generateAndDownloadVCard(data);
                     });
 
@@ -461,9 +470,8 @@
                 });
         });
 
-        // NEW: vCard Generator Function
+        // vCard Generator Function
         function generateAndDownloadVCard(data) {
-            // Build the vCard string format
             let vcard = `BEGIN:VCARD\nVERSION:3.0\n`;
             vcard += `FN:${data.name || ""}\n`;
             if (data.company) vcard += `ORG:${data.company}\n`;
@@ -473,21 +481,40 @@
             if (data.address) vcard += `ADR;TYPE=WORK:;;${data.address};;;;\n`;
             vcard += `END:VCARD`;
 
-            // Create a Blob containing the vCard data
             const blob = new Blob([vcard], { type: 'text/vcard' });
             const url = URL.createObjectURL(blob);
 
-            // Create a temporary hidden link to trigger the download
             const newLink = document.createElement('a');
             newLink.download = `${(data.name || "Contact").replace(/\s+/g, '_')}.vcf`;
             newLink.href = url;
             newLink.style.display = 'none';
             document.body.appendChild(newLink);
             
-            // Auto-click it, then clean up
             newLink.click();
             document.body.removeChild(newLink);
             URL.revokeObjectURL(url);
+        }
+
+        // Copy to Clipboard Function with Visual Feedback
+        function copyDetail(elementId, clickedItem) {
+            const textToCopy = document.getElementById(elementId).innerText;
+            const labelElement = clickedItem.querySelector('small');
+            
+            if (textToCopy && textToCopy !== "Loading..." && textToCopy !== "Not provided") {
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    const originalText = labelElement.innerText;
+                    labelElement.innerText = "Copied!";
+                    labelElement.style.color = "#4ade80"; 
+                    
+                    setTimeout(() => {
+                        labelElement.innerText = originalText;
+                        labelElement.style.color = ""; 
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Failed to copy: ', err);
+                    alert("Failed to copy text. Your browser might not support this feature.");
+                });
+            }
         }
 
         const themeBtn = document.getElementById('switch');
@@ -529,34 +556,6 @@
                 }).catch(console.error);
             } else {
                 alert("Sharing is not supported on this browser. Copy the URL from your address bar!");
-            }
-        }
-        // NEW: Copy to Clipboard Function with Visual Feedback
-        function copyDetail(elementId, clickedItem) {
-            const textToCopy = document.getElementById(elementId).innerText;
-            const labelElement = clickedItem.querySelector('small');
-            
-            // Prevent copying empty or loading states
-            if (textToCopy && textToCopy !== "Loading..." && textToCopy !== "Not provided") {
-                
-                // Write to clipboard
-                navigator.clipboard.writeText(textToCopy).then(() => {
-                    
-                    // Visual Feedback: Change label to "Copied!" and turn it green
-                    const originalText = labelElement.innerText;
-                    labelElement.innerText = "Copied!";
-                    labelElement.style.color = "#4ade80"; // Bright green
-                    
-                    // Reset back to normal after 2 seconds
-                    setTimeout(() => {
-                        labelElement.innerText = originalText;
-                        labelElement.style.color = ""; // Removes the inline green color
-                    }, 2000);
-                    
-                }).catch(err => {
-                    console.error('Failed to copy: ', err);
-                    alert("Failed to copy text. Your browser might not support this feature.");
-                });
             }
         }
     </script>
