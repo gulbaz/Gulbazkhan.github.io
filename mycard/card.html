@@ -29,11 +29,14 @@
         }
         
         .main-wrapper {
+            position: relative; /* ADD THIS LINE */
             min-height: 100vh;
             min-height: -webkit-fill-available; 
             display: flex;
             flex-direction: column;
             justify-content: space-between; 
+            width: 100%; /* Ensures it doesn't overflow the screen */
+            overflow: hidden; /* Prevents horizontal scrolling */
         }
 
         .container {
@@ -47,12 +50,11 @@
         }
 
         /* THEME SWITCHER BUTTON */
-/* THEME SWITCHER BUTTON */
+        /* THEME SWITCHER BUTTON */
         #switch {
-            position: fixed;
-            /* FIX: Pushed down and left to avoid mobile status bars and notches */
-            top: 35px;
-            right: 30px;
+            position: absolute; /* Changed from fixed to absolute */
+            top: 20px;
+            right: 20px;
             background: #1c1d24;
             width: 45px;
             height: 45px;
@@ -90,7 +92,7 @@
             position: relative;
             width: 100%;
             /* FIX: Increased the minimum height so the image doesn't squish the face */
-            height: clamp(380px, 10vh, 600px); 
+            height: clamp(380px, 10vh, 500px); 
             overflow: hidden;
         }
 
@@ -276,16 +278,14 @@
     </style>
 </head>
 <body class="black-theme"> 
-    
-    <div id="switch">
-        <i class="fas fa-sun"></i>
-    </div>    
+        <div id="switch">
+            <i class="fas fa-sun"></i>
+        </div>
     
     <div class="main-wrapper">
         <div class="container">
             <div class="id-card" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
-                
-                <div class="id-photo-area">
+               <div class="id-photo-area">
                     <img id="dom-profile-img" src="" alt="Profile Image">
                     <div class="image-gradient-overlay"></div>
                     
