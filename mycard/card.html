@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles.css">
 
     <style>
-/* ========================================= */
+        /* ========================================= */
         /* GLOBAL, CONTAINER & THEME                 */
         /* ========================================= */
         body { 
@@ -24,11 +24,11 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
             color: #fff; 
             transition: background-color 0.3s; 
-            /* Removed strict overflow to allow native, smooth mobile scrolling */
+            overflow-x: hidden;
+            overflow-y: auto; 
         }
         
         .main-wrapper {
-            /* -webkit-fill-available fixes the iOS Safari bottom-bar bug */
             min-height: 100vh;
             min-height: -webkit-fill-available; 
             display: flex;
@@ -39,10 +39,9 @@
         .container {
             display: flex;
             justify-content: center;
-            /* align-items: flex-start + margin: auto on the card is the ultimate trick 
-               to center a card when it fits, but allow it to scroll when it doesn't! */
             align-items: flex-start; 
-            padding: 40px 15px; 
+            /* FIX: Reduced side padding on mobile to let the card be wider */
+            padding: 30px 10px; 
             box-sizing: border-box;
             flex-grow: 1; 
         }
@@ -76,10 +75,10 @@
             display: flex;
             flex-direction: column;
             width: 100%;
-            max-width: 400px; /* Slightly slimmer to ensure it fits all phone widths */
+            max-width: 400px;
             box-shadow: 0 15px 35px rgba(0,0,0,0.8);
             position: relative;
-            margin: auto; /* Crucial for the flex-start scrolling fix */
+            margin: auto; 
         }
 
         /* ========================================= */
@@ -88,8 +87,6 @@
         .id-photo-area {
             position: relative;
             width: 100%;
-            /* FIX: Auto-adjusts resolution! It will scale between 320px and 450px 
-               depending on exactly how tall the user's phone screen is. */
             height: clamp(320px, 45vh, 450px); 
             overflow: hidden;
         }
@@ -109,7 +106,7 @@
 
         .header-content {
             position: absolute;
-            bottom: 20px; left: 30px; z-index: 2;
+            bottom: 25px; left: 30px; z-index: 2;
         }
 
         .header-content h2 {
@@ -136,7 +133,7 @@
         /* PANEL 2: Details & Social Section         */
         /* ========================================= */
         .id-details-area {
-            padding: 0 30px 20px 30px;
+            padding: 0 25px 20px 25px;
             display: flex;
             flex-direction: column;
             z-index: 3;
@@ -144,41 +141,41 @@
         }
 
         .about-card {
-            background: #1c1d24; border-radius: 20px; padding: 20px 25px;
+            background: #1c1d24; border-radius: 20px; padding: 20px 20px;
             text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.2);
             margin-bottom: 25px; 
         }
         .about-card h3 { margin: 0 0 10px 0; font-size: 1.2rem; color: #ffffff; }
         .id-tagline { color: #a0aec0; font-size: 0.9rem; margin: 0; line-height: 1.5; }
 
-        /* Social Links Grid (FIX 1: Removed Background Circles) */
         .links {
             display: flex;
             flex-wrap: wrap; 
             justify-content: center;
-            gap: 15px; /* Slightly wider gap */
+            gap: 15px;
             max-width: 300px; 
             margin-left: auto;
             margin-right: auto;
         }
 
         .links a {
-            background: transparent; /* No more white circle */
+            background: transparent; 
             width: 40px; height: 40px;
             display: flex; justify-content: center; align-items: center;
             text-decoration: none; transition: transform 0.3s ease;
         }
 
         .links a:hover { transform: translateY(-3px) scale(1.1); }
-        .links i { font-size: 28px; } /* Larger icons to make up for no background */
+        .links i { font-size: 28px; }
 
         /* ========================================= */
         /* PANEL 3: Bottom Action Dock               */
         /* ========================================= */
         .id-action-area {
-            padding: 20px 30px 30px 30px;
-            display: flex; justify-content: space-between; align-items: center; gap: 15px;
-            transition: background-color 0.3s, border-color 0.3s; /* Smooth theme transition */
+            /* FIX: Drastically reduced horizontal padding and gap so buttons fit on mobile */
+            padding: 20px 15px 25px 15px; 
+            display: flex; justify-content: space-between; align-items: center; gap: 10px;
+            transition: background-color 0.3s, border-color 0.3s;
         }
 
         .action-circle-btn, .action-pill-btn {
@@ -186,8 +183,30 @@
             display: flex; justify-content: center; align-items: center; text-decoration: none;
             transition: transform 0.2s, background-color 0.3s, color 0.3s;
         }
-        .action-circle-btn { width: 50px; height: 50px; border-radius: 50%; font-size: 22px; }
-        .action-pill-btn { flex-grow: 1; height: 50px; border-radius: 25px; font-weight: 700; gap: 10px; padding: 0 20px; }
+
+        /* FIX: Strict min-width forbids the browser from making these ovals */
+        .action-circle-btn { 
+            width: 45px; 
+            height: 45px; 
+            min-width: 45px; 
+            min-height: 45px;
+            border-radius: 50%; 
+            font-size: 20px; 
+            flex-shrink: 0; 
+        }
+
+        /* FIX: Slightly smaller text padding for mobile so it fits the screen */
+        .action-pill-btn { 
+            flex-grow: 1; 
+            height: 45px; 
+            border-radius: 25px; 
+            font-weight: 700; 
+            gap: 8px; 
+            padding: 0 15px; 
+            text-align: center; 
+            font-size: 0.9rem;
+        }
+
         .action-circle-btn:hover, .action-pill-btn:hover { transform: scale(1.05); }
 
         /* QR Modal */
@@ -205,66 +224,48 @@
         /* DESKTOP LAYOUT OVERRIDES                  */
         /* ========================================= */
         @media (min-width: 850px) {
-            .id-card {
-                flex-direction: row; 
-                max-width: 1050px; 
-                width: 95%; 
-                height: 500px; 
-            }
+            .container { padding: 40px 20px; }
+            .id-card { flex-direction: row; max-width: 1050px; width: 95%; height: 500px; }
             .id-photo-area { flex: 0 0 35%; height: 100%; } 
             
-            .image-gradient-overlay { 
-                background: linear-gradient(to right, transparent 40%, #0f1015 100%); 
-            }
-            
+            .image-gradient-overlay { background: linear-gradient(to right, transparent 35%, rgba(15, 16, 21, 0.9) 80%, #0f1015 100%); }
             .header-content { bottom: 40px; left: 40px; }
-            
-            .id-details-area {
-                flex: 1; justify-content: center; padding: 40px 30px; margin-top: 0;
-            }
-            
+            .id-details-area { flex: 1; justify-content: center; padding: 40px 30px; margin-top: 0; }
             .links { max-width: none; justify-content: flex-start; margin-left: 0; margin-right: 0; }
             
+            /* Restore large buttons and wide padding for desktop */
             .id-action-area {
-                flex: 0 0 220px; 
-                flex-direction: column; 
-                justify-content: center; 
-                align-items: center; 
-                border-left: 1px dashed #2a2e40; 
-                padding: 40px 30px;
-                gap: 20px; 
+                flex: 0 0 220px; flex-direction: column; justify-content: center; align-items: center; 
+                border-left: 1px dashed #2a2e40; padding: 40px 30px; gap: 20px; 
             }
-            .action-pill-btn { width: 100%; flex-grow: 0; white-space: nowrap; }
+            .action-circle-btn { width: 50px; height: 50px; min-width: 50px; font-size: 22px; }
+            .action-pill-btn { height: 50px; padding: 0 20px; font-size: 1rem; width: 100%; flex-grow: 0; white-space: nowrap; }
         }
 
         /* ========================================= */
-        /* LIGHT THEME OVERRIDES (FIX 2: Panel 3 Only)*/
+        /* LIGHT THEME OVERRIDES (Panel 3 Only)      */
         /* ========================================= */
-        
-        /* 1. Page Background becomes light */
         body.light-theme { background-color: #e2e8f0; }
-        
-        /* 2. ONLY Panel 3 turns light */
-        body.light-theme .id-action-area {
-            background-color: #ffffff;
-        }
+        body.light-theme .id-action-area { background-color: #ffffff; }
 
-        /* 3. Adjust dashed borders for light mode */
-        @media (min-width: 850px) {
-            body.light-theme .id-action-area { border-left-color: #cbd5e1; }
-        }
-        @media (max-width: 849px) {
-            body.light-theme .id-action-area { border-top: 1px dashed #cbd5e1; } /* subtle top line for mobile */
-        }
+        @media (min-width: 850px) { body.light-theme .id-action-area { border-left-color: #cbd5e1; } }
+        @media (max-width: 849px) { body.light-theme .id-action-area { border-top: 1px dashed #cbd5e1; } }
 
-        /* 4. Invert Action Buttons (Dark text/bg on the light panel) */
-        body.light-theme .action-circle-btn, body.light-theme .action-pill-btn { 
-            background: #0f1015; color: #fff; 
-        }
-        
-        /* 5. Keep Modal bright in light mode */
+        body.light-theme .action-circle-btn, body.light-theme .action-pill-btn { background: #0f1015; color: #fff; }
         body.light-theme .modal-content { background: #ffffff; border: 1px solid #cbd5e1; }
         body.light-theme .modal-content h3 { color: #0f1015 !important; }
+
+        /* FIX: Counter Formatting */
+        .page-bottom-counter {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px; /* Pushes counter safely away from the bottom of the card */
+            color: #a0aec0;
+            font-size: 14px;
+            position: relative;
+            z-index: 10;
+        }
+        body.light-theme .page-bottom-counter { color: #475569; }
     </style>
 </head>
 <body class="black-theme"> 
@@ -273,50 +274,57 @@
         <i class="fas fa-sun"></i>
     </div>    
     
-    <div class="container">
-        <div class="id-card" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
-            
-            <div class="id-photo-area">
-                <img id="dom-profile-img" src="" alt="Profile Image">
-                <div class="image-gradient-overlay"></div>
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="id-card" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
                 
-                <div class="header-content">
-                    <h2 id="dom-name">Loading...</h2>
-                    <div class="id-designation" id="dom-designation">Loading...</div>
-                    <div class="id-company-wrapper">
-                        <div class="company-icon">C</div>
-                        <div class="id-company-header" id="dom-company">Loading...</div>
+                <div class="id-photo-area">
+                    <img id="dom-profile-img" src="" alt="Profile Image">
+                    <div class="image-gradient-overlay"></div>
+                    
+                    <div class="header-content">
+                        <h2 id="dom-name">Loading...</h2>
+                        <div class="id-designation" id="dom-designation">Loading...</div>
+                        <div class="id-company-wrapper">
+                            <div class="company-icon">C</div>
+                            <div class="id-company-header" id="dom-company">Loading...</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="id-details-area">
                 
-                <div class="about-card">
-                    <h3>About Me</h3>
-                    <p class="id-tagline" id="dom-tagline">Loading information...</p>
-                </div>
+                <div class="id-details-area">
+                    <div class="about-card">
+                        <h3>About Me</h3>
+                        <p class="id-tagline" id="dom-tagline">Loading information...</p>
+                    </div>
 
-                <div class="links" id="dom-social-links"></div>
+                    <div class="links" id="dom-social-links"></div>
+                </div> 
+
+                <div class="id-action-area">
+                    <button class="action-circle-btn" onclick="openQRModal()" title="Show QR Code">
+                        <i class="fas fa-qrcode"></i>
+                    </button>
+                    
+                    <button class="action-circle-btn" onclick="shareCard()" title="Share Profile">
+                        <i class="fas fa-share-square"></i>
+                    </button>
+                    
+                    <a href="#" id="dom-contact-btn" target="_blank" class="action-pill-btn">
+                        Add to Contact <i class="fas fa-plus"></i>
+                    </a>
+                </div>
                 
             </div> 
-
-            <div class="id-action-area">
-                <button class="action-circle-btn" onclick="openQRModal()" title="Show QR Code">
-                    <i class="fas fa-qrcode"></i>
-                </button>
-                
-                <button class="action-circle-btn" onclick="shareCard()" title="Share Profile">
-                    <i class="fas fa-share-square"></i>
-                </button>
-                
-                <a href="#" id="dom-contact-btn" target="_blank" class="action-pill-btn">
-                    Add to Contact <i class="fas fa-plus"></i>
-                </a>
-            </div>
-            
         </div> 
-    </div> 
+
+        <div class="page-bottom-counter">
+            <a href='http://www.freevisitorcounters.com' style="color: inherit; text-decoration: none;">free visitor counters</a> <br><br>
+            <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=6a90fd511d85a5065fc6e135b2579f8964c9fc3e'></script>
+            <script type="text/javascript" src="https://freevisitorcounters.com/en/home/counter/1427915/t/13"></script>
+        </div>
+
+    </div>
 
     <div id="qrModal" class="modal-overlay">
         <div class="modal-content">
@@ -333,11 +341,9 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            
             fetch(`json/data.json?t=${new Date().getTime()}`)
                 .then(response => response.json())
                 .then(data => {
-                    
                     document.getElementById('dom-company').textContent = data.company;
                     document.getElementById('dom-name').innerHTML = data.name.replace(" ", "<br>"); 
                     document.getElementById('dom-designation').textContent = data.designation;
@@ -354,7 +360,6 @@
                     let linksHTML = '';
                     
                     data.social_links.forEach(link => {
-                        // Inline style color injected here
                         linksHTML += `
                             <a href="${link.url}" target="_blank" title="${link.platform}">
                                 <i class="${link.icon}" style="color: ${link.color};"></i>
@@ -370,13 +375,11 @@
                 });
         });
 
-        // Theme Switcher Logic
         const themeBtn = document.getElementById('switch');
         const themeIcon = themeBtn.querySelector('i');
         
         themeBtn.addEventListener('click', () => {
             document.body.classList.toggle('light-theme');
-            
             if (document.body.classList.contains('light-theme')) {
                 themeIcon.classList.remove('fa-sun');
                 themeIcon.classList.add('fa-moon');
@@ -390,7 +393,6 @@
             }
         });
 
-        // Modal Logic
         function openQRModal() { document.getElementById('qrModal').style.display = 'flex'; }
         function closeQRModal() { document.getElementById('qrModal').style.display = 'none'; }
         window.onclick = function(event) {
@@ -398,7 +400,6 @@
             if (event.target == modal) { modal.style.display = "none"; }
         }
 
-        // Share API
         function shareCard() {
             if (navigator.share) {
                 navigator.share({
@@ -411,12 +412,5 @@
             }
         }
     </script>
-			
-    <div class="page-bottom-counter" style="text-align: center; padding-bottom: 20px;">
-        <a href='http://www.freevisitorcounters.com'>free visitor counters</a> 
-        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=6a90fd511d85a5065fc6e135b2579f8964c9fc3e'></script>
-        <script type="text/javascript" src="https://freevisitorcounters.com/en/home/counter/1427915/t/13"></script>
-    </div>
-  
 </body>
 </html>
