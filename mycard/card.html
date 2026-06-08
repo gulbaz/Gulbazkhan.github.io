@@ -47,10 +47,12 @@
         }
 
         /* THEME SWITCHER BUTTON */
+/* THEME SWITCHER BUTTON */
         #switch {
             position: fixed;
-            top: 20px;
-            right: 20px;
+            /* FIX: Pushed down and left to avoid mobile status bars and notches */
+            top: 35px;
+            right: 30px;
             background: #1c1d24;
             width: 45px;
             height: 45px;
@@ -81,13 +83,14 @@
             margin: auto; 
         }
 
-        /* ========================================= */
+/* ========================================= */
         /* PANEL 1: Image & Overlay Section          */
         /* ========================================= */
         .id-photo-area {
             position: relative;
             width: 100%;
-            height: clamp(320px, 45vh, 450px); 
+            /* FIX: Increased the minimum height so the image doesn't squish the face */
+            height: clamp(380px, 50vh, 500px); 
             overflow: hidden;
         }
 
@@ -101,12 +104,16 @@
         .image-gradient-overlay {
             position: absolute;
             top: 0; left: 0; width: 100%; height: 100%;
-            background: linear-gradient(to top, #0f1015 10%, rgba(15, 16, 21, 0.8) 30%, transparent 60%);
+            /* FIX: Lowered the dark fade so it stays below the chin */
+            background: linear-gradient(to top, #0f1015 5%, rgba(15, 16, 21, 0.8) 25%, transparent 55%);
         }
 
         .header-content {
             position: absolute;
-            bottom: 25px; left: 30px; z-index: 2;
+            /* FIX: Pulled the text closer to the bottom edge */
+            bottom: 15px; 
+            left: 25px; 
+            z-index: 2;
         }
 
         .header-content h2 {
